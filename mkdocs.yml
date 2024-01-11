@@ -1,4 +1,5 @@
 site_name: Music Assistant
+site_url: https://music-assistant.github.io/docs-site/
 theme:
   logo: assets/ma-icon.png
   name: material
