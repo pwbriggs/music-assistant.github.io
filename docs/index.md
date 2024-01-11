@@ -1,5 +1,4 @@
-Music Assistant
-==================================
+# Music Assistant
 
 [![pypi_badge](https://img.shields.io/pypi/v/music_assistant.svg)](https://pypi.python.org/pypi/music_assistant)
 
@@ -48,7 +47,7 @@ Note that accessing remote (SMB) shares can be done from within MA itself using 
 
 ____________
 
-### Notes:
+### Notes
 
 - Because the server heavily relies on multicast techniques like mDNS and uPNP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
 
