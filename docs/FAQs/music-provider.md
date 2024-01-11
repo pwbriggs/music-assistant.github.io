@@ -8,42 +8,44 @@ General Notes:
 
 ![image](https://github.com/music-assistant/hass-music-assistant/assets/19848947/eac76ff8-8789-4c6f-9c7d-59b0a18f9952)
 
-### How do I access my local music / How do I tag my local music
+#### How do I access my local music / How do I tag my local music
 
-See here for info on SMB / CIFS shares: https://github.com/music-assistant/hass-music-assistant/discussions/820 
+See [here for info on SMB / CIFS shares](../music-providers/filesystem-provider.md)
 
-### How do I use YouTube Music
+#### How do I use YouTube Music
 
-See here: https://github.com/orgs/music-assistant/discussions/1551
+See [here for YouTube Music](../music-providers/youtube-music-provider.md)
 
-### How do I use Qobuz
+#### How do I use Qobuz
 
-See here: https://github.com/music-assistant/hass-music-assistant/discussions/817 
+See [here for Qobuz](../music-providers/qobuz-provider.md)
 
-### How do I use Spotify
+#### How do I use Spotify
 
-See here: https://github.com/music-assistant/hass-music-assistant/discussions/816 
+See [here for Spotify](../music-providers/spotify-provider.md)
 
-### How do I use SoundCloud
+#### How do I use SoundCloud
 
-See here: https://github.com/orgs/music-assistant/discussions/1160
+See [here for SoundCloud](../music-providers/soundcloud-provider.md)
 
-### How do I use Plex
+#### How do I use Plex
 
 Please be advised this provider is currently not maintained. Issues may take a long time be resolved. Consider sharing your music directly with MA instead
 
-See here: https://github.com/orgs/music-assistant/discussions/1168
+See [here for outdated Plex info](https://github.com/orgs/music-assistant/discussions/1168)
 
-### How do I use Tidal
+#### How do I use Tidal
 
-See here: https://github.com/orgs/music-assistant/discussions/1201
+See [here for Tidal](../music-providers/tidal-provider.md)
 
-### How do I use Radio Browser
+#### How do I use Radio Browser
 
-See here: https://github.com/orgs/music-assistant/discussions/1202
+See [here for Radio Browser](../music-providers/radio-browser-provider.md)
 
-### How do I use Deezer
-See here: https://github.com/orgs/music-assistant/discussions/1245
+#### How do I use Deezer
 
-### How do I use TuneIn
-See here: https://github.com/orgs/music-assistant/discussions/1702
+See [here for Deezer](../music-providers/deezer-provider.md)
+
+#### How do I use TuneIn
+
+See [here for TuneIn](../music-providers/tunein-provider.md)

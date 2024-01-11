@@ -40,18 +40,18 @@ Music Assistant consists of multiple building blocks:
 
 ### Preview
 
-![Preview image](https://raw.githubusercontent.com/music-assistant/hass-music-assistant/main/screenshots/screen1.png)
+![Preview image](../assets/screenshots/screen1.png)
 
 <details>
 <summary>Click to show more screenshots</summary>
 
-![Preview image](assets/screenshots/screen3.png)
+![Preview image](../assets/screenshots/screen3.png)
 
-![Preview image](assets/screenshots/screen2.png)
+![Preview image](../assets/screenshots/screen2.png)
 
-![Preview image](assets/screenshots/screen4.png)
+![Preview image](../assets/screenshots/screen4.png)
 
-![Preview image](assets/screenshots/screen5.png)
+![Preview image](../assets/screenshots/screen5.png)
 
 </details>
 
@@ -92,7 +92,7 @@ During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5d
 - When setting up the Music Assistant integration, make sure that you select the correct Conversation Agent and also
 allow the auto-exposure of Mass media players to Assist
 
-![Preview image](assets/screenshots/screen6.png)
+![Preview image](../assets/screenshots/screen6.png)
 
 ## Usage and notes
 

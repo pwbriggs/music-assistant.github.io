@@ -5,9 +5,10 @@ theme:
   name: material
   features:
     - navigation.tabs
-    - navigation.sections
-    #- toc.integrate
+    - navigation.tabs.sticky
     - navigation.top
+    - toc.integrate
+    
     - search.suggest
     - search.highlight
     - content.tabs.link
@@ -30,6 +31,7 @@ theme:
 
 plugins:
   - social
+  - search
 
 extra:
   social:
@@ -51,7 +53,6 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
   &copy; 2023 <a href="https://github.com/music-assistant"  target="_blank" rel="noopener">Music Assistant</a>
