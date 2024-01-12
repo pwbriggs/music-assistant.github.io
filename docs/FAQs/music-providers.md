@@ -10,23 +10,23 @@
 
 ## How do I access my local music / How do I tag my local music
 
-See [here for info on SMB / CIFS shares](../music-providers/filesystem-provider.md)
+See [here for info on SMB / CIFS shares](../music-providers/filesystem.md)
 
 ## How do I use YouTube Music
 
-See [here for YouTube Music](../music-providers/youtube-music-provider.md)
+See [here for YouTube Music](../music-providers/youtube-music.md)
 
 ## How do I use Qobuz
 
-See [here for Qobuz](../music-providers/qobuz-provider.md)
+See [here for Qobuz](../music-providers/qobuz.md)
 
 ## How do I use Spotify
 
-See [here for Spotify](../music-providers/spotify-provider.md)
+See [here for Spotify](../music-providers/spotify.md)
 
 ## How do I use SoundCloud
 
-See [here for SoundCloud](../music-providers/soundcloud-provider.md)
+See [here for SoundCloud](../music-providers/soundcloud.md)
 
 ## How do I use Plex
 
@@ -36,16 +36,16 @@ See [here for outdated Plex info](https://github.com/orgs/music-assistant/discus
 
 ## How do I use Tidal
 
-See [here for Tidal](../music-providers/tidal-provider.md)
+See [here for Tidal](../music-providers/tidal.md)
 
 ## How do I use Radio Browser
 
-See [here for Radio Browser](../music-providers/radio-browser-provider.md)
+See [here for Radio Browser](../music-providers/radio-browser.md)
 
 ## How do I use Deezer
 
-See [here for Deezer](../music-providers/deezer-provider.md)
+See [here for Deezer](../music-providers/deezer.md)
 
 ## How do I use TuneIn
 
-See [here for TuneIn](../music-providers/tunein-provider.md)
+See [here for TuneIn](../music-providers/tunein.md)

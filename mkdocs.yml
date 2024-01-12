@@ -14,9 +14,10 @@ nav:
     - SoundCloud: music-providers/soundcloud.md
     - Local Files: music-providers/filesystem.md
     - TuneIn: music-providers/tunein.md
+    - Radio Browser: music-providers/radio-browser.md
   - FAQ:
     - Music Providers: faqs/music-providers.md
-    - How-Tos: faqs/how-to.md
+    - How-To: faqs/how-to.md
   #- Support: support.md  
   - Developer Docs: developer-docs/dev-docs.md
   
