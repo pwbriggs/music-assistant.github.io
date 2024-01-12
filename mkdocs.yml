@@ -16,8 +16,8 @@ nav:
     - TuneIn: music-providers/tunein.md
     - Radio Browser: music-providers/radio-browser.md
   - FAQ:
-    - Music Providers: faqs/music-provider.md
-    - How-To: faqs/how-to.md 
+    - Music Providers: faqs/providers.md
+    - How To: faqs/how-to.md 
   - Developer Docs: developer-docs/dev-docs.md
   
 
