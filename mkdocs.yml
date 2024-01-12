@@ -2,7 +2,7 @@ site_name: Music Assistant
 site_url: https://music-assistant.github.io/docs-site/
 
 nav:
-  - Music Assistant Server: server.md
+  - Music Assistant Server: index.md
   - Integration: integration.md
   - Companion App: companion-app.md
   - Music Providers:
