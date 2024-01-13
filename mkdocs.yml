@@ -1,8 +1,8 @@
 site_name: Music Assistant
 site_url: https://music-assistant.github.io/
 
-repo_name: music-assistant/server
-repo_url: https://github.com/music-assistant/server
+repo_name: music-assistant
+repo_url: https://github.com/music-assistant
 
 nav:
   - Music Assistant Server: index.md
