@@ -1,5 +1,5 @@
 site_name: Music Assistant
-site_url: https://music-assistant.github.io/docs-site/
+site_url: https://music-assistant.github.io/
 
 nav:
   - Music Assistant Server: index.md
