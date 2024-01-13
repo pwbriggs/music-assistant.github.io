@@ -1,9 +1,12 @@
 site_name: Music Assistant
 site_url: https://music-assistant.github.io/
 
+repo_name: music-assistant/server
+repo_url: https://github.com/music-assistant/server
+
 nav:
   - Music Assistant Server: index.md
-  - Integration: integration.md
+  - Home Assistant Integration: integration.md
   - Companion App: companion-app.md
   - Music Providers:
     - Spotify: music-providers/spotify.md
@@ -16,14 +19,18 @@ nav:
     - TuneIn: music-providers/tunein.md
     - Radio Browser: music-providers/radio-browser.md
   - FAQ:
-    - Music Providers: FAQs/providers.md
-    - How To: FAQs/how-to.md 
-  - Developer Docs: developer-docs/dev-docs.md
-  
+    - Music Providers: faq/providers.md
+    - How To: faq/how-to.md 
+  - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
-  logo: assets/ma-icon.png
+  favicon: assets/favicon.png
+  logo: assets/icon.png
   name: material
+  font:
+    text: Roboto
+    code: JetBrains Mono
+    
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -52,8 +59,13 @@ theme:
       accent: lime
 
 plugins:
-  - social
-  - search
+  - social:
+      cards_layout_options:
+        font_family: JetBrains Mono
+
+  - search:
+  - minify:
+      minify_html: true
 
 extra:
   social:
@@ -61,6 +73,8 @@ extra:
       link: https://github.com/music-assistant
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/music-assistant/  
 
 markdown_extensions:
   - pymdownx.highlight:
