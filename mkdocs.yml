@@ -1,8 +1,8 @@
 site_name: Music Assistant
 site_url: https://music-assistant.github.io/
 
-repo_name: music-assistant/server
-repo_url: https://github.com/music-assistant/server
+repo_name: music-assistant
+repo_url: https://github.com/music-assistant
 
 nav:
   - Music Assistant Server: index.md
@@ -63,11 +63,9 @@ plugins:
   - social:
       cards_layout_options:
         font_family: JetBrains Mono
-
   - search:
   - minify:
-      minify_html: true
-
+      minify_html: true 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -90,6 +88,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - pymdownx.magiclink
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
