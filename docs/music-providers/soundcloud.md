@@ -1,4 +1,4 @@
-# SoundCloud Provider
+# SoundCloud Provider ![Preview image](../assets/icons/soundcloud-icon.svg){ width=70 align=right }
 
 Support for Soundcloud as Music provider in Music Assistant contributed by @gieljnssns !
 

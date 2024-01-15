@@ -1,4 +1,4 @@
-# Qobuz Provider
+# Qobuz Provider ![Preview image](../assets/icons/qobuz-icon.svg){ width=70 align=right }
 
 Music Assistant has full support for [Qobuz](https://www.qobuz.com/) media listing and playback, including Qobuz's excellent HiRes catalogue!
 

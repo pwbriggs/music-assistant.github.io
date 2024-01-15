@@ -1,4 +1,4 @@
-# YouTube Music Provider
+# YouTube Music Provider ![Preview image](../assets/icons/ytm-icon.svg){ width=70 align=right }
 
 Music Assistant has support for the Youtube Music provider, contributed by @MarvinSchenkel.
 

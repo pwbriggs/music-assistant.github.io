@@ -1,4 +1,4 @@
-# Plex Provider
+# Plex Provider ![Preview image](../assets/icons/plex-icon.svg){ width=70 align=right }
 
 Music Assistant now has support for using Plex (MusicLibrary) as a Music Assistant provider contributed by @micha91
 

@@ -1,4 +1,4 @@
-# Spotify Provider
+# Spotify Provider ![Preview image](../assets/icons/spotify-icon.svg){ width=70 align=right }
 
 Music Assistant has full support for Spotify media listing and playback.
 

@@ -1,4 +1,4 @@
-# Tidal Provider
+# Tidal Provider ![Preview image](../assets/icons/tidal-icon.svg){ width=70 align=right }
 
 Music Assistant has support for [Tidal](https://tidal.com) as Music Provider, added in version 2.0.0 beta 29, contributed and maintained by @jozefKruszynski 
 

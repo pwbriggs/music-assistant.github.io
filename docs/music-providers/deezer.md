@@ -1,4 +1,4 @@
-# Deezer Provider
+# Deezer Provider ![Preview image](../assets/icons/deezer-icon.svg){ width=70 align=right }
 
 Music Assistant has full support for [Deezer](https://www.deezer.com/) as Music Provider added in version 2.0.0 beta 30, contributed and maintained by @micha91 and @arctixdev.
 
