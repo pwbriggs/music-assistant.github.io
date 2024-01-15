@@ -14,11 +14,11 @@ Local music is automatically included in the MA Library. When streaming provider
 - You can add multiple filesystem providers.
 
 
-### Your files are on a disk/folder of the device running Music Assistant Server
+## Your files are on a disk/folder of the device running Music Assistant Server
 If your files are actually stored on the device running Music Assistant, for example the /media folder in Home Assistant OS, you select the filesystem (local disk) option and enter the path to the files. 
 NOTE: For Home Assistant OS you can only access the /media folder. Docker users can mount their own folder paths. You can not mount a folder from Home Assistant into the /media path.
 
-### Your files are on a remote share, such as a NAS or other (SMB/CIFS) server
+## Your files are on a remote share, such as a NAS or other (SMB/CIFS) server
 Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS. Select the music provider "Filesystem (remote share)" and configure the (fqdn) hostname (or alternatively the IP address) to your server, the name of the share and optionally any subfolders.
 
 
