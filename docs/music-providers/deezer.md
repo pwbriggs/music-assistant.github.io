@@ -2,11 +2,11 @@
 
 Music Assistant has full support for [Deezer](https://www.deezer.com/) as Music Provider added in version 2.0.0 beta 30, contributed and maintained by @micha91 and @arctixdev.
 
-> [!NOTE]
-> - Because of Deezer's TOS we only support HiFi/Premium/Family accounts.
-> - It is normal that syncing all your items from Deezer takes some time.
+!!! tip
+    - Because of Deezer's TOS we only support HiFi/Premium/Family accounts.
+    - It is normal that syncing all your items from Deezer takes some time.
 
-### Supported features
+## Supported features
 - Support for "library" Artist, Albums, Tracks and Playlists.
 - Items in your Deezer library will be marked as "Favorites" too in Music Assistant.
 - Marking an item as "Favorite" from the Music Assistant interface will also mark it as favorite in Deezer.
@@ -18,7 +18,7 @@ Music Assistant has full support for [Deezer](https://www.deezer.com/) as Music 
 - Logging played tracks in Deezer
 - Radio mode (A bit like Deezer flow)
 
-### About logging in:
+## About logging in
 Logging in should be as simple as pressing the `Authenticate` button when adding the provider in the Music Assistant interface.
 
 **If this does not work make sure you:**
@@ -28,7 +28,7 @@ Logging in should be as simple as pressing the `Authenticate` button when adding
 - Are on the latest Music Assistant version
 - Try different browsers
 
-### Not yet supported, but will be added later:
+## Not yet supported, but will be added later:
 - Podcasts support ([see this feature request](https://github.com/music-assistant/hass-music-assistant/discussions/429))
 - Fully featured recommendation/flow ([see this feature request](https://github.com/music-assistant/hass-music-assistant/discussions/535))
 

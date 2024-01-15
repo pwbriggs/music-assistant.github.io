@@ -2,9 +2,10 @@
 
 Music Assistant has support for the Youtube Music provider, contributed by @MarvinSchenkel.
 
-**Features and generic notes**
+## Features and generic notes
 
-Free accounts are NOT supported.
+!!! tip
+    Free accounts are NOT supported.
 
 There is no support for the disc and track number in album tracks listings. Currently, the disc number is always 0 and the track number is the order number in which the tracks were returned by Youtube Music. This should generally give the desired result, but could mess up multi-disc albums.
 
@@ -14,10 +15,10 @@ The highest available stream from Youtube Music will be selected for playback (s
 
 Uploaded Music should be able to be found when it is in a playlist. If it's just a single track being searched for then it may not be found, since often those uploaded songs don't have proper metadata. It will be hard to find them via the UI in MA
 
-**DISCLAIMER**
-Please note that Youtube does not offer an official API to retrieve data and streams. This means that everything we built is on a best-effort basis. Unexpected behavior will occur whilst using this provider. For this reason if you have another streaming provider you may find it more convenient to use that instead of this one.
+!!! danger "DISCLAIMER"
+    Please note that Youtube does not offer an official API to retrieve data and streams. This means that everything we built is on a best-effort basis. Unexpected behavior will occur whilst using this provider. For this reason if you have another streaming provider you may find it more convenient to use that instead of this one.
 
-**Installation instructions**
+## Installation instructions
 Music Assistant 2.0 uses OAuth for Youtube Music, which means we can just login like we would on let's say Gmail. To add the Youtube Music provider to MA:
 
 - Navigate to 'Settings'
