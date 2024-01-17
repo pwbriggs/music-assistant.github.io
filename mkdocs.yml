@@ -19,6 +19,15 @@ nav:
     - TuneIn: music-providers/tunein.md
     - Radio Browser: music-providers/radio-browser.md
     - Plex: music-providers/plex.md
+  - Player Support:
+    - AirPlay: player-support/airplay.md
+    - DLNA: player-support/dlna.md
+    - Google Cast: player-support/google-cast.md
+    - Slimproto: player-support/slimproto.md
+    - Snapcast: player-support/snapcast.md
+    - Sonos: player-support/sonos.md
+    - Universal Groups: player-support/universal.md
+    
   - FAQ:
     - Music Providers: faq/providers.md
     - How To: faq/how-to.md 
