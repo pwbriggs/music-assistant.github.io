@@ -18,6 +18,16 @@ nav:
     - Local Files: music-providers/filesystem.md
     - TuneIn: music-providers/tunein.md
     - Radio Browser: music-providers/radio-browser.md
+    - Plex: music-providers/plex.md
+  - Player Support:
+    - AirPlay: player-support/airplay.md
+    - DLNA: player-support/dlna.md
+    - Google Cast: player-support/google-cast.md
+    - Slimproto: player-support/slimproto.md
+    - Snapcast: player-support/snapcast.md
+    - Sonos: player-support/sonos.md
+    - Universal Groups: player-support/universal.md
+    
   - FAQ:
     - Music Providers: faq/providers.md
     - How To: faq/how-to.md 
@@ -72,7 +82,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/music-assistant/  
+      link: https://pypi.org/project/music-assistant/ 
 
 markdown_extensions:
   - pymdownx.highlight:

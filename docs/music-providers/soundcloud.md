@@ -1,4 +1,4 @@
-# SoundCloud Provider
+# SoundCloud Provider ![Preview image](../assets/icons/soundcloud-icon.svg){ width=70 align=right }
 
 Support for Soundcloud as Music provider in Music Assistant contributed by @gieljnssns !
 
@@ -25,6 +25,7 @@ Example code snippet (O-Auth and client_id are NOT real, use yours):
 client_id = jHvc9wa0Ejf092wj3f3920w3F920as02
 Authorization = O-Auth 3-26432-21446-asdif2309fj
 ```
-**NOTES:**
+## Notes
+
 - Artists synced from Soundcloud are actually Soundcloud users.
 - If a song by artist X is uploaded by user Y, this song belongs to the artist Y in Music Assistant

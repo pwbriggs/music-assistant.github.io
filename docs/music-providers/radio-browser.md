@@ -2,21 +2,21 @@
 
 Music Assistant support for [RadioBrowser](https://www.radio-browser.info/) will become available in v2.0.0b29.
 
-**Notes:**
+## Notes
 
 You don't need a login to use this service.
 
-**Configuration**
+## Configuration
 
 - In the configuration, you only need to click the save button. 
 
-**Supported features**
+## Supported features
 
 - You can use the search function.
 - You can add radio streams to your library.
 - Browse by country, by tag or by popularity
 
-**Usage**
+## Usage
 
 The Radio provider doesn't add stations to the 'radiostation' tab by default.
 (1) In the left hand menu you need to select 'browse'

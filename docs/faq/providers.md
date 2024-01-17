@@ -32,7 +32,7 @@ See [here for SoundCloud](../music-providers/soundcloud.md)
 
 Please be advised this provider is currently not maintained. Issues may take a long time be resolved. Consider sharing your music directly with MA instead
 
-See [here for outdated Plex info](https://github.com/orgs/music-assistant/discussions/1168)
+See [here for Plex](../music-providers/plex.md)
 
 ## How do I use Tidal
 
