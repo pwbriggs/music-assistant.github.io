@@ -23,7 +23,7 @@ The Radio provider doesn't add stations to the 'radiostation' tab by default.
 - (1) In the left hand menu you need to select 'browse'
 - (2) Then click 'RadioBrowser'
 
-![Preview image](assets/screenshots/IMG_1181.jpeg){ align=right }
+![Preview image](../assets/screenshots/IMG_1181.jpeg){ width=400 }
 
 - (3) Then navigate to the radio-station you want to listen to
 - (4) Click play now or add to library 
