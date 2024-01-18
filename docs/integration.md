@@ -21,9 +21,11 @@ Make sure to install at least the 2023.6.bx BETA version of the Music Assistant 
 - If Music Assistant does not show, refresh your browser (cache).
 - The Music Assistant integration is ready for use.
 
-!!! note You need to set-up the players and music sources within Music Assistant itself.
+!!! note
+    You need to set-up the players and music sources within Music Assistant itself.
 
-!!! note The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to SETTINGS>>DEVICES&SERVICES>>INTEGRATIONS>>MUSIC ASSISTANT. It is these players that need to be targeted in your automations.
+!!! note 
+    The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to `settings > devices & services > integrations > music assistant`. It is these players that need to be targeted in your automations.
 
 ## OpenAI features
 

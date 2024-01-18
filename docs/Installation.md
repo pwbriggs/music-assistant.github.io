@@ -46,7 +46,8 @@ ____________
   (1) Expose the webserver via MA settings --> Core --> webserver
   (2) To access the frontend behind a reverse proxy you will have to configure the reverse proxy to point at the 8095 port and expose it to whatever is desired (and add an ssl certificate). How that works differs for each implemention. 
 
-!!! tip You can also keep the server more secure by NOT exposing the webserver and let the addon talk directly to the webserver on the internal docker network. In that case address the internal dns name of the addon, e.g. <http://d5369777-music-assistant-beta:8095>
+!!! tip 
+    You can also keep the server more secure by NOT exposing the webserver and let the addon talk directly to the webserver on the internal docker network. In that case address the internal dns name of the addon, e.g. <http://d5369777-music-assistant-beta:8095>
 
 ## Usage and Notes
 
