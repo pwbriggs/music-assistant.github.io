@@ -1,6 +1,6 @@
 # Deezer Provider ![Preview image](../assets/icons/deezer-icon.svg){ width=70 align=right }
 
-Music Assistant has support for [Deezer](https://www.deezer.com/) as a Music Provider. This was added in version 2.0.0 beta 30. Contributed and maintained by @micha91 and @arctixdev.
+Music Assistant has support for [Deezer](https://www.deezer.com/). Contributed and maintained by @micha91 and @arctixdev.
 
 !!! tip "Note"
     - Because of Deezer's TOS we only support HiFi/Premium/Family accounts.
