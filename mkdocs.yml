@@ -5,7 +5,8 @@ repo_name: music-assistant
 repo_url: https://github.com/music-assistant
 
 nav:
-  - Music Assistant Server: index.md
+  - Music Assistant: index.md
+  - Server Installation: installation.md
   - Home Assistant Integration: integration.md
   - Companion App: companion-app.md
   - Music Providers:
