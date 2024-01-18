@@ -1,12 +1,12 @@
 ## Installing the Server
 
-Music Assistant can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant, it is meant with automation in mind, hence our recommended installation method is to run the server as Home assistant Add-on which will be aitomatically installed when you add the Home Assistant Integration.
+Music Assistant can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant, it is meant with automation in mind, hence our recommended installation method is to run the server as Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration.
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
 
 ### Primary installation method: Home Assistant Integration Installation
 
-Go to the [Home Assistant Integration](https://music-assistant.github.io/integration/) page and follow the instructions there which will install the integration and the server.
+Go to the [Home Assistant Integration](integration.md) page and follow the instructions there which will install the integration and the server.
 
 ### Secondary installation method: Home Assistant Add-on Manual Installation
 
@@ -34,7 +34,7 @@ ____________
 
 ### Server Notes
 
-- Because the server heavily relies on multicast techniques like mDNS and uPNP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
+- Because the server heavily relies on multicast techniques like mDNS and uPnP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
 
 - The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be accessible via HTTP (no HTTPS) by IP-address from local players. See the server's logging at startup to see if the server has correctly auto-detected the local IP.
 
