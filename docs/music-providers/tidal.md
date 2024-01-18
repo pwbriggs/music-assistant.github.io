@@ -1,17 +1,17 @@
 # Tidal Provider ![Preview image](../assets/icons/tidal-icon.svg){ width=70 align=right }
 
-Music Assistant has support for [Tidal](https://tidal.com) as Music Provider, added in version 2.0.0 beta 29, contributed and maintained by @jozefKruszynski 
+Music Assistant has support for [Tidal](https://tidal.com) as a Music Provider. Tbis was added in version 2.0.0 beta 29, contributed and maintained by @jozefKruszynski 
 
 ## Notes
 
-- In the configuration, you only need to click the button to authenticate with Tidal, you will be redirected to the Tidal login page and the device code will be automatically filled.
+- In the configuration, you only need to click the button to authenticate with Tidal. Then you will be redirected to the Tidal login page and the device code will be automatically filled.
 
 ## Supported features
 
-- Support for "library" Artists, Albums, Tracks and Playlists.
-- Items in your Tidal library will be marked as "Favourites" too in Music Assistant.
-- Marking an item as "Favourite" from the Music Assistant interface will also mark it as favourite in Tidal.
-- Playback of Tidal content to all players supported by Music Assistant.
+- Support for Artists, Albums, Tracks and Playlists.
+- Items in your Tidal library will be marked as "Favourites" in Music Assistant.
+- Marking an item as a "Favourite" from the Music Assistant interface will also mark it as favourite in Tidal.
+- Playback of Tidal content is possible to all players supported by Music Assistant.
 - On playback, the highest quality FLAC HiFi version will be selected.
 
 ## Issues / Troubleshooting
