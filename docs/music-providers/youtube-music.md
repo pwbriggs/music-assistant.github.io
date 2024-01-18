@@ -1,6 +1,6 @@
 # YouTube Music Provider ![Preview image](../assets/icons/ytm-icon.svg){ width=70 align=right }
 
-Music Assistant has support for Youtube Music, contributed by @MarvinSchenkel.
+Music Assistant has support for Youtube Music. Contributed by @MarvinSchenkel.
 
 ## Features and generic notes
 
