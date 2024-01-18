@@ -32,18 +32,36 @@ Note that accessing remote (SMB) shares can be done from within MA itself using 
 
 ____________
 
-### Notes
+### Server Notes
 
 - Because the server heavily relies on multicast techniques like mDNS and uPNP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
 
-- The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be run at HTTP (so no HTTPS) and accessible by IP-address from local players. See the server's logging at startup if it correctly auto-detected the local IP.
+- The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be accessible via HTTP (no HTTPS) by IP-address from local players. See the server's logging at startup to see if the server has correctly auto-detected the local IP.
 
 - The server itself hosts a websocket API and a JSON RPC API which is more or less compatible with LMS. The Music Assistant fronted communicates with the server using the websockets API.
 
-- The webinterface of the server can be reached on the tcp port 8095 by default (unless that port is occupied, then it picks the next available port). See the server's logging to confirm the port.
+- The webinterface of the server can be reached on tcp port 8095 if enabled in the settings. By default on HAOS based installations the webserver is internal only and not exposed to the outside world. It is protected by HA authentication using the Ingress feature of Home Assistant (hence you also get the sidepanel for free)
+  
+- You can access the frontend over https by following these steps:
+  (1) Expose the webserver via MA settings --> Core --> webserver
+  (2) To access the frontend behind a reverse proxy you will have to configure the reverse proxy to point at the 8095 port and expose it to whatever is desired (and add an ssl certificate). How that works differs for each implemention. 
 
+!!! tip You can also keep the server more secure by NOT exposing the webserver and let the addon talk directly to the webserver on the internal docker network. In that case address the internal dns name of the addon, e.g. <http://d5369777-music-assistant-beta:8095>
 
-## Support, documentation
+## Usage and Notes
+
+- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095. When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port.
+- Music from your music sources will be automatically loaded into the Music Assistant library. If you have multiple sources, they will be merged as one library.
+- In this first implementation there's only support for "Library items", so your favourited artists, albums and playlists. In a later release we'll provide options to browse the recommendations of the various streaming providers.
+- Items on disk are not favourited by default. You can see all items if you deselect the "in library" filter (the heart) and decide for yourself what you want in your favourites.
+- Note that at the first startup it can take a while before data is available (first sync), the Music Assistant UI will notify you about tasks that are in progress.
+- Music sources are synced at addon (re)start and every 3 hours.
+- If a song is available on multiple providers (e.g. Spotify and a flac file on disk), the file/stream with the highest quality is always preferred when starting a stream.
+- Music Assistant uses a custom stream port (TCP 8096 by default) to stream audio to players. Players must be able to reach the Home Assistant instance and this port. If you're running one of the recommended Home Assistant installation methods, this is all handled for you, otherwise you will have to make sure you're running HA in HOST network mode. Note: If the default port 8096 is occupied, the next port will be tried, and so on.
+- See the [GitHub discussion](https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7987528) for more detailed information
+
+## Support and Documentation
+
 Because this project originated out of a Home Assistant integration, we maintain all our documentatation and enduser support in a separate reposity. Raise issues and discuss ideas here:
 https://github.com/music-assistant/hass-music-assistant
 
