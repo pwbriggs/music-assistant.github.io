@@ -34,7 +34,7 @@ ____________
 
 ### Server Notes
 
-- Because the server heavily relies on multicast techniques like mDNS and uPNP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
+- Because the server heavily relies on multicast techniques like mDNS and uPnP to discover players in your network it MUST be run in the same Layer 2 network as your player devices.
 
 - The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be accessible via HTTP (no HTTPS) by IP-address from local players. See the server's logging at startup to see if the server has correctly auto-detected the local IP.
 
