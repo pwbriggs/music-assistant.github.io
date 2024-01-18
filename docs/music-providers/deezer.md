@@ -2,7 +2,7 @@
 
 Music Assistant has support for [Deezer](https://www.deezer.com/) as a Music Provider. This was added in version 2.0.0 beta 30. Contributed and maintained by @micha91 and @arctixdev.
 
-!!! Note
+!!! tip "Note"
     - Because of Deezer's TOS we only support HiFi/Premium/Family accounts.
     - It is normal that syncing all your items from Deezer takes some time.
 
