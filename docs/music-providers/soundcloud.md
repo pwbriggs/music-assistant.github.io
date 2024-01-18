@@ -1,6 +1,6 @@
 # SoundCloud Provider ![Preview image](../assets/icons/soundcloud-icon.svg){ width=70 align=right }
 
-Support for Soundcloud as a Music provider in Music Assistant was contributed by @gieljnssns !
+Music Assistant has support for Soundcloud. Contributed by @gieljnssns !
 
 ## How to get O-Auth and Client id
 
