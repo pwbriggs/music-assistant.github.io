@@ -1,6 +1,6 @@
 # Radio Browser Provider
 
-Music Assistant support for [RadioBrowser](https://www.radio-browser.info/) became available in v2.0.0b29.
+Music Assistant has support for [RadioBrowser](https://www.radio-browser.info/) which allows easy addition of online radio stations to Music Assistant.
 
 ## Notes
 
