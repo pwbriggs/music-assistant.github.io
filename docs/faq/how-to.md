@@ -18,6 +18,8 @@ Install a squeeze lite compatible application to your mobile or other devices  (
 
 See here for info on [how to run squeezelite on Windows](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948)
 
+The [MA Companion App](../companion-app.md) can also be configured to run a squeezelite client which will allow playback to the device running it.
+
 ### How do I stream to my browser
 
 Use a [Snapserver](../player-support/snapcast.md) and the Snapweb option.
