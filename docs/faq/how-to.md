@@ -6,13 +6,21 @@ See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomm
 
 The setting in MA is the target level for the volume normalization. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. We recommend to use a value between -23 and -17 LUFS (and -17 is the recommended starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
 
-More details here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440946
+More details [here](https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440946)
 
 ### How do I stream to my local HA device
 
-In the future MA may support this directly. For the time being install a squeeze lite compatible application to your mobile or other devices  (e.g. https://sourceforge.net/projects/lmsclients/files/squeezelite/) which HA/MA will be able to stream to. If you want a solution to run on the actual HA host then install the squeezelite addon https://github.com/pssc/ha-addon-squeezelite
+Install the [squeezelite addon](https://github.com/pssc/ha-addon-squeezelite) which will then allow streaming over an audio connection the HA host to your speaker or amplifier
 
-see here for info on how to run squeezelite on Windows https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948
+### How do I stream to my non-networked or bluetooth speaker or amplifier
+
+Install a squeeze lite compatible application to your mobile or other devices  (e.g. https://sourceforge.net/projects/lmsclients/files/squeezelite/) which MA will be able to stream to. If you have a spare Raspberry Pi then [PiCoreplayer](https://www.picoreplayer.org) is an excellent solution than can also connect to Bluetooth speakers.
+
+See here for info on [how to run squeezelite on Windows](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948)
+
+### How do I stream to my browser
+
+Use a [Snapserver](../player-support/snapcast.md) and the Snapweb option.
 
 ### How do I have my music continue if I change rooms
 
