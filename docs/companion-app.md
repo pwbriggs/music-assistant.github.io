@@ -33,22 +33,22 @@
 
 
 !!! tip "This is still in very early alpha. Bugs *will* be present."
-    Please help finding them, you can report any bugs on the [Discord server](https://discord.gg/kaVm8hGpne) or in the [repo issues](https://github.com/music-assistant/music-assistant-desktop/issues)
+    Please help finding them. You can report any bugs on the [Discord server](https://discord.gg/kaVm8hGpne) or in the [repo issues](https://github.com/music-assistant/music-assistant-desktop/issues)
 
 ## Setup
 
-When starting the app for the first time you are asked about some information about the Music Assistant Server.
+When starting the app for the first time you are asked for some information about the Music Assistant Server.
 
 ![image](https://github.com/Un10ck3d/massapp/assets/74015378/cb97aa3e-12d8-4992-bfc6-0b58cedb81da)
 
-!!! example "The app requires that the webserver is exposed. You can set that in the settings"
+!!! note "The app requires that the webserver is exposed. You can set that in the settings"
     ![How to fix](https://raw.githubusercontent.com/music-assistant/music-assistant-desktop/main/cant_connect_error.gif)
 
 ## Features
 
 ### [Squeezelite](https://en.wikipedia.org/wiki/Squeezelite)
 
-Squeezelite comes embedded into the application. This allows you playing music to your computer. The player name will be the same as your computer name. You can change the name in Music Assistant settings. You can also toggle if you wish to enable squeezelite at all.
+Squeezelite comes embedded into the application. This allows playback of music to your computer. The player name will be the same as your computer name. You can change the name in Music Assistant settings. You can also toggle if you wish to enable squeezelite at all.
 
 ### [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to#so-what-is-it)
 
@@ -66,7 +66,7 @@ This app is on the arch aur with the name `music-assistant-desktop` or `music-as
 
 You can install it with yay: `yay music-assistant-desktop-bin`
 
-### Debian (And debian based distrobutions)
+### Debian (And debian based distributions)
 
 You can download the .deb from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
 
@@ -79,7 +79,7 @@ You can download the AppImage from the [releases](https://github.com/Un10ck3d/ma
 You can download the .dmg from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
 
 
-!!! danger "The app is unsigned since we currently dont want to spend 90 USD/yr for an Apple Developer account."
+!!! danger "The app is unsigned since we currently don't want to spend 90 USD/yr for an Apple Developer account."
     Therefore it will warn you about an untrusted developer/app downloaded from internet. To open it follow [these instructions](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac)
 
 ### Windows
