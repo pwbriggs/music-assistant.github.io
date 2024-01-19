@@ -67,6 +67,9 @@ Other examples that work are (this is not an exhaustive list):
 `Play Journey Don’t stop believing in the Study on the media player`
 `In the Study on the speaker listen to Journey Don’t Stop Believing`
 
+!!! note
+    When adding a track it will be added to the top of the existing queue and played immediately. In all other cases the queue will be cleared and the requested music will then be added and playback will commence.
+    
 **Troubleshooting**
 
 - If when trying to play to a specific player using the friendly name you receive “An unexpected error occurred while handling the intent” try adding an alias to the MA media player entity (which can be identical to the friendly name).
