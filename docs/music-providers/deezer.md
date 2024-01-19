@@ -8,9 +8,9 @@ Music Assistant has support for [Deezer](https://www.deezer.com/). Contributed a
 
 ## Supported features
 - Searching from the Music Assistant interface support Artists, Albums, Tracks and Playlists.
-- Items in your Deezer library will be marked as a "Favorite" in Music Assistant.
-- Marking an item as a "Favorite" from the Music Assistant interface will also mark it as a favorite in Deezer.
-- Playback of Deezer content to all players supported by Music Assistant is in FLAC HiFi.
+- Items in your Deezer Favourites will be imported into the MA Library amd automatically marked as a "Favorite" in MA.
+- If you add an item from Deezer to the MA library then nothing will happen in Deezer unless you also mark it as a favourite (at which time the item will be added to the Deezer favourites)
+- Playback of Deezer content to all players supported by Music Assistant is in FLAC.
 - Artist, Album, Track and Playlist metadata is fully supported.
 - Playlist creation is possible as well as adding and removing tracks from existing playlists.
 - Easy oAuth login
