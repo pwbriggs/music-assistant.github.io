@@ -10,9 +10,9 @@ Music Assistant has full support for Google Cast based devices. This includes Go
 - Cast speakers support Hi res audio, up to 96khz, 24 bits
 - Cast speakers do not support crossfading of audio. If you want crossfades and/or full gapless support, enable the "flow mode" in the player's advanced settings.
 - Enabling flow mode comes at the cost of loosing metadata on the player itself.
-- It is not possible to group/sync cast players from within the MA interface (simply because an api does not exist for that). As a possible workaround delays can be set in the Google Home app.
-- When using Google Cast groups then perfect sync across players in that group is possible
-- Music Assistant does support playing to predefined cast groups you can create in the Google Home app.
+- It is not possible to group/sync cast players from within the MA interface (simply because an api does not exist for that).
+- Music Assistant does support playing to cast groups which are created in the Google Home app.
+- When using Google cast groups then perfect sync across players in that group is possible.
 - Any physical control buttons on the device should be  supported as long as flow mode is not enabled. Voice control should also work.
 
 
@@ -27,4 +27,4 @@ Music Assistant has full support for Google Cast based devices. This includes Go
 
 My Chromecast speakers not auto detected or randomly unavailable
 - Make sure that your Cast enabled speakers are on the same network/subnet as your Music Assistant server.
-- Make sure that multicast traffic (more specific mDNS) can travel freely as that is used for the discovery of players.
+- Make sure that multicast traffic (more specifically mDNS) can travel freely as that is used for the discovery of players.
