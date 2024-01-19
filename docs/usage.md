@@ -36,7 +36,19 @@ Each player provider (except Airplay) allows for different output codecs. By def
 !!! note
     Changing the output codec to anything lossy will affect the sound quality regardless of player capabilities.
 
+**Queue**
 
+Each player has its own queue. Depending upon screen resolution the PLAYED ITEMS option may or may not be visible. If it is then selecting that will show the previous items from the queue and selecting any will restart the queue from that point.
+
+image to be added
+
+Right clicking or long press on a track in the queue will show this menu
+
+image to be added
+
+The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom.
+
+image to be added
 
 ## User Interface
 
