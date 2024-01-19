@@ -1,9 +1,9 @@
 # Snapcast ![Preview image](../assets/icons/snapcast-icon.svg){ width=70 align=right }
 
-_Available since version: 2.0.0b76 contributed and maintained by @SantiagoSotoC_
+_Contributed and maintained by @SantiagoSotoC_
 
-Music Assistant now supports Snapcast, a powerful solution for synchronized multi-room audio streaming. Snapcast enables seamless playback across various devices, creating an immersive audio experience.
-Whether you're using Snapcast-compatible speakers or devices like Raspberry Pi, you can enjoy synchronized audio playback effortlessly.
+Music Assistant supports Snapcast, a powerful solution for synchronized multi-room audio streaming. Snapcast enables seamless playback across various devices, creating an immersive audio experience.
+Whether you're using Snapcast-compatible speakers or devices like the Raspberry Pi, you can enjoy synchronized audio playback effortlessly.
 
 ## Features
 
