@@ -36,7 +36,7 @@ During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5d
 - You need a voice assistant configured (even if you want to just type in the query)
 - You need to create/add another OpenAI integration that is purely for Music Assistant.
 Add the prompt found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/prompt/prompt.txt) when completing the configuration. For the ChatGPT version `gpt-3.5-turbo-1106` has been found to work well.
-- Add a directory in your Home Assistant `config` dir name `custom_sentences/en`
+- Add a directory to your Home Assistant `config` directory named `custom_sentences/en`
 - Add the file found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/custom_sentences/en/play_media_on_media_player.yaml), to that directory.
 - When setting up the Music Assistant integration, make sure that you select the correct Conversation Agent and also allow the auto-exposure of MA media players to Assist
 
@@ -69,6 +69,7 @@ Other examples that work are (this is not an exhaustive list):
 
 - If when trying to play to a specific player using the friendly name you receive “An unexpected error occurred while handling the intent” try adding an alias to the MA media player entity (which can be identical to the friendly name).
 - If you have failures playing to an area with an error in the log related to `No entities matched` then make sure you don't have any entities named identically to your area
+- Ensure media players and areas are exposed to Assist
 
 ## I need help, I have feedback
 
