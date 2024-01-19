@@ -40,6 +40,8 @@ ____________
 
 - The server itself hosts a websocket API and a JSON RPC API which is more or less compatible with LMS, however, you cannot run a separate LMS server on your network at the same time as MA. The Music Assistant fronted communicates with the server using the websockets API.
 
+- You cannot run the slimproto integration in Home Assistant at the same time as the MA server.
+
 - The webinterface of the server can be reached on tcp port 8095 if enabled in the settings. By default, on HAOS based installations, the webserver is internal only and not exposed to the outside world. It is protected by HA authentication using the Ingress feature of Home Assistant (you also get the sidepanel shortcut for free!)
   
 - You can access the frontend over https by following these steps:
