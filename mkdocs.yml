@@ -9,6 +9,7 @@ nav:
   - Server Installation: Installation.md
   - Home Assistant Integration: integration.md
   - Companion App: companion-app.md
+  - Usage: usage.md
   - Music Providers:
     - Deezer: music-providers/deezer.md
     - Local Files: music-providers/filesystem.md
