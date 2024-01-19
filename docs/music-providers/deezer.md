@@ -1,21 +1,20 @@
 # Deezer Provider ![Preview image](../assets/icons/deezer-icon.svg){ width=70 align=right }
 
-Music Assistant has full support for [Deezer](https://www.deezer.com/) as Music Provider added in version 2.0.0 beta 30, contributed and maintained by @micha91 and @arctixdev.
+Music Assistant has support for [Deezer](https://www.deezer.com/). Contributed and maintained by @micha91 and @arctixdev.
 
-!!! tip
+!!! tip "Note"
     - Because of Deezer's TOS we only support HiFi/Premium/Family accounts.
     - It is normal that syncing all your items from Deezer takes some time.
 
 ## Supported features
-- Support for "library" Artist, Albums, Tracks and Playlists.
-- Items in your Deezer library will be marked as "Favorites" too in Music Assistant.
-- Marking an item as "Favorite" from the Music Assistant interface will also mark it as favorite in Deezer.
-- Playback of Deezer content to all players supported by Music Assistant in FLAC HiFi.
 - Searching from the Music Assistant interface support Artists, Albums, Tracks and Playlists.
-- Full Artist, Album, Track and Playlist metadata.
-- Playlist creation + adding and removing tracks from playlists.
+- Items in your Deezer library will be marked as a "Favorite" in Music Assistant.
+- Marking an item as a "Favorite" from the Music Assistant interface will also mark it as a favorite in Deezer.
+- Playback of Deezer content to all players supported by Music Assistant is in FLAC HiFi.
+- Artist, Album, Track and Playlist metadata is fully supported.
+- Playlist creation is possible as well as adding and removing tracks from existing playlists.
 - Easy oAuth login
-- Logging played tracks in Deezer
+- Logging of played tracks in Deezer
 - Radio mode (A bit like Deezer flow)
 
 ## About logging in

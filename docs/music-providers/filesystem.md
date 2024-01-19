@@ -2,23 +2,27 @@
 
 Music Assistant has full support for reading your own (local) music files on disk or a remote server and catalogs it into the library, allowing playback to all player providers supported by Music Assistant. 
 
-Local music is automatically included in the MA Library. When streaming providers are also added linking will only occur when the same item is found in the "Library" of that streaming provider. However, additional tracks and albums or  will be seen in various views or via the global search which can then be added to the MA Library
+When streaming providers are also availabe in MA linking will only occur when the same item is found in the "Library" of that streaming provider. However, additional tracks and albums will be seen in various views or via the global search which can then be added to the MA Library
 
 ## Features
 
-- Support for "library" Artists, Albums, Tracks and Playlists.
-- Files are not favourited by default. You can see all items if you deselect the "in library" filter (the heart) and decide for yourself what you want in your favourites.
-- Playback of your own music files to all players supported by Music Assistant.
-- If you also have any streaming providers connected, your media will be auto linked and completed with info from streaming providers.
-- On playback, when tracks are linked across providers the highest quality is preferred automatically.
+- Support for Artists, Albums, Tracks and Playlists.
+- Local music is automatically included in the MA Library. 
+- Files are not favourited by default. You can see all items if you deselect the "favourite" filter (the heart) and decide for yourself what you want in your favourites.
+- Playback of your own music files is possible to all players supported by Music Assistant.
+- If you also have any streaming providers connected, your media will be automatically linked and completed with info from the streaming provider(s).
+- On playback, when tracks are linked across providers the highest quality version is used automatically.
 - You can add multiple filesystem providers.
 
 
 ## Your files are on a disk/folder of the device running Music Assistant Server
-If your files are actually stored on the device running Music Assistant, for example the /media folder in Home Assistant OS, you select the filesystem (local disk) option and enter the path to the files. 
-NOTE: For Home Assistant OS you can only access the /media folder. Docker users can mount their own folder paths. You can not mount a folder from Home Assistant into the /media path.
+
+If your files are actually stored on the device running Music Assistant, for example the /media folder in Home Assistant OS, you should select the filesystem (local disk) option and enter the path to the files. 
+!!! note
+    For Home Assistant OS you can only access the /media folder. Docker users can mount their own folder paths. You can not mount a folder from Home Assistant into the /media path.
 
 ## Your files are on a remote share, such as a NAS or other (SMB/CIFS) server
+
 Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS. Select the music provider "Filesystem (remote share)" and configure the (fqdn) hostname (or alternatively the IP address) to your server, the name of the share and optionally any subfolders.
 
 
@@ -35,11 +39,10 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 ## Troubleshooting/tips
 
-- If you are using the remote share connection, be aware that we do not recommend SMB1 (very old). If the connection keeps failing and you have no clue why, look in your NAS settings if you can somehow disable SMB1.
-- If you have local artwork then it is important that album FOLDER names match exactly the tagged album name except characters that are not allowed in folder names are not parsed. Therefore, "The Big Chill: Soundtrack" will match "The Big Chill Soundtrack" but "Vika and Linda" will not match "Vika & Linda"
-- Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the menu in the top right of a view.
-- Embedded album thumbs will be extracted from audio files. However, you can save disk space by providing a single local artwork vice embedding the same artwork in all files.
+- If you are using the remote share connection, be aware that we do not recommend SMB1 (which is very old). If the connection keeps failing and you have no clue why, look in your NAS settings to see if you can somehow disable SMB1.
+- If you have local artwork then it is important that album FOLDER names exactly match the tagged album name except characters that are not allowed in folder names are not parsed. Therefore, "The Big Chill: Soundtrack" will match "The Big Chill Soundtrack" but "Vika and Linda" will not match "Vika & Linda"
+- Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the ⋮ menu in the banner at the top of a view.
+- Embedded album thumbs will be extracted from audio files. However, you can save disk space by providing a single local artwork file vice embedding the same artwork in all files.
 - Use the following naming convention for local artwork (png should also work). Artist thumb: artist.jpg; Album thumb: folder.jpg or cover.jpg; Fan Art (used as background in banners): fanart.jpg. Artist thumb and Fanart should be in the folder with the artist name. Album thumbs should be in the folder with the album name or in the disc folders below that. More about artwork file types can be found here https://kodi.wiki/view/Artwork_types
-- Local tracks and albums will be linked to the same tracks or albums on other streaming providers. Note that same is not simply same name, the tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length.
-- MA prefers an Album Artist to be set for all albums. There is a setting in Advanced for the provider configuration for what to do if a track is found without this set. The default is to skip the track so if your tracks are not being imported into the Library then check for this (there will be warnings in the log)
-
+- Local tracks and albums will be linked to the same tracks or albums on other streaming providers. Note that same is not simply same name, the tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length. However, poor tag information may lead to poor matches.
+- MA prefers an Album Artist to be set for all albums. There is a setting under Advanced in the provider configuration for what to do if a track is found without this set. The default is to skip the track, so if your tracks are not being imported into the Library then check for this (there will be warnings in the log)

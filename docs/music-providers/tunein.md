@@ -1,6 +1,6 @@
 # TuneIn Provider ![Preview image](../assets/icons/tunein-icon.svg){ width=70 align=right }
 
-Music Assistant has support for [Tunein](https://tunein.com/) as a Music Provider
+Music Assistant has support for [Tunein](https://tunein.com/)
 
 ## Notes
 
