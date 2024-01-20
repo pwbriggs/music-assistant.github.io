@@ -1,12 +1,12 @@
 ### **How do I Use Assist and AI to Play my Music?**
 
-See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7987528
+See [here](../integration.md)
 
 ### **How do I use volume normalization? How does it work?**
 
 The setting in MA is the target level for the volume normalization. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. We recommend to use a value between -23 and -17 LUFS (and -17 is the recommended starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
 
-More details [here](https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440946)
+More details [here](normalization.md)
 
 ### **How do I stream to my local HA device**
 
@@ -14,7 +14,7 @@ Install the [squeezelite addon](https://github.com/pssc/ha-addon-squeezelite) wh
 
 ### **How do I stream to my non-networked or bluetooth speaker or amplifier**
 
-Install a squeeze lite compatible application to your mobile or other devices  (e.g. https://sourceforge.net/projects/lmsclients/files/squeezelite/) which MA will be able to stream to. If you have a spare Raspberry Pi then [PiCoreplayer](https://www.picoreplayer.org) is an excellent solution than can also connect to Bluetooth speakers.
+Install a [squeeze lite compatible application](https://sourceforge.net/projects/lmsclients/files/squeezelite/) to your mobile or other devices which MA will be able to stream to. If you have a spare Raspberry Pi then [PiCoreplayer](https://www.picoreplayer.org) is an excellent solution than can also connect to Bluetooth speakers.
 
 See here for info on [how to run squeezelite on Windows](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948)
 
@@ -26,7 +26,9 @@ Use a [Snapserver](../player-support/snapcast.md) and the Snapweb option.
 
 ### **How do I have my music continue if I change rooms**
 
-Start streaming to a group that includes all the rooms you will move between. Power off all the rooms except the one you are in. When you move rooms just power on and off the respective rooms. Depending on the complexity of your setup you may need to use nested groups of speakers. See https://github.com/music-assistant/hass-music-assistant/discussions/553 and https://github.com/music-assistant/hass-music-assistant/discussions/702
+Start streaming to a group that includes all the rooms you will move between. Power off or mute all the rooms except the one you are in. When you move rooms just power (or mute) on and off the respective rooms. Depending on the complexity of your setup you may need to use nested groups of speakers.
+
+You can read, ask or contribute on this topic [here](https://github.com/orgs/music-assistant/discussions/702)
 
 ### **How do I shuffle Spotify/playlist/Youtube etc**
 
@@ -39,8 +41,6 @@ data:
   shuffle: true
 ```
 
-See here for more details https://github.com/music-assistant/hass-music-assistant/discussions/725
-
 ### **How do I add items to the queue via a script or automation**
 
 ``` yaml
@@ -52,34 +52,34 @@ data:
   media_content_type: music
 ```
 
-See also here https://github.com/music-assistant/hass-music-assistant/discussions/676
+See also how to use the mass.play_media service call
 
 ### **How do I start a playlist with a script**
 
-Original discussion is here: https://github.com/music-assistant/hass-music-assistant/discussions/834 but these days just use the `media_player.play_media` service call shown above or `mass.play_media` service as shown below.
+Use the `media_player.play_media` service call shown above or `mass.play_media` service as described here.
 
 ### **How do I start a radio stream with an automation**
 
-See here https://github.com/music-assistant/hass-music-assistant/discussions/459
+Use the `mass.play_media` service call and set the `media_id` as the station name.
 
 ### **How do I clear the queue with a script or automation**
 
-See here https://github.com/orgs/music-assistant/discussions/874#discussioncomment-7470872
+Use the HA service call of `media_player.clear_playlist` or the new `mass.play_media` service call and select the appropriate enqueue option if wanting to clear the queue and play something else.
 
 ### **How do I add radio stations to MA**
 
-if you use the TuneIn provider then stations that are favourited in your account will appear.
+If you use the [TuneIn provider](../music-providers/tunein.md) then stations that are favourited in your account will appear.
 
-if you use the RadioBrowser provider then BROWSE the provider and select ADD TO LIBRARY for the station desired.
+If you use the [RadioBrowser provider](../music-providers/radio-browser.md) then BROWSE the provider and select ADD TO LIBRARY for the station desired.
 
 Direct entry of stations can be done by navigating to the radio stations page and selecting the menu top right and ADD ITEM FROM URL
 This will also work for locally hosted streams such as from Icecast. 
 
 ### **How do I create playlists or use M3U files**
 
-See here https://github.com/music-assistant/hass-music-assistant/discussions/661
+You can create playlists from the MA UI. Adding items can also be done feom the UI.
 
-Acceptable formats are:
+If wanting to create playlists manually acceptable formats are:
 ```
 (file in same folder as playlist):
 05 Blue Christmas.flac
@@ -112,11 +112,11 @@ See here https://github.com/music-assistant/hass-music-assistant/discussions/439
 
 ### **How do I use the MA service call `mass.play_media`**
 
-See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440789
+See [here](massplaymedia.md)
 
 ### **How do I use the MA service call `mass.search`**
 
-See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440790
+See [here](masssearch.md)
 
 ### **How do I get the URI?**
 
