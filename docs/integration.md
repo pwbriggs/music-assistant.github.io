@@ -5,8 +5,7 @@
 [![hacs](https://img.shields.io/badge/HACS-Default-41BDF5?label=HACS)](https://github.com/hacs/integration)
 [![sponsor](https://img.shields.io/github/sponsors/music-assistant?label=sponsors)](https://github.com/sponsors/music-assistant)
 
-## Attention: Running Home Assistant 2023.3 or later?
-Make sure to install at least the 2023.6.bx BETA version of the Music Assistant HA Integration. Older versions of the Integration are not compatible with recent Home Assistant versions. Music Assistant HA Integration version [2023.12.0](https://github.com/music-assistant/hass-music-assistant/releases/tag/2023.12.0) was released on Dec. 29 and should be used in the first instance. The subsequent beta versions introduce the voice control functionality.
+Music Assistant HA Integration version [2023.12.0](https://github.com/music-assistant/hass-music-assistant/releases/tag/2023.12.0) is the latest stable version and should be used in the first instance. The subsequent 2024.1.0bx versions introduce the voice control functionality and shouod not be used unless you intend on using that.
 
 ## Installation of the Home Assistant Integration
 
