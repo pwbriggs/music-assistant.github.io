@@ -20,6 +20,7 @@ Make sure to install at least the 2023.6.bx BETA version of the Music Assistant 
 - Look for Music Assistant and click to add it.
 - If Music Assistant does not show, refresh your browser (cache).
 - The Music Assistant integration is ready for use.
+- The MA server addon will be installed automatically.
 
 !!! note
     You need to set-up the players and music sources within Music Assistant itself.
@@ -32,6 +33,7 @@ Make sure to install at least the 2023.6.bx BETA version of the Music Assistant 
 During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration.
 
 **Installation Requirements**
+
 - You need to be running the latest BETA of the HA Integration
 - You need a voice assistant configured (even if you want to just type in the query)
 - You need to create/add another OpenAI integration that is purely for Music Assistant.
@@ -65,6 +67,9 @@ Other examples that work are (this is not an exhaustive list):
 `Play Journey Don’t stop believing in the Study on the media player`
 `In the Study on the speaker listen to Journey Don’t Stop Believing`
 
+!!! note
+    When adding a track it will be added to the top of the existing queue and played immediately. In all other cases the queue will be cleared and the requested music will then be added and playback will commence.
+    
 **Troubleshooting**
 
 - If when trying to play to a specific player using the friendly name you receive “An unexpected error occurred while handling the intent” try adding an alias to the MA media player entity (which can be identical to the friendly name).
