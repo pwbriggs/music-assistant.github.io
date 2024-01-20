@@ -1,18 +1,18 @@
-### How do I Use Assist and AI to Play my Music?
+### **How do I Use Assist and AI to Play my Music?**
 
 See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7987528
 
-### How do I use volume normalization? How does it work?
+### **How do I use volume normalization? How does it work?**
 
 The setting in MA is the target level for the volume normalization. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. We recommend to use a value between -23 and -17 LUFS (and -17 is the recommended starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
 
 More details [here](https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440946)
 
-### How do I stream to my local HA device
+### **How do I stream to my local HA device**
 
 Install the [squeezelite addon](https://github.com/pssc/ha-addon-squeezelite) which will then allow streaming over an audio connection the HA host to your speaker or amplifier
 
-### How do I stream to my non-networked or bluetooth speaker or amplifier
+### **How do I stream to my non-networked or bluetooth speaker or amplifier**
 
 Install a squeeze lite compatible application to your mobile or other devices  (e.g. https://sourceforge.net/projects/lmsclients/files/squeezelite/) which MA will be able to stream to. If you have a spare Raspberry Pi then [PiCoreplayer](https://www.picoreplayer.org) is an excellent solution than can also connect to Bluetooth speakers.
 
@@ -20,11 +20,11 @@ See here for info on [how to run squeezelite on Windows](https://github.com/orgs
 
 The [MA Companion App](../companion-app.md) can also be configured to run a squeezelite client which will allow playback to the device running it.
 
-### How do I stream to my browser
+### **How do I stream to my browser**
 
 Use a [Snapserver](../player-support/snapcast.md) and the Snapweb option.
 
-### How do I have my music continue if I change rooms
+### **How do I have my music continue if I change rooms**
 
 Start streaming to a group that includes all the rooms you will move between. Power off all the rooms except the one you are in. When you move rooms just power on and off the respective rooms. Depending on the complexity of your setup you may need to use nested groups of speakers. See https://github.com/music-assistant/hass-music-assistant/discussions/553 and https://github.com/music-assistant/hass-music-assistant/discussions/702
 
@@ -54,7 +54,7 @@ data:
 
 See also here https://github.com/music-assistant/hass-music-assistant/discussions/676
 
-### How do I start a playlist with a script
+### **How do I start a playlist with a script**
 
 Original discussion is here: https://github.com/music-assistant/hass-music-assistant/discussions/834 but these days just use the `media_player.play_media` service call shown above or `mass.play_media` service as shown below.
 
@@ -98,11 +98,11 @@ filesystem_smb://track/blah
 
 Relative paths to the playlist (e.g.` ../Mariah Carey/Merry Christmas/02 All I Want for Christmas Is You.flac` ) should also work.
 
-### How do I go to next/previous radio station via a script
+### **How do I go to next/previous radio station via a script**
 
 Create a playlist with multiple radio stations and start playing it. Now you can use next and previous to switch between the stations
 
-### How do I stop the music after a period of time aka Sleep Timer
+### **How do I stop the music after a period of time aka Sleep Timer**
 
 See here: https://github.com/music-assistant/hass-music-assistant/discussions/830
 
@@ -110,15 +110,15 @@ See here: https://github.com/music-assistant/hass-music-assistant/discussions/83
 
 See here https://github.com/music-assistant/hass-music-assistant/discussions/439
 
-### How do I use the MA service call `mass.play_media`
+### **How do I use the MA service call `mass.play_media`**
 
 See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440789
 
-### How do I use the MA service call `mass.search`
+### **How do I use the MA service call `mass.search`**
 
 See here: https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7440790
 
-### How do I get the URI?
+### **How do I get the URI?**
 
 For playlists, artists, albums and radio you can simply use the name.
 
@@ -134,16 +134,16 @@ data:
 
 Similarly, if the album name is ambiguous you can specify the artist name first (`Queen - Greatest Hits`)
 
-### How do I run MA when I have SSL setup on my internal network?
+### **How do I run MA when I have SSL setup on my internal network?**
 
 Trying to run MA with SSL is not recommended. Having said that, whilst you can not run the stream service behind SSL you can configure the frontend entirely to your requirements. The default is that the frontend is protected by Ingress in HAOS. For those using docker, it is possible to host it on a desired port and then run a (Ingress) reverse proxy. No support will be provided for these setups, we recommend you use HAOS.
 
-### How do I get the MA icon in the HA sidebar?
+### **How do I get the MA icon in the HA sidebar?**
 
 If you are running the addon within the HA host go to SETTINGS>>ADDONS>>MUSIC ASSISTANT and select "Show in sidebar".
 
 If you are using docker then you can use an iframe panel https://www.home-assistant.io/integrations/panel_iframe/
 
-### How do I add a rotary encoder with push button to a piCorePlayer
+### **How do I add a rotary encoder with push button to a piCorePlayer**
 
 See here https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-7945369
