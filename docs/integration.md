@@ -27,6 +27,13 @@ Music Assistant HA Integration version [2023.12.0](https://github.com/music-assi
 !!! note 
     The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to `settings > devices & services > integrations > music assistant`. It is these players that need to be targeted in your automations.
 
+## Service Calls
+
+The integration adds two service calls for use in scripts and automations. 
+
+- [mass.play_media](faq/massplaymedia.md)
+- [mass.search](faq/masssearch.md)
+
 ## OpenAI features
 
 During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration.
