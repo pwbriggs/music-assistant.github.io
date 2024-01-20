@@ -12,6 +12,7 @@ nav:
     - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
   - Usage: usage.md
+    - UI: ui.md
   - Music Providers:
     - Deezer: music-providers/deezer.md
     - Local Files: music-providers/filesystem.md
