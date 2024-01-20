@@ -8,6 +8,8 @@ nav:
   - Music Assistant: index.md
   - Server Installation: Installation.md
   - Home Assistant Integration: integration.md
+    - Play Media Service Call: faq/massplaymedia.md
+    - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
   - Usage: usage.md
   - Music Providers:
