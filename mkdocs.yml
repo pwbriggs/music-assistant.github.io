@@ -38,6 +38,7 @@ nav:
   - FAQ:
     - How To: faq/how-to.md
     - Volume Normalization: faq/normalization.md
+    - Troubleshooting: faq/troubleshooting.md
   - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
