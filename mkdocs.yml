@@ -23,6 +23,7 @@ nav:
     - Radio Browser: music-providers/radio-browser.md
     - SoundCloud: music-providers/soundcloud.md
     - Spotify: music-providers/spotify.md
+    - Subsonic: music-providers/subsonic.md
     - Tidal: music-providers/tidal.md
     - TuneIn: music-providers/tunein.md
     - YouTube Music: music-providers/youtube-music.md
