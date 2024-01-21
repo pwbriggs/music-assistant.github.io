@@ -8,7 +8,9 @@ For streaming providers ONLY the SPECIFIC artists/albums/tracks/playlists that a
 
 ![image](https://github.com/music-assistant/hass-music-assistant/assets/19848947/eac76ff8-8789-4c6f-9c7d-59b0a18f9952)
 
-As a further means of filtering the library items can be marked as "favourites". This is shown in the UI as a filled heart icon. Items are not favourited by default. You can see all items if you deselect the heart icon in the top menu.
+**Favourites**
+
+As a further means of filtering the library, items can be marked as a "favourite". This is shown in the UI as a filled heart icon. Items are not favourited by default. You can see all items if you deselect the heart icon in the top menu.
 
 ## Music Providers
 
@@ -54,7 +56,7 @@ image to be added
 
 ## User Interface
 
-TBA
+See [here](ui.md)
 
 ## Support and Documentation
 
