@@ -7,11 +7,13 @@ repo_url: https://github.com/music-assistant
 nav:
   - Music Assistant: index.md
   - Server Installation: Installation.md
-  - Home Assistant Integration: integration.md
+  - Home Assistant Integration: 
+    - Integration Installation: integration.md
     - Play Media Service Call: faq/massplaymedia.md
     - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
-  - Usage: usage.md
+  - Usage: 
+    - General: usage.md
     - UI: ui.md
   - Music Providers:
     - Deezer: music-providers/deezer.md
@@ -21,6 +23,7 @@ nav:
     - Radio Browser: music-providers/radio-browser.md
     - SoundCloud: music-providers/soundcloud.md
     - Spotify: music-providers/spotify.md
+    - Subsonic: music-providers/subsonic.md
     - Tidal: music-providers/tidal.md
     - TuneIn: music-providers/tunein.md
     - YouTube Music: music-providers/youtube-music.md
@@ -36,6 +39,7 @@ nav:
   - FAQ:
     - How To: faq/how-to.md
     - Volume Normalization: faq/normalization.md
+    - Troubleshooting: faq/troubleshooting.md
   - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
