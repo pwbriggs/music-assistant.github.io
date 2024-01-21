@@ -31,7 +31,7 @@ If you are trying to view playlists through the HA media view then you should no
 
 ### **I don't see any tracks or albums for an Artist on a streaming provider** 
 
-See the [Usaga and Music Provider notes](../usage.md)
+See the [Usage and Music Provider notes](../usage.md)
 
 ### **My local album art isn’t being picked up**
 
