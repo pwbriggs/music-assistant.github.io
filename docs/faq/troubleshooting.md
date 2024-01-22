@@ -8,7 +8,7 @@ Most players are discovered using mDNS (broadcast) so if your players do not get
 
 Make sure the HA internal url is set correctly. HA Settings --> System --> Network --> Home Assistant URL --> Local network (set to automatic or use your internal HA IP). If it is automatic you can try changing it to http://your.internal.ip:8123/
 
-MA streams at high quality which may max out poor network connections. If possible used wired connections for MA players. Try changing to a lower quality codec by going to SETTINGS>>PLAYERS>>(Menu for player desired)>>CONFIGURE>>ADVANCED SETTINGS>>OUTPUT CODEC (Do not think that because you are playng an MP3 this isn't important as MA re-encodes the music stream. Input codec is not always the same as the output codec) 
+MA streams at high quality which may max out poor network connections. If possible used wired connections for MA players. Input codec is not always the same as the output codec (which is FLAC) so playing a low qualiy MP3 will not change the apparent performance. If you exoerience stuttering or other interrupted playback issues which are not apparent on wired players or those close to your access points then poor WiFi is likely to blame. You will need to improve your WiFi coverage.
 
 Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
 
