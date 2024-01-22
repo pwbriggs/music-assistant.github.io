@@ -14,7 +14,7 @@ There is no support for the disc and track number in album tracks listings. Curr
 
 Whether music videos are selected for playback fully depends on what you are playing. If you have saved a specific album in your library, then that exact version will show up in MA and thus you will have the album version. However, if you start a radio on let's say a playlist, then Youtube Music decides which songs will be played in a 'dynamic radio' playlist which could include videos.
 
-The highest available stream from Youtube Music will be selected for playback (similar to configuring 'high' in the web-app). This then gets re-encoded by MA to a (default) lossless FLAC (assuming you have this as the output codec (which it is by default)).
+The highest available stream from Youtube Music will be selected for playback (similar to configuring 'high' in the web-app). This then gets re-encoded by MA to a lossless FLAC.
 
 Uploaded Music should be able to be found when it is in a playlist. If it's just a single track being searched for then it may not be found, since often those uploaded songs don't have proper metadata. It will be hard to find them via the UI in MA.
 
