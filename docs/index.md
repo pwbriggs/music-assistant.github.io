@@ -31,7 +31,7 @@ The Music Assistant server is a free, opensource Media library manager that conn
 
 ## Music Assistant Integration
 
-Connects Home Assistant to your Music Assistant Server to automate your music and allow voice control!
+Connects Home Assistant to your Music Assistant Server to allow control from your HA imstance, allow you to automate your music and allow voice control!
 
 ## Preview
 
