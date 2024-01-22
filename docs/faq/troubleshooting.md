@@ -1,4 +1,4 @@
-### First things to try and how to report issues
+### **First things to try and how to report issues**
 
 Probably the most common issue is people trying to run MA with complicated network setups. Running behind VPNs, across subnets or VLANs, behind firewalls, local SSL, using reverse proxies or inside containers is not supported (it might work but we can’t troubleshoot for you as MA is run by a small team who don't have the resources to help with non-MA issues). Search Discord for these problems as users have regularly reported these issues and found that it is their setup that was causing the fault; their solution might help you.
 
@@ -10,12 +10,17 @@ Make sure the HA internal url is set correctly. HA Settings --> System --> Netwo
 
 MA streams at high quality which may max out poor network connections. If possible used wired connections for MA players. Try changing to a lower quality codec by going to SETTINGS>>PLAYERS>>(Menu for player desired)>>CONFIGURE>>ADVANCED SETTINGS>>OUTPUT CODEC (Do not think that because you are playng an MP3 this isn't important as MA re-encodes the music stream. Input codec is not always the same as the output codec) 
 
-Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console 
+Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
+
+- What music provider is in use
+- What player provider is in use
+- Are the players grouped?
+- How is playback being instigated (e.g. automation or via the UI)
 
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
 
-### Why aren't tracks/albums matching between providers
+### **Why aren't tracks/albums matching between providers**
 
 Matching items between streaming providers is challenging as they do not all provide the same or unique metadata to definitivly identify a match. If you think there is an obvious match (eg. same artist and track and album) then please submit an issue report. For more information about how MA uses metadata in various ways see here https://github.com/music-assistant/hass-music-assistant/discussions/543
 
@@ -53,12 +58,12 @@ if the above doesn’t work look [here for some more options](https://www.webins
 
 For the IOS app see [here](https://community.home-assistant.io/t/anyone-know-how-to-clear-cache-in-the-ios-app/64569/10)
 
-### The second zone of my amplifier is not seen by MA or MA won't turn on my amplifier
+### **The second zone of my amplifier is not seen by MA or MA won't turn on my amplifier**
 
 MA is an INPUT to your amplifier. So you need to power on your amplifier and then select the INPUT that MA is streaming to (e.g. Airplay, DLNA, Chromsecast). For this reason MA does not see the amplifier zones it only sees the compatible inputs of the amplifier. 
 
 Some amplifiers may auto turn on when a signal is detected so check the amplifier options. If this functionality is not available then you will need to power on the amplifier via another means. The power icons that are seen beside the players must be seen as starting and stopping the stream to the player not as physically powering on or off the device.
 
-### My local music isn’t being imported or I’m seeing missing ID3 tag warnings in the logs 
+### **My local music isn’t being imported or I’m seeing missing ID3 tag warnings in the logs** 
 
 This is likely a tagging problem. See [here](../music-providers/filesystem/)
