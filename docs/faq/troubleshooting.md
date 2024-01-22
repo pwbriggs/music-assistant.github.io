@@ -1,4 +1,4 @@
-### **First things to try and how to report issues**
+# **First things to try and how to report issues**
 
 Probably the most common issue is people trying to run MA with complicated network setups. Running behind VPNs, across subnets or VLANs, behind firewalls, local SSL, using reverse proxies or inside containers is not supported (it might work but we can’t troubleshoot for you as MA is run by a small team who don't have the resources to help with non-MA issues). Search Discord for these problems as users have regularly reported these issues and found that it is their setup that was causing the fault; their solution might help you.
 
@@ -22,11 +22,11 @@ Report issues using the template with as much detail as possible. Often posts ar
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
 
-### **Why aren't tracks/albums matching between providers**
+# **Why aren't tracks/albums matching between providers**
 
 Matching items between streaming providers is challenging as they do not all provide the same or unique metadata to definitivly identify a match. If you think there is an obvious match (eg. same artist and track and album) then please submit an issue report. For more information about how MA uses metadata in various ways see here https://github.com/music-assistant/hass-music-assistant/discussions/543
 
-### **My media player is not available or not playing**
+# **My media player is not available or not playing**
 
 Review the list of player providers. If your device doesn't support one of the listed protocols then it won't currently work. Review the [GitHub Discussions](https://github.com/orgs/music-assistant/discussions) to see if others have requested support and join in the conversation.
 
@@ -34,25 +34,25 @@ If your device does support one of the supported protocols then review the docum
 
 If your device still doesn't work and you think it should then review the full logs for discovery information and errors. Review the first things to try at the top of this page as usually if you get this far without identiying why the player isnt working it will be a networking or non-standard installation issue which, generally, you will need to resolve. Search the Github [Issues](https://github.com/orgs/music-assistant/issues), [Discussions](https://github.com/orgs/music-assistant/discussions) and [Discord](https://discord.gg/kaVm8hGpne)) as likely someone has asked your question before.
 
-### **All my media is missing** 
+# **All my media is missing** 
 
 Ensure the favourites filter is OFF. At the top of each view is a ❤️. Ensure it is hollow.
 
 If you are trying to view playlists through the HA media view then you should note that only favourited playlists will show up and additionally you need to have a MA player selected to see the MA Library. HA's media browser doesn't have any filter or sorting options like MA's frontend has.
 
-### **I don't see any tracks or albums for an Artist on a streaming provider** 
+# **I don't see any tracks or albums for an Artist on a streaming provider** 
 
 See the [Usage and Music Provider notes](../usage.md)
 
-### **My local album art isn’t being picked up**
+# **My local album art isn’t being picked up**
 
 Art embedded in music tracks will always be picked up but folder.jpg images will only be imported if the folder name **exactly** matches the album (except for any characters that are prohibited in folder names. E.g. / )
 
-### **There isn't any metadata for my music**
+# **There isn't any metadata for my music**
 
 For local files, you can either fully tag your music (this is preferred and it is recommended to use [Picard](https://picard.musicbrainz.org/)) or have an artist folder with the artist.nfo in there (just like the images) and that will be preferred. Online metadata providers are only queried when there is no local data. https://kodi.wiki/view/NFO_files
 
-### **I have updated but MA looks like the old version or isn’t working**
+# **I have updated but MA looks like the old version or isn’t working**
 
 Possibly your browser is using a cached version of the front end. Try forcing a refresh Chrome, Firefox, or Edge for Windows: Press Ctrl+F5 (If that doesn’t work, try Shift+F5 or Ctrl+Shift+R).
 
