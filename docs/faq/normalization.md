@@ -16,4 +16,4 @@ All tracks are processed as raw pcm by Music Assistant internally. So everything
 
 All further processing in MA is done at PCM raw audio level, such as the optional equalizer (in the future maybe some room correction or other filters) - if "flow mode" is enabled crossfading is also done on the raw pcm chunks but that will upsample all audio into one static sample rate and bit depth to create one "flow" of audio to send to the player.
 
-The final part in the chain is that MA sends either the raw pcm data to the player or encodes it into a codec of the user's choice, by default this is FLAC due to it being lossless while keeping a reasonable file size.
+The final part in the chain is that MA sends either the raw pcm data to the player or encodes it into FLAC due to it being lossless while keeping a reasonable file size.
