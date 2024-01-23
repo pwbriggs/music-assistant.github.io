@@ -51,14 +51,3 @@ The options in the menu in the top right is shown below. This is the only place 
 ## User Interface
 
 See [here](ui.md)
-
-## Support and Documentation
-
-Because this project originated out of a Home Assistant integration, we maintain all our documentatation and enduser support in a separate reposity. Raise issues and discuss ideas here:
-https://github.com/music-assistant/hass-music-assistant
-
-You can also seek help on [Discord](https://discord.gg/kaVm8hGpne)
-
-
-[repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
-[repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon
