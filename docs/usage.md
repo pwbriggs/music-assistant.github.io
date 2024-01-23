@@ -23,18 +23,19 @@ General Notes:
 
 # Players
 
-For specific player provider information refer to the relevant section in this document.
+For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically diacovered by Music Assistant.
 
 In the player provider settimgs you can disable or hide any players you do not use.
 
 **Audio Quality**
 
-96khz/24 bits and above is considered high resolution (Hi Res)
+96kHz / 24 bits and above is considered high resolution (Hi Res)
 
 - Sonos annd Airplay support lossless (as in cd quality) but not Hi Res.
-- Chromecast supports Hi Res up to 96Khz/24 bits (except the video dongles)
-- Slimproto supports Hi Res up to 384khz/24 bits
-- DLNA supports Hi Res up to 192/24 bits
+- Chromecast supports Hi Res up to 96KHz / 24 bits (except the video dongles)
+- Slimproto supports Hi Res up to 384kHz / 24 bits
+- DLNA supports Hi Res up to 192kHz / 24 bits
+- Snapcast supports up to 48kHz / 16 bits
 
 **Queue**
 
