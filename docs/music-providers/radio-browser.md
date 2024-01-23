@@ -1,4 +1,4 @@
-# Radio Browser Provider
+# Radio Browser Provider ![Preview image](../assets/icons/radiobrowser_icon.png){ width=70 align=right }
 
 Music Assistant has support for [RadioBrowser](https://www.radio-browser.info/) which allows easy addition of online radio stations to Music Assistant.
 

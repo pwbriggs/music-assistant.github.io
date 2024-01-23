@@ -1,3 +1,5 @@
+# Subsonic Provider ![Preview image](../assets/icons/subsonic_icon.png){ width=70 align=right }
+
 Music Assistant has support for music servers which work to the Open Subsonic API definition. The implementation has been tested against Gonic and Navidrome but should work with any implementation. Currently only Music is imported into the Music Assistant database but the infrastructure for handling podcasts is present when they are supported in Music Assistant.
 
 ## Configuration:

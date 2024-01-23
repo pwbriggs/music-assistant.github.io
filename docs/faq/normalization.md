@@ -1,4 +1,8 @@
-# Volume Normalization
+# Technical Information
+
+This section contains more indepth technical information regarding Music Assistant's workings for those interested.
+
+## Volume Normalization
 
 The normalization value to totally avoid clipping should be -23 LUFS based on this official documentation https://tech.ebu.ch/docs/r/r128.pdf but values differ per plattform so it is complicated to get the right value.
 
@@ -16,4 +20,17 @@ All tracks are processed as raw pcm by Music Assistant internally. So everything
 
 All further processing in MA is done at PCM raw audio level, such as the optional equalizer (in the future maybe some room correction or other filters) - if "flow mode" is enabled crossfading is also done on the raw pcm chunks but that will upsample all audio into one static sample rate and bit depth to create one "flow" of audio to send to the player.
 
-The final part in the chain is that MA sends either the raw pcm data to the player or encodes it into a codec of the user's choice, by default this is FLAC due to it being lossless while keeping a reasonable file size.
+The final part in the chain is that MA sends either the raw pcm data to the player or encodes it into FLAC due to it being lossless while keeping a reasonable file size.
+
+## Track Queueing
+
+MA has 3 ways of enqueuing tracks to players:
+
+**BASIC/FALLBACK**
+send tracks from the queue one by one. We just watch the player and if we see that it stopped playing at the end of a track, we tell it to play the next. This is the most basic form of enqueuing and completely handled by the MA queue controller and thus works with ALL players. This will NOT support gapless or crossfade. This setting is the default if the player has no native enqueue support or flow mode enabled. By default DLNA players use this option as well as the upcoming Home Assistant based players. Full metadata is sent to the player of what is playing.
+
+**NATIVE ENQUEUE SUPPORT**
+The player has native enqueue support so we tell it what the next track will be right before the current one ends. This is a special feature that not all players support. Its supported (and by default enabled) for Slimproto, Google Cast and Sonos players. Some DLNA players support it but others don't so we offer a player setting to enable it so a user can try himself if the player accepts it. benefit is full support gapless playback and in case of Slimproto and Sonos also crossfade. Also full metadata will be sent to the player what is currently playing.
+
+**FLOW MODE**
+As an alternative to native enqueuing we can also send one stream of audio to the player and let Music Assistant stitch the songs together (with gapless or crossfade). This mode is used by default for Airplay and snapcast and will be used by DLNA and Cast if crossfade gets enabled. Downside of this approach is that Google cast (and most DLNA players) looses metadata display (on the speaker itself). Some DLNA players support "icy metadata" which is what we send to inform what is playing. 

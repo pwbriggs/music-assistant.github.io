@@ -10,21 +10,16 @@ Whether you're using Snapcast-compatible speakers or devices like the Raspberry 
 - Synchronized playback across all Snapcast devices.
 - Lossless audio quality with options for 48 kHz /16bits PCM.
 
-## Known issues/notes
+## Known Issues / Notes
 
 - Music Assistant currently implements Snapcast version 0.27.0 only; future updates may include support for newer versions.
-- Snapcast players don´t support crossfading of audio by default. For full gapless support and enhanced crossfading, enable "flow mode" in the player's advanced settings.
+- Snapcast players don´t support crossfading of audio by default. For full gapless support and enhanced crossfading, "enable crossfade" in the player's advanced settings.
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as snapdroid or snapweb
 - Pausing the player is NOT supported. If you try and do that you will get weird behaviour.
-
-## Troubleshooting/tips
-
 - The snacast app for ios is broken, it uses an old version of snapclient, using it brings problems with this provider.
-- Make sure you are using snapserver version 0.27.0 with the command "snapserver -v".
-- Make sure that the ports on the snapserver host 1704, 1705 are open. Also make sure that for each client a port equal to or greater than 4953 is open.
-- Try the default snapcast settings and then make changes as you see necessary.
-- In Music Assistant settings, you can disable Snapcast devices you don't use.
-- For detailed troubleshooting, check Music Assistant logs for insights and report any issues with the provided logs.
+- Ensure the server is launched with the command "snapserver -v".
+- Ensure that the ports on the snapserver host 1704, 1705 are open. Also ensure that for each client a port equal to or greater than 4953 is open.
+- Try the default snapcast settings and then make changes as necessary.
 
 ## Install Snapserver
 
@@ -105,6 +100,30 @@ To install the server:
 # xbps-install snapserver
 ```
 
+## Enable SnapWeb
+
+This will enable MA to stream directly to any browser.
+
+1. **Locate the Snapcast Configuration File:**
+   - Find the configuration file for Snapcast on your system. It is often named `snapserver.conf`. The location of this file is normally found in /etc but may vary depending on your installation method and operating system.
+
+2. **Edit the Configuration File:**
+   - Open the `snapserver.conf` file in a text editor.
+
+3. **Enable Snapweb:**
+   - Look for a section in the configuration file related to http. There might be a line that looks like `doc_root = /usr/share/snapserver/snapweb` or similar. If this line is commented out (starts with `#`), remove the `#` to uncomment it and enable Snapweb. 
+4. **[Optional]: Change web port**
+     - Look for a section in the configuration file related to http. There might be a line that looks like `webport = 1780` or similar. If this line is commented out (starts with `#`), remove the `#` to uncomment it and enable Snapweb. You may also need to adjust the port number if desired.
+
+5. **Save the Changes:**
+   - Save the changes to the configuration file.
+
+6. **Restart Snapcast:**
+   - Restart the Snapcast server to apply the changes to the configuration. This can usually be done by restarting the Snapcast service or process.
+
+7. **Access Snapweb:**
+   - Open a web browser and navigate to the specified port (e.g., `http://localhost:1780` if the default port is used). This should allow you to access the Snapweb interface.
+
 ## Install Snapclient
 
 ### Linux
@@ -163,28 +182,6 @@ To install the client:
 ```bash
 # xbps-install snapclient
 ```
-
-### Enable SnapWeb
-
-1. **Locate the Snapcast Configuration File:**
-   - Find the configuration file for Snapcast on your system. It is often named `snapserver.conf`. The location of this file is normally found in /etc but may vary depending on your installation method and operating system.
-
-2. **Edit the Configuration File:**
-   - Open the `snapserver.conf` file in a text editor.
-
-3. **Enable Snapweb:**
-   - Look for a section in the configuration file related to http. There might be a line that looks like `doc_root = /usr/share/snapserver/snapweb` or similar. If this line is commented out (starts with `#`), remove the `#` to uncomment it and enable Snapweb. 
-4. **[Optional]: Change web port**
-     - Look for a section in the configuration file related to http. There might be a line that looks like `webport = 1780` or similar. If this line is commented out (starts with `#`), remove the `#` to uncomment it and enable Snapweb. You may also need to adjust the port number if desired.
-
-5. **Save the Changes:**
-   - Save the changes to the configuration file.
-
-6. **Restart Snapcast:**
-   - Restart the Snapcast server to apply the changes to the configuration. This can usually be done by restarting the Snapcast service or process.
-
-7. **Access Snapweb:**
-   - Open a web browser and navigate to the specified port (e.g., `http://localhost:1780` if the default port is used). This should allow you to access the Snapweb interface.
 
 ## Snapdroid for Snapcast on Android
 

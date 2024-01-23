@@ -9,10 +9,12 @@ This means you can use squeezebox players directly with Music Assistant. This ap
 - Slimproto devices are auto detected in Music Assistant
 - In settings you can disable any devices you do not use.
 - Slimproto devices will play in sync
-- It is possible to sync Airplay devices with slimproto based devices too.
-- Any physical control buttons on the device should be  supported as long as flow mode is not enabled. 
+- It is possible to sync Airplay devices with slimproto based devices.
+- Any physical control buttons on the device should be supported as long as flow mode is not enabled.
+- The player settings include some basic equaliser settings.
+- The player settings allow configuration of stereo pairs of speakers.
 
-## Considerations
+## Known Issues / Notes
 
 - Make sure that you do not have Logitech Media Server running.
 - Make sure that you do not have the "slimproto" integration running in Home Assistant.

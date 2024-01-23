@@ -2,6 +2,8 @@
 
 [![pypi_badge](https://img.shields.io/pypi/v/music_assistant.svg)](https://pypi.python.org/pypi/music_assistant)
 
+![MA Banner](assets/MA_banner.png)
+
 Turn your Home Assistant instance into a jukebox and enjoy hassle free streaming of your favourite media to Home Assistant media players.
 
 Music Assistant is a music library manager for your offline and online music sources which can be combined with the power of Home Assistant to easily stream your favourite music to a wide range of supported players.
@@ -14,7 +16,7 @@ Music Assistant is a music library manager for your offline and online music sou
 - Fetches metadata for extended artist information.
 - Keeps track of the entire music library in a compact database
 - Gapless, crossfade and volume normalization support for all players.
-- Playback syncronisation is possibie for supported players
+- Playback synchronisation is possibie for supported players
 - Truly hassle free streaming of your favourite music to players, no advanced knowledge required.
 - Rich User interface (Progressive Web App) powered by VueJS 3.
 
@@ -31,35 +33,24 @@ The Music Assistant server is a free, opensource Media library manager that conn
 
 ## Music Assistant Integration
 
-Connects Home Assistant to your Music Assistant Server to automate your music and allow voice control!
+Connects Home Assistant to your Music Assistant Server to allow control from your HA instance, allow you to automate your music and allow voice control!
 
 ## Preview
 
-![Preview image](assets/screenshots/screen1.png)
+![Preview image](assets/screenshots/screen1.png) {width = 800 } 
 
 <details>
 <summary>Click to show more screenshots</summary>
 
-![Preview image](assets/screenshots/screen3.png)
+![Preview image](assets/screenshots/screen3.png) {width = 800 } 
 
-![Preview image](assets/screenshots/screen2.png)
-
-![Preview image](assets/screenshots/screen4.png)
-
-![Preview image](assets/screenshots/screen5.png)
+![Preview image](assets/screenshots/screen2.png) {width = 800 } 
 
 </details>
 
-## Documentation and support
-
-- [issue tracker](https://github.com/music-assistant/hass-music-assistant/issues) to create bug reports, please include detailed info and logfiles. Please check if your issue has already been reported.
-- [feature requests](https://github.com/music-assistant/hass-music-assistant/discussions/categories/feature-requests-and-ideas): Give your vote to an existing request, join the discussion or add a new request.
-- [Q&A section](https://github.com/music-assistant/hass-music-assistant/discussions/categories/q-a-faq) Frequently asked questions and tutorials
-- [discord community](https://discord.gg/kaVm8hGpne) Join the community and get support!
-
 ## I want to help
 
-With a large project like this, there is always enough todo. Not only with actual writing of code but also in documentation, providing support, testing etc. Ofcourse you help me out greatly by donating me a few bucks but helping out can also be done in other ways:
+With a large project like this, there is always enough todo. Not only with actual writing of code but also in documentation, providing support, testing etc. Of course you can help me out greatly by donating a few bucks but helping out can also be done in other ways:
 
 - If you like to help with the development, e.g. implementing a new music provider or fix a player specific quirk, please reach out to me on discord in a PM. I did not have time to write extended development docs but once you get the grasp of the structure it is relatively straight forward.
 - Help others out on discord or within the discussions part of Github.

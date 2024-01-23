@@ -1,4 +1,4 @@
-# Filesystem Provider
+# Filesystem Provider ![Preview image](../assets/icons/localfiles-icon.png){ width=70 align=right }
 
 Music Assistant has full support for reading your own (local) music files on disk or a remote server and catalogs it into the library, allowing playback to all player providers supported by Music Assistant. 
 
