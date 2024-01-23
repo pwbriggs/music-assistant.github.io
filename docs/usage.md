@@ -38,15 +38,15 @@ For specific player provider information refer to the relevant section in this d
 
 Each player has its own queue. Depending upon screen resolution the PLAYED ITEMS option may or may not be visible. If it is then selecting that will show the previous items from the queue and selecting any will restart the queue from that point.
 
-![Preview image](assets/screenshots/queue#1.png)
+![Preview image](assets/screenshots/queue1.png)
 
 Right clicking or long press on a track in the queue will show this menu
 
-![Preview image](assets/screenshots/queue#2.png)
+![Preview image](assets/screenshots/queue2.png)
 
 The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom.
 
-![Preview image](assets/screenshots/queue#3.png)
+![Preview image](assets/screenshots/queue3.png)
 
 ## User Interface
 
