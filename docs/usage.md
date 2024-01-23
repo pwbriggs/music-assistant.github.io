@@ -25,6 +25,8 @@ General Notes:
 
 For specific player provider information refer to the relevant section in this document.
 
+In the player provider settimgs you can disable or hide any players you do not use.
+
 **Audio Quality**
 
 96khz/24 bits and above is considered high resolution (Hi Res)
