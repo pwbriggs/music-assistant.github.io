@@ -33,7 +33,7 @@ The Music Assistant server is a free, opensource Media library manager that conn
 
 ## Music Assistant Integration
 
-Connects Home Assistant to your Music Assistant Server to allow control from your HA imstance, allow you to automate your music and allow voice control!
+Connects Home Assistant to your Music Assistant Server to allow control from your HA instance, allow you to automate your music and allow voice control!
 
 ## Preview
 
@@ -48,16 +48,9 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 
 </details>
 
-## Documentation and support
-
-- [issue tracker](https://github.com/music-assistant/hass-music-assistant/issues) to create bug reports, please include detailed info and logfiles. Please check if your issue has already been reported.
-- [feature requests](https://github.com/music-assistant/hass-music-assistant/discussions/categories/feature-requests-and-ideas): Give your vote to an existing request, join the discussion or add a new request.
-- [Q&A section](https://github.com/music-assistant/hass-music-assistant/discussions/categories/q-a-faq) Frequently asked questions and tutorials
-- [discord community](https://discord.gg/kaVm8hGpne) Join the community and get support!
-
 ## I want to help
 
-With a large project like this, there is always enough todo. Not only with actual writing of code but also in documentation, providing support, testing etc. Ofcourse you help me out greatly by donating me a few bucks but helping out can also be done in other ways:
+With a large project like this, there is always enough todo. Not only with actual writing of code but also in documentation, providing support, testing etc. Of course you can help me out greatly by donating a few bucks but helping out can also be done in other ways:
 
 - If you like to help with the development, e.g. implementing a new music provider or fix a player specific quirk, please reach out to me on discord in a PM. I did not have time to write extended development docs but once you get the grasp of the structure it is relatively straight forward.
 - Help others out on discord or within the discussions part of Github.
