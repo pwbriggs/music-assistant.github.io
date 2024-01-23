@@ -2,6 +2,8 @@
 
 [![pypi_badge](https://img.shields.io/pypi/v/music_assistant.svg)](https://pypi.python.org/pypi/music_assistant)
 
+![MA Banner](assets/MA_banner.png)
+
 Turn your Home Assistant instance into a jukebox and enjoy hassle free streaming of your favourite media to Home Assistant media players.
 
 Music Assistant is a music library manager for your offline and online music sources which can be combined with the power of Home Assistant to easily stream your favourite music to a wide range of supported players.
