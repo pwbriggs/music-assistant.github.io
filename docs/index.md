@@ -37,16 +37,14 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 
 ## Preview
 
-![Preview image](assets/screenshots/screen1.png) {width = 800 } 
+![Preview image](assets/screenshots/screen1.png){width=800 } 
 
-<details>
-<summary>Click to show more screenshots</summary>
+??? note "Click to show more screenshots"
 
-![Preview image](assets/screenshots/screen3.png) {width = 800 } 
+    ![Preview image](assets/screenshots/screen3.png){width=800 } 
 
-![Preview image](assets/screenshots/screen2.png) {width = 800 } 
+    ![Preview image](assets/screenshots/screen2.png){width=800 } 
 
-</details>
 
 ## I want to help
 
