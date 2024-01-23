@@ -10,7 +10,9 @@ The Airplay provider within Music Assistant is based around the [fantastic work 
 - Airplay devices will play in sync.
 - It is possible to sync Airplay devices with slimproto based devices too.
 - Audio quality is lossless 44.1/16bits PCM and optionally compressed as (lossless) ALAC
-- Any physical control buttons on the device should be  supported as long as flow mode is not enabled. 
+- Any physical control buttons on the device should be  supported as long as flow mode is not enabled.
+- The player settings include some basic equaliser settings.
+- The player settings allow configuration of stereo pairs of speakers.
 
 ## Known Issues / Notes
 
@@ -19,9 +21,5 @@ The Airplay provider within Music Assistant is based around the [fantastic work 
 - To enable playback to a Macbook, you need to enable access to "everyone on the same network" in the Airplay settings of the Macbook.
 - Because Apple TV's require authentication, they are not supported yet (but will be in the future if there's any demand).
 - Samsung seems to have implemented AirPlay 2 in a way that it isn't fully backwards compatible. Everything seems to work, changing volume, song info is shown, and you can control the samsung device as expected, however there is no sound. Users of similar applications such as Roon and anything based on slimproto have the same problem. 
-
-## Troubleshooting/tips
-
 - Some devices (such as Kodi or some 3rd party airplay receivers) require encryption. You can enable encryption in the player settings.
-- In settings you can disable any devices you do not use.
 - If you find your player is going unavailable when still powered on then it may not be sending its keep alive message. A timeout can be configured for each player. Some users have reported they have needed to set it as long as one hour.
