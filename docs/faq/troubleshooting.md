@@ -68,4 +68,4 @@ Some amplifiers may auto turn on when a signal is detected so check the amplifie
 
 ### **My local music isn’t being imported or I’m seeing missing ID3 tag warnings in the logs** 
 
-This is likely a tagging problem. See [here](../music-providers/filesystem/)
+This is likely a tagging problem. See [here](../music-providers/filesystem.md/)
