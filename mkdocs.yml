@@ -39,7 +39,6 @@ nav:
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
   - Support: support.md
-  - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
   favicon: assets/favicon.png
@@ -92,7 +91,7 @@ extra:
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/music-assistant/ 
     - icon: fontawesome/brands/dev
-      link: https://music-assistant.github.io/developer-docs/dev-docs/
+      link: developer-docs/dev-docs.md
       
 markdown_extensions:
   - pymdownx.highlight:
