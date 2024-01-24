@@ -19,6 +19,7 @@ nav:
     - Technical Info: faq/normalization.md
     - Troubleshooting: faq/troubleshooting.md
   - Music Providers:
+    - music-providers: index.md
     - Deezer: music-providers/deezer.md
     - Local Files: music-providers/filesystem.md
     - Plex: music-providers/plex.md
@@ -92,7 +93,7 @@ extra:
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/music-assistant/ 
     - icon: fontawesome/brands/dev
-      link: developer-docs/dev-docs.md
+      link: ./developer-docs/dev-docs.md
       
 markdown_extensions:
   - pymdownx.highlight:
