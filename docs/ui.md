@@ -50,7 +50,7 @@ Right click or long press on a track to get the following
 
 If the provider supports it you will also see the START RADIO option. This will populate the queue with tracks based on the selected track.
 
-![image](assets/screenshots/UI-start-radio.png)
+![image](assets/screenshots/UI-start-radio.jpeg)
 
 ***************************************************************
 
