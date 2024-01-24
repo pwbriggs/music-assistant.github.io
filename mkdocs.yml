@@ -39,7 +39,6 @@ nav:
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
   - Support: support.md
-  - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
   favicon: assets/favicon.png
@@ -87,12 +86,17 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/music-assistant
+      name: Music Asisstant on Github
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
+      name: Music Assistant on Discord
     - icon: fontawesome/brands/python
-      link: https://pypi.org/project/music-assistant/ 
+      link: https://pypi.org/project/music-assistant/
+      name: Music Assistant on PyPi
     - icon: fontawesome/brands/dev
-      link: https://music-assistant.github.io/developer-docs/dev-docs/
+      link: ./developer-docs/dev-docs/
+      name: Developer Docs
+
       
 markdown_extensions:
   - pymdownx.highlight:
