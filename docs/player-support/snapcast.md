@@ -190,25 +190,3 @@ To install the client:
 ## Snapdroid for Snapcast on Android
 
 Snapdroid is an Android app designed for use with Snapcast. It can be found on the Google Play Store.
-
-<h3>Installation Steps:</h3>
-
-1. **Open Google Play Store:**
-   - On your Android device, open the Google Play Store.
-
-2. **Search for Snapdroid:**
-   - Use the search bar within the Play Store to look for "Snapdroid."
-
-3. **Select and Install:**
-   - Find the Snapdroid app in the search results.
-   - Tap on the app to view its details.
-   - Click the "Install" button to download and install the app.
-
-4. **Accept Permissions:**
-   - During the installation process, the app may request certain permissions. Review them and click "Accept" if you're comfortable with the permissions.
-
-5. **Wait for Installation:**
-   - The app will be downloaded and installed on your device. Wait for the process to complete.
-
-6. **Open Snapdroid:**
-   - Once installed, you can open Snapdroid from your app drawer or home screen.
