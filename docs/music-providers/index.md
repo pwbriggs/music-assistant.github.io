@@ -1,4 +1,4 @@
-## Music Providers
+# Music Providers
 
 For specific music provider information refer to the relevant section.
 
