@@ -92,9 +92,6 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
       name: Music Assistant on Discord
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/music-assistant/
-      name: Music Assistant on PyPi
     - icon: fontawesome/brands/dev
       link: ./developer-docs/dev-docs/
       name: Developer Docs
