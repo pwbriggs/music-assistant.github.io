@@ -1,9 +1,11 @@
 # Snapcast ![Preview image](../assets/icons/snapcast-icon.svg){ width=70 align=right }
 
-_Contributed and maintained by @SantiagoSotoC_
-
 Music Assistant supports Snapcast, a powerful solution for synchronized multi-room audio streaming. Snapcast enables seamless playback across various devices, creating an immersive audio experience.
-Whether you're using Snapcast-compatible speakers or devices like the Raspberry Pi, you can enjoy synchronized audio playback effortlessly.
+Whether you're using Snapcast-compatible speakers or devices like the Raspberry Pi, you can enjoy synchronized audio playback effortlessly. This component was contributed and maintained by [SantiagoSotoC](https://github.com/Santiagosotoc)
+
+In order to use this provider you need to also have a Snapcast server running on your network. The diagram below shows a possible combination of outputs. In the diagram a Raspberry Pi runs the server which communicates to MA and all of the clients. The server running Pi is also running Snapclient and is connected to a set of speakers. Then there is another Pi running Snapclient in another room, a phone running Snapdroid and a laptop running Snapweb,
+
+![Preview image](../assets/snapcast.png){ width=800 }
 
 ## Features
 
@@ -12,6 +14,7 @@ Whether you're using Snapcast-compatible speakers or devices like the Raspberry 
 
 ## Known Issues / Notes
 
+- The Snapcast provider is not enabled by default. When enabled the Snapcast server IP and port must be entered. From this point the workings of the server are transparent and the clients appear in the MA UI. 
 - Music Assistant currently implements Snapcast version 0.27.0 only; future updates may include support for newer versions.
 - Snapcast players don´t support crossfading of audio by default. For full gapless support and enhanced crossfading, "enable crossfade" in the player's advanced settings.
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as snapdroid or snapweb
@@ -20,10 +23,11 @@ Whether you're using Snapcast-compatible speakers or devices like the Raspberry 
 - Ensure the server is launched with the command "snapserver -v".
 - Ensure that the ports on the snapserver host 1704, 1705 are open. Also ensure that for each client a port equal to or greater than 4953 is open.
 - Try the default snapcast settings and then make changes as necessary.
+- Client names for all clients can be adjusted in Snapweb and Snapdroid via their respective UIs
 
 ## Install Snapserver
 
-### On Linux 
+<h3>On Linux</h3>
 
 Snapcast packages are available for several Linux distributions:
 
@@ -34,13 +38,13 @@ Snapcast packages are available for several Linux distributions:
 - [Archlinux](#archlinux)
 - [Void Linux](#void-linux)
 
-### Debian
+<h3>Debian</h3>
 
 For Debian (and Debian-based systems, such as Ubuntu, Linux Mint, elementary OS), download the package for your CPU architecture from the [latest release page](https://github.com/badaix/snapcast/releases/latest).
 
 For example, for Raspberry Pi `snapserver_0.27.0-1_armhf.deb`, for laptops `snapserver_0.27.0-1_amd64.deb`.
 
-#### Using apt 1.1 or later:
+<h4>Using apt 1.1 or later:</h4>
 
 ```bash
 sudo apt install </path/to/snapserver_0.27.0-1_[arch].deb>
@@ -52,7 +56,7 @@ sudo wget https://github.com/badaix/snapcast/releases/download/v0.27.0/snapserve
 sudo apt install ./snapserver_0.27.0-1_armhf.deb
 ```
 
-#### Using dpkg:
+<h4>Using dpkg:</h4>
 
 Install the package:
 
@@ -66,7 +70,7 @@ Install missing dependencies:
 sudo apt-get -f install
 ```
 
-### Alpine Linux
+<h3>Alpine Linux</h3>
 
 On Alpine Linux, use:
 
@@ -74,7 +78,7 @@ On Alpine Linux, use:
 apk add snapcast-server
 ```
 
-### Gentoo Linux
+<h3>Gentoo Linux</h3>
 
 On Gentoo Linux, use:
 
@@ -82,7 +86,7 @@ On Gentoo Linux, use:
 emerge --ask media-sound/snapcast
 ```
 
-### Archlinux
+<h3>Archlinux</h3>
 
 On Archlinux, Snapcast is available through the AUR. To install, use your favorite AUR helper, or do:
 
@@ -92,7 +96,7 @@ cd snapcast
 makepkg -si
 ```
 
-### Void Linux
+<h3>Void Linux</h3>
 
 To install the server:
 
@@ -126,11 +130,11 @@ This will enable MA to stream directly to any browser.
 
 ## Install Snapclient
 
-### Linux
+<h3>Linux</h3>
 
 Snapcast provides packages for various Linux distributions to install the Snapclient.
 
-#### Debian-based systems (e.g., Ubuntu, Linux Mint)
+<h4>Debian-based systems (e.g., Ubuntu, Linux Mint)</h4>
 
 1. Download the Snapclient package for your CPU architecture from the [latest release page](https://github.com/badaix/snapcast/releases/latest).
 
@@ -149,7 +153,7 @@ Snapcast provides packages for various Linux distributions to install the Snapcl
    sudo dpkg -i </path/to/snapclient_0.27.0-1_[arch].deb>
    sudo apt-get -f install
    ```
-#### Alpine Linux
+<h4>Alpine Linux</h4>
 
 On Alpine Linux, use:
 
@@ -157,7 +161,7 @@ On Alpine Linux, use:
 apk add snapcast-client
 ```
 
-#### Gentoo Linux
+<h4>Gentoo Linux</h4>
 
 On Gentoo Linux, use:
 
@@ -165,7 +169,7 @@ On Gentoo Linux, use:
 emerge --ask media-sound/snapcast
 ```
 
-#### Archlinux
+<h4>Archlinux</h4>
 
 On Archlinux, Snapcast is available through the AUR. To install, use your favorite AUR helper, or do:
 
@@ -175,7 +179,7 @@ cd snapcast
 makepkg -si
 ```
 
-#### Void Linux
+<h4>Void Linux</h4>
 
 To install the client:
 
@@ -187,7 +191,7 @@ To install the client:
 
 Snapdroid is an Android app designed for use with Snapcast. It can be found on the Google Play Store.
 
-### Installation Steps:
+<h3>Installation Steps:</h3>
 
 1. **Open Google Play Store:**
    - On your Android device, open the Google Play Store.
