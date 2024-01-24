@@ -52,7 +52,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-
+    - navigation.indexes
+    
     - toc.integrate
     
     - search.suggest
