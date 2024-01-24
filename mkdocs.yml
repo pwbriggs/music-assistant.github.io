@@ -93,7 +93,7 @@ extra:
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/music-assistant/ 
     - icon: fontawesome/brands/dev
-      link: ./developer-docs/dev-docs.md
+      link: ./developer-docs/dev-docs/
       
 markdown_extensions:
   - pymdownx.highlight:
