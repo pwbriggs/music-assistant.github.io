@@ -5,7 +5,7 @@ repo_name: music-assistant
 repo_url: https://github.com/music-assistant
 
 nav:
-  - Music Assistant: index.md
+  - Home: index.md
   - Server Installation: Installation.md
   - Home Assistant Integration: 
     - Integration Installation: integration.md
@@ -15,7 +15,11 @@ nav:
   - Usage: 
     - General: usage.md
     - UI: ui.md
+    - How Do I...: faq/how-to.md
+    - Technical Info: faq/normalization.md
+    - Troubleshooting: faq/troubleshooting.md
   - Music Providers:
+    - music-providers/index.md
     - Deezer: music-providers/deezer.md
     - Local Files: music-providers/filesystem.md
     - Plex: music-providers/plex.md
@@ -35,13 +39,7 @@ nav:
     - Snapcast: player-support/snapcast.md
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
-    
-  - FAQ:
-    - How Do I...: faq/how-to.md
-    - Technical Info: faq/normalization.md
-    - Troubleshooting: faq/troubleshooting.md
   - Support: support.md
-  - Developer Docs: developer-docs/dev-docs.md  
 
 theme:
   favicon: assets/favicon.png
@@ -55,7 +53,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-
+    - navigation.indexes
+    
     - toc.integrate
     
     - search.suggest
@@ -89,11 +88,15 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/music-assistant
+      name: Music Asisstant on Github
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/music-assistant/ 
+      name: Music Assistant on Discord
+    - icon: fontawesome/brands/dev
+      link: ./developer-docs/dev-docs/
+      name: Developer Docs
 
+      
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

@@ -12,15 +12,6 @@ For streaming providers ONLY the SPECIFIC artists/albums/tracks/playlists that a
 
 As a further means of filtering the library, items can be marked as a "favourite". This is shown in the UI as a filled heart icon. Items are not favourited by default. You can see all items if you deselect the heart icon in the top menu.
 
-## Music Providers
-
-For specific music provider information refer to the relevant section in this document.
-
-General Notes:
-
-- You have to add providers in order to access your music even if the media is visible to HA.
-- If you remove a provider a cleanup of the database will be done but it takes a little time to complete. If you restart MA or the provider before the cleanup completes the task will be terminated and will not restart.
-
 ## Players
 
 For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically diacovered by Music Assistant.
