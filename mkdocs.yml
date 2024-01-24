@@ -5,7 +5,7 @@ repo_name: music-assistant
 repo_url: https://github.com/music-assistant
 
 nav:
-  - Music Assistant: index.md
+  - Home: index.md
   - Server Installation: Installation.md
   - Home Assistant Integration: 
     - Integration Installation: integration.md
@@ -15,6 +15,9 @@ nav:
   - Usage: 
     - General: usage.md
     - UI: ui.md
+    - How Do I...: faq/how-to.md
+    - Technical Info: faq/normalization.md
+    - Troubleshooting: faq/troubleshooting.md
   - Music Providers:
     - Deezer: music-providers/deezer.md
     - Local Files: music-providers/filesystem.md
@@ -35,11 +38,6 @@ nav:
     - Snapcast: player-support/snapcast.md
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
-    
-  - FAQ:
-    - How Do I...: faq/how-to.md
-    - Technical Info: faq/normalization.md
-    - Troubleshooting: faq/troubleshooting.md
   - Support: support.md
   - Developer Docs: developer-docs/dev-docs.md  
 
@@ -93,7 +91,9 @@ extra:
       link: https://discord.gg/kaVm8hGpne
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/music-assistant/ 
-
+    - icon: fontawesome/brands/dev
+      link: https://music-assistant.github.io/developer-docs/dev-docs/
+      
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
