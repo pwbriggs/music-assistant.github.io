@@ -1,10 +1,10 @@
 # Support
 
-Because this project originated out of a Home Assistant integration, we maintain all our enduser support in a separate reposity. Raise issues and discuss ideas [here](https://github.com/music-assistant/hass-music-assistant)
+Because this project originated out of a Home Assistant integration, all enduser support is maintained in a separate repository. Raise issues and discuss ideas [here](https://github.com/music-assistant/hass-music-assistant)
 
 Direct links are:
 
-- [Issue Tracker](https://github.com/music-assistant/hass-music-assistant/issues) to create bug reports. Please review our [troubleshooting](faq/troubleshooting.md) page first and check if your issue has already been reported. If you do raise a report please include detailed info and logfiles.
+- [Issue Tracker](https://github.com/music-assistant/hass-music-assistant/issues) to create bug reports. Please review the [troubleshooting](faq/troubleshooting.md) page first and check if your issue has already been reported. When raising a report please include detailed info and logfiles.
 - [Feature Requests](https://github.com/music-assistant/hass-music-assistant/discussions/categories/feature-requests-and-ideas): Give your vote to an existing request, join the discussion or add a new request.
 - [Q&A Section](https://github.com/music-assistant/hass-music-assistant/discussions/categories/q-a-faq) Frequently asked questions and tutorials
 
@@ -14,7 +14,7 @@ Direct links are:
 
 **Before You Ask:**
 
-Review how To [Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
+Review how to [Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
 
 Before asking a technical question in any of our support channels, please do the following:
 

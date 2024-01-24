@@ -8,7 +8,7 @@ The Airplay provider within Music Assistant is based around the [fantastic work 
 
 - Airplay devices are auto detected in Music Assistant, plug and play.
 - Airplay devices will play in sync.
-- It is possible to sync Airplay devices with slimproto based devices too.
+- It is possible to sync Airplay devices with slimproto based devices.
 - Audio quality is lossless 44.1/16bits PCM and optionally compressed as (lossless) ALAC
 - Any physical control buttons on the device should be  supported as long as flow mode is not enabled.
 - The player settings include some basic equaliser settings.

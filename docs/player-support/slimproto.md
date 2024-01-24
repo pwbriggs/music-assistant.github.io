@@ -7,7 +7,6 @@ This means you can use squeezebox players directly with Music Assistant. This ap
 ## Features
 
 - Slimproto devices are auto detected in Music Assistant
-- In settings you can disable any devices you do not use.
 - Slimproto devices will play in sync
 - It is possible to sync Airplay devices with slimproto based devices.
 - Any physical control buttons on the device should be supported as long as flow mode is not enabled.
