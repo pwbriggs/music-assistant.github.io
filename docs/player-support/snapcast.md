@@ -187,6 +187,6 @@ To install the client:
 # xbps-install snapclient
 ```
 
-## Snapdroid for Snapcast on Android
+## Install Snapdroid
 
 Snapdroid is an Android app designed for use with Snapcast. It can be found on the Google Play Store.
