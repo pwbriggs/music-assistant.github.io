@@ -1,5 +1,5 @@
 # Music Assistant Companion
-[![latest version](https://img.shields.io/github/release/music-assistant/music-assistant-desktop?display_name=tag&include_prereleases&label=Latest%20version)]([https://github.com/music-assistant/hass-music-assistant/releases](https://github.com/music-assistant/music-assistant-desktop/releases/latest))
+[![latest version](https://img.shields.io/github/release/music-assistant/music-assistant-desktop?display_name=tag&include_prereleases&label=Latest%20version)](https://github.com/music-assistant/hass-music-assistant/releases](https://github.com/music-assistant/music-assistant-desktop/releases/latest))
 [![discord](https://img.shields.io/discord/753947050995089438?label=Discord&logo=discord&color=5865F2)](https://discord.gg/kaVm8hGpne)
 [![sponsor](https://img.shields.io/github/sponsors/music-assistant?label=sponsors)](https://github.com/sponsors/music-assistant)
 [![sponsor](https://img.shields.io/static/v1?label=Licence&message=Apache-2.0&color=000)](https://github.com/music-assistant/music-assistant-desktop/blob/main/LICENSE)
