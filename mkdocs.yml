@@ -50,7 +50,6 @@ theme:
     code: JetBrains Mono
     
   features:
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.indexes
