@@ -1,17 +1,16 @@
 # Qobuz Provider ![Preview image](../assets/icons/qobuz-icon.svg){ width=70 align=right }
 
-Music Assistant has full support for [Qobuz](https://www.qobuz.com/) media listing and playback, including Qobuz's excellent HiRes catalogue!
+Music Assistant has full support for [Qobuz](https://www.qobuz.com/), including Qobuz's excellent HiRes catalogue!
 
-## Notes
-- In the configuration, you need to enter your Qobuz username and password
-
-## Supported features
+## Features
 - Support for Artists, Albums, Tracks and Playlists.
-- Items in your Qobuz library will be marked as "in library" in Music Assistant.
+- Items in your Qobuz Favourites will be marked as "in library" in Music Assistant.
 - Marking an item as "in library" from the Music Assistant interface will also mark it as a favorite in Qobuz
-- Playback of Qobuz content to all players supported by Music Assistant.
 - On playback, the highest quality is preferered automatically.
 
-## Not yet supported, but will be added later
+## Configuration
+- In the configuration, you need to enter your Qobuz username and password
 
-- Recommendations 
+## Not yet supported
+
+- Recommendations

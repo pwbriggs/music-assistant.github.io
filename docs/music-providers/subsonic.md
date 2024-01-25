@@ -1,6 +1,6 @@
 # Subsonic Provider ![Preview image](../assets/icons/subsonic_icon.png){ width=70 align=right }
 
-Music Assistant has support for music servers which work to the Open Subsonic API definition. The implementation has been tested against Gonic and Navidrome but should work with any implementation. Currently only Music is imported into the Music Assistant database but the infrastructure for handling podcasts is present when they are supported in Music Assistant.
+Music Assistant has support for music servers which work to the Open Subsonic API definition. The implementation has been tested against Gonic and Navidrome but should work with any implementation. Currently only Music is imported into the Music Assistant database but the infrastructure for handling podcasts is present when they are supported in Music Assistant. This component is contributed and maintained by [khers](https://github.com/khers)
 
 ## Configuration:
 You will need to provide the following to Music Assistant:
@@ -13,8 +13,6 @@ You will need to provide the following to Music Assistant:
 
 There is also a toggle for podcasts which will have no effect now but will allow those who cannot or do not want to make podcasts available to Music Assistant.
 
-## Known issues:
-Not all server implementations accept an empty string as a search query, however this is considered valid input per the API documentation. If search or track enumeration fails, ask the authors of your server implementation about handling empty query strings.
-
-## Troubleshooting tips
-This provider makes use of https://github.com/khers/py-opensonic for communicating with the server, if something is failing to work properly in Music Assistant, try to use that library to interact with your server (can you ping it?, fetch artist and albums?, can you search?).
+## Known Issues / Notes
+- Not all server implementations accept an empty string as a search query, however this is considered valid input per the API documentation. If search or track enumeration fails, ask the authors of your server implementation about handling empty query strings.
+- This provider makes use of https://github.com/khers/py-opensonic for communicating with the server, if something is failing to work properly in Music Assistant, try to use that library to interact with your server (can you ping it?, fetch artist and albums?, can you search?).

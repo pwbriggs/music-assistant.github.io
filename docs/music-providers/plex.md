@@ -1,11 +1,12 @@
 # Plex Provider ![Preview image](../assets/icons/plex-icon.svg){ width=70 align=right }
 
-Music Assistant has support for using Plex (MusicLibrary). Contributed by @micha91
+Music Assistant has support for using Plex (MusicLibrary). Contributed by [micha91](https://github.com/micha91)
 
 !!! warning 
     Please be advised this provider is currently not maintained. Issues may take a long time to be resolved. Consider sharing your music directly with MA instead
 
 ## Configuration
+
 ![Preview image](../assets/screenshots/plex/plex-config-opts.png)
 
 - Click the `Use Plex GDM to discover local servers` button, this **should** discover your local server and prefill the `local_server_ip` and `local_server_port` fields.
@@ -14,10 +15,8 @@ Music Assistant has support for using Plex (MusicLibrary). Contributed by @micha
 - Select the Music library that you would like to use.
 - Save the settings.
 
-That should be all you need to do in order to get up and running with Plex.
-
-## Notes
+## Known Issues / Notes
 
 - A Plex provider is always bound to a user account and a library. 
-  - If you have multiple libraries, you need to add the Plex provider multiple times.
-  - If you have multiple Plex accounts, which have their own playlists, you can also add them as separate provider instances.
+- If you have multiple libraries, you need to add the Plex provider multiple times.
+- If you have multiple Plex accounts, which have their own playlists, you can also add them as separate provider instances.

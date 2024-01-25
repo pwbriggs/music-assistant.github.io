@@ -62,7 +62,6 @@ ____________
 - Music sources are synced at addon (re)start and every 3 hours.
 - If a song is available on multiple providers (e.g. Spotify and a flac file on disk), the file/stream with the highest quality is always preferred when starting a stream.
 - Music Assistant uses a custom stream port (TCP 8096 by default) to stream audio to players. Players must be able to reach the Home Assistant instance and this port. If you're running one of the recommended HAOS installation methods, this is all handled for you, otherwise you will have to make sure you're running MA in a container in HOST network mode. Note: If the default port 8096 is occupied, the next port will be tried, and so on.
-- See the [GitHub discussion](https://github.com/orgs/music-assistant/discussions/710#discussioncomment-7987528) for more detailed information
 
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon

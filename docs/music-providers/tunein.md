@@ -2,6 +2,10 @@
 
 Music Assistant has support for [Tunein](https://tunein.com/)
 
-## Notes
+## Features
 
-In the configuration, you only need to add your login name. The stations which are in your TuneIn library will be imported into the MA library
+The stations which are in your TuneIn library will be imported into the MA library
+ 
+## Configuration
+
+In the configuration, you only need to add your login name.

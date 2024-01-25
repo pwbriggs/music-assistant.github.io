@@ -52,7 +52,7 @@ Add the prompt found [here](https://github.com/music-assistant/hass-music-assist
 
 ![Preview image](assets/screenshots/screen6.png)
 
-**Usage**
+### Usage
 
 !!! note
     This functionality has only been tested with `Home Assistant` selected as the `Conversation Agent` in the voice assistant configuration.
@@ -60,26 +60,48 @@ Add the prompt found [here](https://github.com/music-assistant/hass-music-assist
 The command to play must follow a certain format. For the following examples assume the house has three areas called `Study`, `Kitchen `and `Karen's Bedroom` and there are three media players with friendly names "`Study Sonos`", "`Google Home`" and "`Karen's Speaker`". Assist aliases are supported for areas and entities.
 
 There are two main formats which differ by where the playing location appears in the sentence. 
-`Play Nirvana in the Study` or `Listen to Nirvana in the Study`
-`In the Study play Nirvana` or `In the Study listen to Nirvana`
+```
+Play Nirvana in the Study
+Listen to Nirvana in the Study
+In the Study play Nirvana
+In the Study listen to Nirvana
+```
+!!! note
+You cannot ask to play to an area if there is more than one media player in that area.
 
 You can do exactly the same as the above but use the friendly names or any assist aliases of the media player instead of the area name:
-`Play Nirvana on the Google Home`
-`Play the Dixie Chicks First Album on Karen's Speaker`
 
-If you have more that one media player in an area you can also use:
-`Play Nirvana in the Study on the Study Sonos`
+```
+Play Nirvana on the Google Home
+Play the Dixie Chicks First Album on Karen's Speaker
+```
 
-Other examples that work are (this is not an exhaustive list):
-`Play Beds are burning by Midnight Oil on the Google Home in the Kitchen`
-`Play Journey Don’t stop believing in the Study on the media player`
-`In the Study on the speaker listen to Journey Don’t Stop Believing`
+You can also use the words `speaker` or `player` or `media player` in conjunction with the area name:
+```
+Play Beds are burning by Midnight Oil on the Kitchen speaker
+Play Journey Don’t stop believing on the Study media player
+On Karen's Bedroom player listen to Journey Don’t Stop Believing
+```
 
 !!! note
     When adding a track it will be added to the top of the existing queue and played immediately. In all other cases the queue will be cleared and the requested music will then be added and playback will commence.
     
-**Troubleshooting**
+### Troubleshooting
 
-- If when trying to play to a specific player using the friendly name you receive “An unexpected error occurred while handling the intent” try adding an alias to the MA media player entity (which can be identical to the friendly name).
-- If you have failures playing to an area with an error in the log related to `No entities matched` then make sure you don't have any entities named identically to your area
-- Ensure media players and areas are exposed to Assist
+- A response of "Sorry I couldn't understand that" indicates a failure in the pipeline before it reaches the HA integration. In this case consider doing the following.
+    - Ensure media players and areas are exposed to Assist
+    - Try typing the command
+    - Look carefully for differences as the ASCII level for punctuation variation between devices. This ’ and this ' are different
+    - Try adding an alias to the MA media player entity (which can be identical to the friendly name)
+    - Add the following to your `configuration.yaml` so you can see more detail about the intent failure
+```
+    logger:
+      default: warning
+      logs:
+        homeassistant.components.conversation: debug
+        homeassistant.components.intent: debug
+```
+
+- If when trying to play to an area you receive “An unexpected error occurred while handling the intent” then:
+    - Check the log for errors related to `No entities matched`. If found then make sure you don't have any entities named identically to your area
+    - Ensure you aren't trying to play to an AREA and that area has multiple media players
