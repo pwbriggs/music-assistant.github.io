@@ -2,22 +2,17 @@
 
 Music Assistant has support for [RadioBrowser](https://www.radio-browser.info/) which allows easy addition of online radio stations to Music Assistant.
 
-## Notes
-
-You don't need a login to use this service.
-
-## Configuration
-
-- In the configuration, you only need to click the save button. 
-
-## Supported features
+## Features
 
 - You can use the search function.
 - You can add radio streams to your library.
 - Browse by country, by tag or by popularity
 
-## Usage
+## Configuration
 
+- In the configuration, you only need to click the save button. 
+
+## Usage
 
 The Radio provider doesn't add stations to the 'radiostation' tab by default.
 
