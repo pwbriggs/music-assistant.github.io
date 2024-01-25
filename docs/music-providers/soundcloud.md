@@ -1,8 +1,10 @@
 # SoundCloud Provider ![Preview image](../assets/icons/soundcloud-icon.svg){ width=70 align=right }
 
-Music Assistant has support for Soundcloud. Contributed by @gieljnssns !
+Music Assistant has support for Soundcloud. Contributed by [gieljnssns](https://github.com/gieljnssns)
 
-## How to get O-Auth and Client id
+## Configuration
+
+Two fields need to be completed to use this provider, Client id and Authorization. To obtain these proceed as follows:
 
 1. Delete your cookies for Soundcloud.
 2. Go to [Soundcloud](https://soundcloud.com).
@@ -25,7 +27,7 @@ Example code snippet (O-Auth and client_id are NOT real, use yours):
 client_id = jHvc9wa0Ejf092wj3f3920w3F920as02
 Authorization = O-Auth 3-26432-21446-asdif2309fj
 ```
-## Notes
+## Known Issues / Notes
 
 - Artists synced from Soundcloud are actually Soundcloud users.
 - If a song by artist X is uploaded by user Y, this song belongs to the artist Y in Music Assistant
