@@ -7,8 +7,9 @@ repo_url: https://github.com/music-assistant
 nav:
   - Home: index.md
   - Server Installation: Installation.md
-  - Home Assistant Integration: 
-    - Integration Installation: integration.md
+  - Home Assistant Integration:
+    - integration/index.md
+    - Installation: integration/installation.md
     - Play Media Service Call: faq/massplaymedia.md
     - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
