@@ -53,8 +53,10 @@ theme:
     code: JetBrains Mono
     
   features:
-    - navigation.top
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
     
     - toc.integrate
     
