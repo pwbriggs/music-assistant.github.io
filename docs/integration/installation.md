@@ -23,8 +23,8 @@
 
 The integration adds two service calls for use in scripts and automations. 
 
-- [mass.play_media](faq/massplaymedia.md)
-- [mass.search](faq/masssearch.md)
+- [mass.play_media](../faq/massplaymedia.md)
+- [mass.search](../faq/masssearch.md)
 
 ## OpenAI features
 
