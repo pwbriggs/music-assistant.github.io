@@ -32,6 +32,7 @@ nav:
     - TuneIn: music-providers/tunein.md
     - YouTube Music: music-providers/youtube-music.md
   - Player Providers:
+    - player-support/index.md
     - AirPlay: player-support/airplay.md
     - DLNA: player-support/dlna.md
     - Google Cast: player-support/google-cast.md
