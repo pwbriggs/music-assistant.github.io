@@ -8,26 +8,6 @@ The setting in MA is the target level for the volume normalization. MA does not 
 
 More details [here](normalization.md)
 
-# Stream to my local HA device
-
-Install the [squeezelite addon](https://github.com/pssc/ha-addon-squeezelite) which will then allow streaming over an audio connection the HA host to your speaker or amplifier
-
-# Stream to my non-networked or bluetooth speaker or amplifier
-
-Install a [squeeze lite compatible application](https://sourceforge.net/projects/lmsclients/files/squeezelite/) to your mobile or other devices which MA will be able to stream to. If you have a spare Raspberry Pi then [PiCoreplayer](https://www.picoreplayer.org) is an excellent solution than can also connect to Bluetooth speakers.
-
-See here for info on [how to run squeezelite on Windows](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948)
-
-The [MA Companion App](../companion-app.md) can also be configured to run a squeezelite client which will allow playback to the device running it.
-
-# Stream to my browser
-
-Use a [Snapserver](../player-support/snapcast.md) and the Snapweb option.
-
-# Stream to Music Assistant
-
-You could use [Darkcast](http://www.darkice.org/) to stream to [Icecast](https://www.icecast.org/) which in turn sets up a web radio stream that you could add to MA! You could use this to stream your turntable around the house for example. Here is a [handy tutorial](https://maker.pro/raspberry-pi/projects/how-to-build-an-internet-radio-station-with-raspberry-pi-darkice-and-icecast). For input a [HiFiBerry](https://www.hifiberry.com/docs/hardware/comparison-of-hifiberry-cards-for-audio-recording/) could be used or a USB Audio Interface like [this one](https://www.behringer.com/product.html?modelCode=P0484) 
-
 # Have my music continue if I change rooms
 
 Start streaming to a group that includes all the rooms you will move between. Power off or mute all the rooms except the one you are in. When you move rooms just power (or mute) on and off the respective rooms. Depending on the complexity of your setup you may need to use nested groups of speakers.
@@ -56,7 +36,7 @@ data:
   media_content_type: music
 ```
 
-See also how to use the mass.play_media service call
+See also [mass.play_media service call](./massplaymedia.md)
 
 # Start a playlist with a script
 
@@ -81,7 +61,7 @@ This will also work for locally hosted streams such as from Icecast.
 
 # Create playlists or use M3U files
 
-You can create playlists from the MA UI. Adding items can also be done feom the UI.
+You can create playlists from the MA UI. Adding items can also be done from the UI.
 
 If wanting to create playlists manually acceptable formats are:
 ```
@@ -108,7 +88,24 @@ Create a playlist with multiple radio stations and start playing it. Now you can
 
 # Stop the music after a period of time aka Sleep Timer
 
-See here: https://github.com/music-assistant/hass-music-assistant/discussions/830
+``` yaml
+sequence:
+  - wait_for_trigger:
+      - platform: state
+        entity_id:
+          - media_player.mass_all_rooms
+        attribute: media_title
+    continue_on_timeout: false
+  - service: media_player.turn_off
+    data: {}
+    target:
+      entity_id:
+        - media_player.mass_all_rooms
+mode: single
+alias: Stop after current track
+```
+
+Thanks to [AAsikki](https://github.com/Aasikki) who showed us [here](https://github.com/orgs/music-assistant/discussions/830#discussioncomment-3355921)
 
 # Use MA with Mopidy
 
