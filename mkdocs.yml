@@ -7,8 +7,9 @@ repo_url: https://github.com/music-assistant
 nav:
   - Home: index.md
   - Server Installation: Installation.md
-  - Home Assistant Integration: 
-    - Integration Installation: integration.md
+  - Home Assistant Integration:
+    - integration/index.md
+    - Installation: integration/installation.md
     - Play Media Service Call: faq/massplaymedia.md
     - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
@@ -16,6 +17,7 @@ nav:
     - General: usage.md
     - UI: ui.md
     - How Do I...: faq/how-to.md
+    - I Want To Stream To: faq/stream-to.md
     - Technical Info: faq/normalization.md
     - Troubleshooting: faq/troubleshooting.md
   - Music Providers:
@@ -32,6 +34,7 @@ nav:
     - TuneIn: music-providers/tunein.md
     - YouTube Music: music-providers/youtube-music.md
   - Player Providers:
+    - player-support/index.md
     - AirPlay: player-support/airplay.md
     - DLNA: player-support/dlna.md
     - Google Cast: player-support/google-cast.md
@@ -50,8 +53,10 @@ theme:
     code: JetBrains Mono
     
   features:
-    - navigation.top
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
     
     - toc.integrate
     

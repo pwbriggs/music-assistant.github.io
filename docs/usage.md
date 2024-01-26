@@ -12,23 +12,7 @@ For streaming providers ONLY the SPECIFIC artists/albums/tracks/playlists that a
 
 As a further means of filtering the library, items can be marked as a "favourite". This is shown in the UI as a filled heart icon. Items are not favourited by default. You can see all items if you deselect the heart icon in the top menu.
 
-## Players
-
-For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically diacovered by Music Assistant.
-
-In the player provider settimgs you can disable or hide any players you do not use.
-
-**Audio Quality**
-
-96kHz / 24 bits and above is considered high resolution (Hi Res)
-
-- Sonos annd Airplay support lossless (as in cd quality) but not Hi Res.
-- Chromecast supports Hi Res up to 96KHz / 24 bits (except the video dongles)
-- Slimproto supports Hi Res up to 384kHz / 24 bits
-- DLNA supports Hi Res up to 192kHz / 24 bits
-- Snapcast supports up to 48kHz / 16 bits
-
-**Queue**
+## The Queue
 
 Each player has its own queue. Depending upon screen resolution the PLAYED ITEMS option may or may not be visible. If it is then selecting that will show the previous items from the queue and selecting any will restart the queue from that point.
 
@@ -41,7 +25,3 @@ Right clicking or long press on a track in the queue will show this menu
 The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom.
 
 ![Preview image](assets/screenshots/queue3.png)
-
-## User Interface
-
-See [here](ui.md)
