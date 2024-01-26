@@ -26,7 +26,8 @@ Or a list of uris which can even be from different music providers
 
 ![image](https://github.com/music-assistant/hass-music-assistant/assets/19848947/d084bc6d-efaf-4d2f-bb77-0b3110797cad)
 
-!!! note The regular `media_player.play_media` service call also accepts all of the above but it cannot take multiple items
+!!! note
+    The regular `media_player.play_media` service call also accepts all of the above but it cannot take multiple items
 
 There are additional options as well. These will appear when an entity that supports them is selected.
 
