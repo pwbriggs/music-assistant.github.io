@@ -6,7 +6,7 @@ MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical
 
 ## Primary installation method: Home Assistant Integration Installation
 
-Go to the [Home Assistant Integration](integration.md) page and follow the instructions there which will install the integration and the server.
+Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server.
 
 ## Secondary installation method: Home Assistant Add-on Manual Installation
 
