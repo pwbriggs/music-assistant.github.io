@@ -5,7 +5,7 @@
 [![hacs](https://img.shields.io/badge/HACS-Default-41BDF5?label=HACS)](https://github.com/hacs/integration)
 [![sponsor](https://img.shields.io/github/sponsors/music-assistant?label=sponsors)](https://github.com/sponsors/music-assistant)
 
-![Integration Image](../assets/integration.png) { align = center }
+![Integration Image](../assets/integration.png){ align = center }
 
 The Music Assistant HA Integration provides a connection between MA and HA. This means that MA players are visible in HA (but not currently the other way around) and can be controlled via the HA UI or via automations or scripts. With some additional setup voice control of MA via HA is also possible.
 
