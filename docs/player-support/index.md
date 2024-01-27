@@ -2,7 +2,7 @@
 
 For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically discovered by Music Assistant.
 
-In the player provider settimgs you can disable or hide any players you do not use.
+In the player provider settings you can disable or hide any players you do not use.
 
 ![Preview image](../assets/screenshots/player-disable.png){ width = 600 } 
 
