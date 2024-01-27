@@ -19,10 +19,10 @@ In order to use this provider you need to also have a Snapcast server running on
 - Snapcast players don´t support crossfading of audio by default. For full gapless support and enhanced crossfading, "enable crossfade" in the player's advanced settings.
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as snapdroid or snapweb
 - Pausing the player is NOT supported. If you try and do that you will get weird behaviour.
-- The snacast app for ios is broken, it uses an old version of snapclient, using it brings problems with this provider.
+- The Snapcast app for iOS is broken as it uses an old version of Snapclient. Using it brings problems with this provider.
 - Ensure the server is launched with the command "snapserver -v".
-- Ensure that the ports on the snapserver host 1704, 1705 are open. Also ensure that for each client a port equal to or greater than 4953 is open.
-- Try the default snapcast settings and then make changes as necessary.
+- Ensure that the ports on the Snapserver host 1704, 1705 are open. Also ensure that for each client a port equal to or greater than 4953 is open.
+- Try the default Snapcast settings and then make changes as necessary.
 - Client names for all clients can be adjusted in Snapweb and Snapdroid via their respective UIs
 
 ## Install Snapserver
