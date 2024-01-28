@@ -4,11 +4,13 @@ Music Assistant has support for streaming to devices running the Fully Kiosk Bro
 
 ## Features
 
-- This is a basic player but allows for grouping and has crossfade support
+- This is a basic player and cannot be grouped
+- The Fully Kiosk player must be manually added and multiple entries are allowed
+- Crossfade is supported via an option in the settings but will come at the expense of losing metadata.
   
 ## Known Issues / Notes
 
 - A [paid license](https://www.fully-kiosk.com/#pricing) for Fully Kiosk is required
-- The Fully Kiosk player must be manually added
-- When configuring you must add the device IP address and the Fully Kiosk password.
+- When configuring you must add the device IP address and the Fully Kiosk password
+- Once added the device name can be changed, if required, in the specific player configuration
 - Some devices cannot handle the FLAC stream so an option in the settings allows for changing to the lossy MP3 codec
