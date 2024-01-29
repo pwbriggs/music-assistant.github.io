@@ -15,3 +15,4 @@ Music Assistant has support for streaming to devices running the Fully Kiosk Bro
 - Once added the device name can be changed, if required, in the specific player configuration
 - Some devices cannot handle the FLAC stream so an option in the settings allows for changing to the lossy MP3 codec
 - Crossfade is supported via an option in the settings but will come at the expense of losing metadata.
+- This player can be grouped via a Universal Group but perfect sync is not possible.
