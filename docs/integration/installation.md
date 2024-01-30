@@ -57,7 +57,7 @@ In the Study play Nirvana
 In the Study listen to Nirvana
 ```
 !!! note
-You cannot ask to play to an area if there is more than one media player in that area.
+    You cannot ask to play to an area if there is more than one media player in that area.
 
 You can do exactly the same as the above but use the friendly names or any assist aliases of the media player instead of the area name:
 

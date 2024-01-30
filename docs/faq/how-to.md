@@ -40,7 +40,7 @@ See also [mass.play_media service call](./massplaymedia.md)
 
 # Start a playlist with a script
 
-Use the `media_player.play_media` service call shown above or `mass.play_media` service as described here.
+Use the `media_player.play_media` service call shown above or `mass.play_media` service as described [here](./massplaymedia.md).
 
 # Start a radio stream with an automation
 

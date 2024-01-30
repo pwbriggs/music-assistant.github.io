@@ -12,19 +12,21 @@ MA streams at high quality which may max out poor network connections. If possib
 
 If after an update something isnt working then check the GitHub Issues and Discord to see if it is a known problem. If not try restarting MA, try restarting HA, and try a full HOST REBOOT (in that order). If it is an integration problem then trying removing it from HA settings and HACS then restart HA then reinstall.
 
-Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
+Before you raise an issue [read this first](../support.md). Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Screenshots can be helpful. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
 
 - What music provider is in use
 - What player provider is in use
 - Are the players grouped?
 - How is playback being instigated (e.g. automation or via the UI)
+- If you aren't using HAOS then exactly how you have installed MA
+- What is working (e.g. player works with music provider X but not Y)
 
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
 
 # Why aren't tracks/albums matching between providers
 
-Matching items between streaming providers is challenging as they do not all provide the same or unique metadata to definitivly identify a match. If you think there is an obvious match (eg. same artist and track and album) then please submit an issue report. For more information about how MA uses metadata in various ways see here https://github.com/music-assistant/hass-music-assistant/discussions/543
+Matching items between streaming providers is challenging as they do not all provide the same or unique metadata to definitively identify a match. If you think there is an obvious match (eg. same artist and track and album) then please submit an issue report. For more information about how MA uses metadata in various ways see here https://github.com/music-assistant/hass-music-assistant/discussions/543
 
 # My media player is not available or not playing
 
@@ -32,7 +34,7 @@ Review the list of player providers. If your device doesn't support one of the l
 
 If your device does support one of the supported protocols then review the documentation for that player provider for known issues and troubleshooting tips.
 
-If your device still doesn't work and you think it should then review the full logs for discovery information and errors. Review the first things to try at the top of this page as usually if you get this far without identiying why the player isnt working it will be a networking or non-standard installation issue which, generally, you will need to resolve. Search the Github [Issues](https://github.com/orgs/music-assistant/issues), [Discussions](https://github.com/orgs/music-assistant/discussions) and [Discord](https://discord.gg/kaVm8hGpne)) as likely someone has asked your question before.
+If your device still doesn't work and you think it should then review the full logs for discovery information and errors. Review the first things to try at the top of this page as usually if you get this far without identiying why the player isnt working it will be a networking or non-standard installation issue which, generally, you will need to resolve yourself. Search the Github [Issues](https://github.com/orgs/music-assistant/issues), [Discussions](https://github.com/orgs/music-assistant/discussions) and [Discord](https://discord.gg/kaVm8hGpne)) as likely someone has asked your question before.
 
 # All my media is missing 
 
