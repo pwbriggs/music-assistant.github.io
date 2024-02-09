@@ -2,7 +2,7 @@ If you're following the frontend repo, you may have seen that we are now using L
 
 [<img src="https://github.com/lokalise/i18n-ally/raw/screenshots/lokalise-logo.png?raw=true" alt="Lokalise logo" width="275px">](https://lokalise.com)
 
-At the time of writing MA is available in Danish, Dutch 🇳🇱, English 🇬🇧, French 🇫🇷, German 🇩🇪, Hebrew, Italian, Norwegian 🇳🇴, Polish 🇵🇱, Spanish 🇪🇸 and Ukranian.
+At the time of writing MA is available in Danish, Dutch 🇳🇱, English 🇬🇧, French 🇫🇷, German 🇩🇪, Hebrew, Italian, Norwegian 🇳🇴, Polish 🇵🇱, Spanish 🇪🇸 and Ukranian 🇺🇦.
 
 We would love to support more languages, and we need your help to do so.
 
