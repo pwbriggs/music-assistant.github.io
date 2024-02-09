@@ -46,5 +46,13 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 
 ## The Team
 
+Marcel. Creator of Music Assistant
+
+Jozef. Author of the Tidal music provider as well as the voice control functionality of the HA integration. 
+
+Jonathan. Author of the Deezer music provider as well as the Companion app
+
+Gavin. Moderator on Discord and Github and coordinates the MA documentation.
+
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon
