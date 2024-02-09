@@ -6,7 +6,7 @@ repo_url: https://github.com/music-assistant
 
 nav:
   - Home: index.md
-  - Server Installation: Installation.md
+  - Installation: Installation.md
   - Home Assistant Integration:
     - integration/index.md
     - Installation: integration/installation.md
