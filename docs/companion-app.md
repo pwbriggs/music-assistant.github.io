@@ -13,6 +13,9 @@ The desktop companion app for Music Assistant!
 !!! tip "This is still in very early alpha. Bugs *will* be present."
     Please help finding them. You can report any bugs on the [Discord server](https://discord.gg/kaVm8hGpne) or in the [repo issues](https://github.com/music-assistant/music-assistant-desktop/issues)
 
+!!! note
+    There aren't apps available yet for Android or iOS
+
 ## Setup
 
 When starting the app for the first time you are asked for some information about the Music Assistant Server.
