@@ -83,13 +83,13 @@ plugins:
       minify_html: true 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/music-assistant
       name: Music Asisstant on Github
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
       name: Music Assistant on Discord
-    - icon: lokalise-logo-white
+    - icon: lokalise-logo-colour
       link: https://lokalise.com/
       name: Translations by Lokalise  
     #- icon: fontawesome/brands/dev
