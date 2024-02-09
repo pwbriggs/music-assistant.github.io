@@ -22,8 +22,8 @@ Music Assistant is a music library manager for your offline and online music sou
 
 Music Assistant consists of multiple building blocks:
 
-- Music Assistant Server
-- Music Assistant integration for Home Assistant
+- Music Assistant Server ([Installation Instructions](installation.md))
+- Music Assistant Integration for Home Assistant ([Installation Instructions](integration/installation.md))
 
 ## Music Assistant Server
 
