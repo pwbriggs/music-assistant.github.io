@@ -6,7 +6,7 @@ repo_url: https://github.com/music-assistant
 
 nav:
   - Home: index.md
-  - Server Installation: Installation.md
+  - Installation: installation.md
   - Home Assistant Integration:
     - integration/index.md
     - Installation: integration/installation.md
@@ -44,8 +44,10 @@ nav:
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
   - Support: support.md
+  - I Want to Help / Donate: help.md
 
 theme:
+  custom_dir: overrides
   favicon: assets/favicon.png
   logo: assets/icon.png
   name: material
@@ -68,18 +70,9 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: black
-      accent: deep-orange 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: white
-      accent: lime
+    scheme: music-assistant
+extra_css:
+  - stylesheets/extra.css  
 
 plugins:
   - social:
@@ -90,12 +83,15 @@ plugins:
       minify_html: true 
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/music-assistant
       name: Music Asisstant on Github
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
       name: Music Assistant on Discord
+    - icon: lokalise-logo-colour
+      link: https://lokalise.com/
+      name: Translations by Lokalise  
     #- icon: fontawesome/brands/dev
     #  link: ./developer-docs/dev-docs/
     #  name: Developer Docs
