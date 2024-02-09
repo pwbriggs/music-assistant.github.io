@@ -44,7 +44,9 @@ nav:
     - Sonos: player-support/sonos.md
     - Universal Groups: player-support/universal.md
   - Support: support.md
-  - I Want to Help / Donate: help.md
+  - I Want to Help / Donate: 
+    - help/index.md
+    - Translations: help/lokalise.md
 
 theme:
   custom_dir: overrides
