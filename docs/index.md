@@ -46,14 +46,14 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 
 ## The Team
 
-![Marcel](assets/team/marcel.png){ width=100 }
-![Jozef](assets/team/jozef.png){ width=100 }
-![Jonathan](assets/team/jonathan.png){ width=100 }
-![Gavin](assets/team/gavin.png){ width=100 }
-![Marvin](assets/team/marvin.png){ width=100 }
-![Santiago](assets/team/santiago.png){ width=100 }
-![khers](assets/team/khers.png){ width=100 }
-![Lokiberra](assets/team/lokiberra.png){ width=100 }
+[![Marcel](assets/team/marcel.png){ width=100 }](https://github.com/marcelveldt)
+[![Jozef](assets/team/jozef.png){ width=100 }](https://github.com/jozefKruszynski)
+[![Jonathan](assets/team/jonathan.png){ width=100 }](https://github.com/arctixdev)
+[![Gavin](assets/team/gavin.png){ width=100 }](https://github.com/OzGav)
+[![Marvin](assets/team/marvin.png){ width=100 }](https://github.com/marvinschenkel)
+[![Santiago](assets/team/santiago.png){ width=100 }](https://github.com/santiagosotoc)
+[![khers](assets/team/khers.png){ width=100 }](https://github.com/khers)
+[![Lokiberra](assets/team/lokiberra.png){ width=100 }](https://github.com/lokiberra)
 
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon
