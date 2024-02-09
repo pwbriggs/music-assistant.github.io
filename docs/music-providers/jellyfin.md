@@ -15,7 +15,6 @@ You will need to provide the following to Music Assistant:
 
 ## Not Yet Supported:
 - Album types metadata
-- Non 'Music' type libraries
 
 ## Known Issues / Notes
 - This provider makes use of the [Jellyfin ApiClient](https://github.com/jellyfin/jellyfin-apiclient-python) for communicating with the server. If something is failing to work properly in Music Assistant, try to use that library to interact with your server (can you ping it?, fetch artist and albums?, can you search?).
