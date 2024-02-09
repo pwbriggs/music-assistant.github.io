@@ -47,6 +47,7 @@ nav:
   - I Want to Help / Donate: help.md
 
 theme:
+  custom_dir: overrides
   favicon: assets/favicon.png
   logo: assets/icon.png
   name: material
@@ -88,6 +89,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/kaVm8hGpne
       name: Music Assistant on Discord
+    - icon: lokalise-logo-white
+      link: https://lokalise.com/
+      name: Translations by Lokalise  
     #- icon: fontawesome/brands/dev
     #  link: ./developer-docs/dev-docs/
     #  name: Developer Docs

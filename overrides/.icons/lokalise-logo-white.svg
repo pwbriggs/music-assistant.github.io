@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 529.2 600"
+   style="enable-background:new 0 0 529.2 600;"
+   xml:space="preserve"
+   sodipodi:docname="lokalise-logo-white.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs2"><filter
+     style="color-interpolation-filters:sRGB;"
+     inkscape:label="Colorize"
+     id="filter3"
+     x="0"
+     y="0"
+     width="1"
+     height="1"><feComposite
+       in2="SourceGraphic"
+       operator="arithmetic"
+       k1="0"
+       k2="1"
+       result="composite1"
+       id="feComposite2" /><feColorMatrix
+       in="composite1"
+       values="1"
+       type="saturate"
+       result="colormatrix1"
+       id="feColorMatrix2" /><feFlood
+       flood-opacity="1"
+       flood-color="rgb(186,186,186)"
+       result="flood1"
+       id="feFlood2" /><feBlend
+       in="flood1"
+       in2="colormatrix1"
+       mode="multiply"
+       result="blend1"
+       id="feBlend2" /><feBlend
+       in2="blend1"
+       mode="screen"
+       result="blend2"
+       id="feBlend3" /><feColorMatrix
+       in="blend2"
+       values="1"
+       type="saturate"
+       result="colormatrix2"
+       id="feColorMatrix3" /><feComposite
+       in="colormatrix2"
+       in2="SourceGraphic"
+       operator="in"
+       k2="1"
+       result="fbSourceGraphic"
+       id="feComposite3" /><feColorMatrix
+       result="fbSourceGraphicAlpha"
+       in="fbSourceGraphic"
+       values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+       id="feColorMatrix4" /><feComposite
+       id="feComposite4"
+       in2="fbSourceGraphic"
+       operator="arithmetic"
+       k1="0"
+       k2="1"
+       result="composite1"
+       in="fbSourceGraphic" /><feColorMatrix
+       id="feColorMatrix5"
+       in="composite1"
+       values="1"
+       type="saturate"
+       result="colormatrix1" /><feFlood
+       id="feFlood5"
+       flood-opacity="1"
+       flood-color="rgb(186,186,186)"
+       result="flood1" /><feBlend
+       id="feBlend5"
+       in="flood1"
+       in2="colormatrix1"
+       mode="multiply"
+       result="blend1" /><feBlend
+       id="feBlend6"
+       in2="blend1"
+       mode="screen"
+       result="blend2" /><feColorMatrix
+       id="feColorMatrix6"
+       in="blend2"
+       values="1"
+       type="saturate"
+       result="colormatrix2" /><feComposite
+       id="feComposite6"
+       in="colormatrix2"
+       in2="fbSourceGraphic"
+       operator="in"
+       k2="1"
+       result="composite2" /></filter></defs><sodipodi:namedview
+   id="namedview2"
+   pagecolor="#505050"
+   bordercolor="#ffffff"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="1"
+   inkscape:deskcolor="#505050"
+   inkscape:zoom="0.39333333"
+   inkscape:cx="264.40678"
+   inkscape:cy="300"
+   inkscape:window-width="1312"
+   inkscape:window-height="449"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style1">
+	.st0{fill:#FFFFFF;}
+</style>
+<g
+   id="g2"
+   style="filter:url(#filter3)">
+	<polygon
+   class="st0"
+   points="396.9,467.7 529.2,467.7 529.2,374.2 358.1,374.2 264.6,467.7 171,374.2 0,374.2 0,467.7 132.3,467.7    264.6,600  "
+   id="polygon1" />
+	<rect
+   y="187.1"
+   class="st0"
+   width="529.2"
+   height="93.5"
+   id="rect1" />
+	<rect
+   y="0"
+   class="st0"
+   width="529.2"
+   height="93.5"
+   id="rect2" />
+</g>
+</svg>
