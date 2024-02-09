@@ -70,9 +70,9 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default   
-      primary: light blue
-      accent: indigo
+    scheme: music-assistant
+extra_css:
+  - stylesheets/extra.css  
 
 plugins:
   - social:
