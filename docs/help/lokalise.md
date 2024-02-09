@@ -20,7 +20,7 @@ Please only select the language that you intend to contribute to when requesting
 
 <img width="700" alt="lokalise-language-selection" src="https://user-images.githubusercontent.com/60214390/234080040-3e9ca743-bdc2-400e-bb37-fa11e73aee76.png">
 
-Thanks for taking the time to read this, we're looking forward to your contributions folks.
+Thanks for taking the time to read this, we're looking forward to your contributions.
 
 ## Onboarding
 
