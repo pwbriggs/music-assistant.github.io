@@ -1,6 +1,6 @@
 # Use Assist and AI to Play my Music?
 
-See [here](../integration/installation.md)
+See [here](../integration/installation.md#openai-features)
 
 # Use volume normalization? How does it work?
 
