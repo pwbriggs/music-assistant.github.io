@@ -1,6 +1,6 @@
 # Use Assist and AI to Play my Music?
 
-See [here](../integration/installation.md)
+See [here](../integration/installation.md#openai-features)
 
 # Use volume normalization? How does it work?
 
@@ -134,6 +134,8 @@ data:
 ```
 
 Similarly, if the album name is ambiguous you can specify the artist name first (`Queen - Greatest Hits`)
+
+You can also use the `mass.search` service call and the URI will be shown in the results.
 
 # Run MA when I have SSL setup on my internal network?
 
