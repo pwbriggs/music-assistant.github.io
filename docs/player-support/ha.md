@@ -1,4 +1,4 @@
-# Home Assistant
+# Home Assistant ![Preview image](../assets/icons/ha-logo.png){ width=70 align=right }
 
 Music Assistant has support for playing to media player entities in Home Assistant.
 
