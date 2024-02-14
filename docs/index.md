@@ -6,15 +6,15 @@ Music Assistant is a music library manager for your offline and online music sou
 
 ## Features
 
-- Supports multiple music sources through a provider implementation.
-- Many popular streaming services are supported, as well as local files.
-- Automatically matches music on different providers (track linking).
-- Fetches metadata for extended artist information.
+- Supports multiple music sources through a provider implementation
+- Many popular streaming services are supported, as well as local files
+- Automatically matches music on different providers (track linking)
+- Fetches metadata for extended artist information
 - Keeps track of the entire music library in a compact database
-- Gapless, crossfade and volume normalization support for all players.
-- Playback synchronisation is possibie for supported players
-- Truly hassle free streaming of your favourite music to players, no advanced knowledge required.
-- Rich User interface (Progressive Web App) powered by VueJS 3.
+- Gapless, crossfade and volume normalization support for all players
+- Playback synchronisation is possible for supported players
+- Truly hassle free streaming of your favourite music to players, no advanced knowledge required
+- Rich User interface (Progressive Web App) powered by VueJS 3
 
 ![Warning](assets/beta_warning.png)
 
