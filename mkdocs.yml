@@ -39,6 +39,7 @@ nav:
     - DLNA: player-support/dlna.md
     - Fully Kiosk: player-support/fully-kiosk.md
     - Google Cast: player-support/google-cast.md
+    - Home Assistant: player-support/ha.md
     - Slimproto: player-support/slimproto.md
     - Snapcast: player-support/snapcast.md
     - Sonos: player-support/sonos.md
