@@ -4,8 +4,9 @@ Music Assistant has support for playing to media player entities in Home Assista
 
 ## Features
 
-- loren ipsum
+- All media player entities that are available in HA, for which there is no dedicated MA provider, will be available in MA
 
 ## Known Issues / Notes
 
 - This player provider is not enabled by default and must be added via MA settings
+- Synchronisation between this player type and any others is not possible
