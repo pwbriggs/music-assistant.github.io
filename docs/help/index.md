@@ -4,8 +4,8 @@ With a large project like this, there is always plenty to do. Not only with actu
 
 - If you like to help with the development, e.g. implementing a new music provider or fix a player specific quirk, please reach out on discord. There hasn't been time to write extended development docs but once you get the grasp of the structure it is relatively straight forward.
 - Provide or update a [translation](lokalise.md)
-- Help others out on discord or within the discussions part of Github.
-- Help out with writing documentation and HOWTO's and the FAQ's.
+- Help others out on discord or within the discussions part of Github
+- Help out with writing documentation and HOWTO's
 - Just like [erkr](https://github.com/erkr) and [OzGav](https://github.com/OzGav) help out as a moderator on discord and Github with the load of incoming reports, requests and questions. Thanks guys!
 - Make sure to like this project by clicking the "star" button and share it with others!
 
