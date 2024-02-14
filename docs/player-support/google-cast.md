@@ -1,4 +1,4 @@
-# Google Cast
+# Google Cast ![Preview image](../assets/icons/chromecast-logo.png){ width=70 align=right }
 
 Music Assistant has full support for Google Cast based devices. This includes Google's own hardware like the Google Nest speakers but also a wide range of other brands have "Chromecast builtin" support, like Harman Kardon, JBL, Canton and many others. 
 

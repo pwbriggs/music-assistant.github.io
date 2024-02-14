@@ -1,8 +1,8 @@
 site_name: Music Assistant
 site_url: https://music-assistant.github.io/
 
-repo_name: music-assistant
-repo_url: https://github.com/music-assistant
+#repo_name: music-assistant
+#repo_url: https://github.com/music-assistant
 
 nav:
   - Home: index.md
@@ -23,6 +23,7 @@ nav:
   - Music Providers:
     - music-providers/index.md
     - Deezer: music-providers/deezer.md
+    - Jellyfin: music-providers/jellyfin.md
     - Local Files: music-providers/filesystem.md
     - Plex: music-providers/plex.md
     - Qobuz: music-providers/qobuz.md
@@ -39,6 +40,7 @@ nav:
     - DLNA: player-support/dlna.md
     - Fully Kiosk: player-support/fully-kiosk.md
     - Google Cast: player-support/google-cast.md
+    - Home Assistant: player-support/ha.md
     - Slimproto: player-support/slimproto.md
     - Snapcast: player-support/snapcast.md
     - Sonos: player-support/sonos.md
@@ -50,7 +52,7 @@ nav:
 
 theme:
   custom_dir: overrides
-  favicon: assets/favicon.png
+  favicon: assets/favicon-orange.png
   logo: assets/transparent-logo.png
   name: material
   font:
