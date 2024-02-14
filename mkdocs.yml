@@ -1,8 +1,8 @@
 site_name: Music Assistant
 site_url: https://music-assistant.github.io/
 
-repo_name: music-assistant
-repo_url: https://github.com/music-assistant
+#repo_name: music-assistant
+#repo_url: https://github.com/music-assistant
 
 nav:
   - Home: index.md
@@ -52,7 +52,7 @@ nav:
 
 theme:
   custom_dir: overrides
-  favicon: assets/favicon.png
+  favicon: assets/favicon-orange.png
   logo: assets/transparent-logo.png
   name: material
   font:
