@@ -18,6 +18,9 @@ Each player has its own queue. Depending upon screen resolution the PLAYED ITEMS
 
 ![Preview image](assets/screenshots/queue1.png)
 
+!!! note
+    What happens to the queue when the different types of items (e.g. album, artist, playlist etc) are added to it is configurable in MA SETTINGS>>CORE>>PLAYER QUEUES CONTROLLER
+    
 Right clicking or long press on a track in the queue will show this menu
 
 ![Preview image](assets/screenshots/queue2.png)
