@@ -1,4 +1,4 @@
-# Airplay
+# Airplay ![Preview image](../assets/icons/airplay-logo.png){ width=70 align=right }
 
 Music Assistant has support for Airplay based devices. This includes Apple devices such as the Homepod but also a very wide range of 3rd party devices such as receivers and smart speakers. Due to the fact that Airplay uses lossless, timestamped streaming it is a very interesting protocol for lossless multi room playback.
 
