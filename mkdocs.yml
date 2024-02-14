@@ -23,6 +23,7 @@ nav:
   - Music Providers:
     - music-providers/index.md
     - Deezer: music-providers/deezer.md
+    - Jellyfin: music-providers/jellyfin.md
     - Local Files: music-providers/filesystem.md
     - Plex: music-providers/plex.md
     - Qobuz: music-providers/qobuz.md
