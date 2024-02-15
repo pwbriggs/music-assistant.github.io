@@ -58,4 +58,5 @@ If the provider supports it you will also see the START RADIO option. This will 
 
 ![image](assets/screenshots/UI-track-show-info.png)
 
-Note the PROVIDER DETAILS section in this view also has the functionality to play a short part of the track as a preview
+!!! note
+    The PROVIDER DETAILS section in this view also has the functionality to play a short part of the track as a preview

@@ -74,7 +74,7 @@ On Karen's Bedroom player listen to Journey Don’t Stop Believing
 ```
 
 !!! note
-    When adding a track it will be added to the top of the existing queue and played immediately. In all other cases the queue will be cleared and the requested music will then be added and playback will commence.
+    Queue behaviour when adding items by voice will follow the settings in MA SETTINGS>>CORE>>PLAYER QUEUES CONTROLLER.
     
 ### Troubleshooting
 

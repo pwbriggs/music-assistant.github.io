@@ -8,6 +8,7 @@ Music Assistant has full support for Spotify media listing and playback.
 - Items in your Spotify library will be added to the Library in Music Assistant.
 - Adding an item from Spotify to the Music Assistant Library will also add it to "Your Library" in Spotify
 - Multiple Spotify accounts can be added. All playlists from all accounts will be shown. If a playlist is selected for playback the source Spotify account will be used.
+- Radio mode is supported
 
 ## Configuration
 - In the configuration, you need to enter your Spotify username and password
