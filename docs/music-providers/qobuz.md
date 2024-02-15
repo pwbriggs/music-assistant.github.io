@@ -3,10 +3,10 @@
 Music Assistant has full support for [Qobuz](https://www.qobuz.com/), including Qobuz's excellent HiRes catalogue!
 
 ## Features
-- Support for Artists, Albums, Tracks and Playlists.
-- Items in your Qobuz Favourites will be marked as "in library" in Music Assistant.
+- Support for Artists, Albums, Tracks and Playlists
+- Items in your Qobuz Favourites will be marked as "in library" in Music Assistant
 - Marking an item as "in library" from the Music Assistant interface will also mark it as a favorite in Qobuz
-- On playback, the highest quality is preferered automatically.
+- On playback, the highest quality is preferered automatically
 
 ## Configuration
 - In the configuration, you need to enter your Qobuz username and password
@@ -14,3 +14,7 @@ Music Assistant has full support for [Qobuz](https://www.qobuz.com/), including 
 ## Not yet supported
 
 - Recommendations
+
+## Known Issues / Notes
+
+- Radio Mode is not supported
