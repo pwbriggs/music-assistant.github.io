@@ -11,10 +11,10 @@ Music Assistant has full support for [Qobuz](https://www.qobuz.com/), including 
 ## Configuration
 - In the configuration, you need to enter your Qobuz username and password
 
-## Not yet supported
-
-- Recommendations
-
 ## Known Issues / Notes
 
 - Radio Mode is not supported
+
+## Not yet supported
+
+- Recommendations
