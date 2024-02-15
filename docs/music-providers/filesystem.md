@@ -46,6 +46,6 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 - For multi disc albums it is recommended (but not required) to add folders named “Disc 1”, “Disc 2”, etc beneath a folder with the album name. Artwork for the album can be added to the top level album folder or in the disc folders.
 - If there is nothing added to the disc tag then the disc number will not be shown in the display
 
-![image](https://user-images.githubusercontent.com/19848947/227870137-2526252f-98f7-42dc-81a7-76818a8f232e.png)
+![image](../assets/screenshots/no-disc-tag.png)
 
 
