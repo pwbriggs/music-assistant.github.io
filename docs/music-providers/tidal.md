@@ -4,18 +4,19 @@ Music Assistant has support for [Tidal](https://tidal.com). Contributed and main
 
 ## Features
 
-- Support for Artists, Albums, Tracks and Playlists.
-- Items in your Tidal library will be marked as "Favourites" in Music Assistant.
-- Marking an item as a "Favourite" from the Music Assistant interface will also mark it as favourite in Tidal.
-- On playback, the highest quality FLAC HiFi version will be selected.
+- Support for Artists, Albums, Tracks and Playlists
+- Items in your Tidal library will be marked as "Favourites" in Music Assistant
+- Marking an item as a "Favourite" from the Music Assistant interface will also mark it as favourite in Tidal
+- On playback, the highest quality FLAC HiFi version will be selected
+- Radio Mode is supported
 
 ## Configuration
 
-- In the configuration, you only need to click the button to authenticate with Tidal. Then you will be redirected to the Tidal login page and the device code will be automatically filled.
+- In the configuration, you only need to click the button to authenticate with Tidal. Then you will be redirected to the Tidal login page and the device code will be automatically filled
 
 ## Known Issues / Notes
 
-- If the authorisation process gets stuck then try a different browser. It is likely the authorisation pop up window is being blocked,
+- If the authorisation process gets stuck then try a different browser. It is likely the authorisation pop up window is being blocked
 
 ## Not yet supported
 
