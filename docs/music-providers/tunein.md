@@ -4,7 +4,7 @@ Music Assistant has support for [Tunein](https://tunein.com/)
 
 ## Features
 
-The stations which are in your TuneIn library will be imported into the MA library
+The stations which are in your TuneIn library will be imported into the MA library and be visible in the Radio view
  
 ## Configuration
 
