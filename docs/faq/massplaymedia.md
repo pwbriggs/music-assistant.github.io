@@ -32,3 +32,6 @@ Or a list of uris which can even be from different music providers
 There are additional options as well. These will appear when an entity that supports them is selected.
 
 ![image](https://github.com/music-assistant/hass-music-assistant/assets/19848947/010cca85-9e2c-40e8-b02e-87a1d17cce7c)
+
+!!! warning "Radio Mode Media Type"
+    You can only use the album, artist or track media_type if enabling Radio Mode
