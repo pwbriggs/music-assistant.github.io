@@ -1,6 +1,6 @@
 # URL Provider
 
-Music Assistant has support for manually adding radio station URLs to Music Assistant.
+Music Assistant has support for manually adding radio station URLs to the database.
 
 ## Features
 
