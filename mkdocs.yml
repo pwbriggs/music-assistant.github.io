@@ -33,6 +33,7 @@ nav:
     - Subsonic: music-providers/subsonic.md
     - Tidal: music-providers/tidal.md
     - TuneIn: music-providers/tunein.md
+    - URL: music-providers/url.md
     - YouTube Music: music-providers/youtube-music.md
   - Player Providers:
     - player-support/index.md
