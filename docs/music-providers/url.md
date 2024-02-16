@@ -13,7 +13,7 @@ The URL provider is enabled by default.
 1. In the left hand menu you need to select 'Radio'
 2. Then click on the ⋮ in the top right corner
 
-![screenshot](../assets/screenshots/url.png)
+    ![screenshot](../assets/screenshots/url.png)
 
 3. Then click on ADD ITEM FROM URL
 4. Add the full URL including http:// or https:// 
