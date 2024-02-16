@@ -20,10 +20,10 @@ The desktop companion app for Music Assistant!
 
 When starting the app for the first time you are asked for some information about the Music Assistant Server.
 
-![image](https://github.com/Un10ck3d/massapp/assets/74015378/cb97aa3e-12d8-4992-bfc6-0b58cedb81da)
+![image](assets/screenshots/companion-app-config.png)
 
 !!! note "The app requires that the webserver is exposed. You can set that in the settings"
-    ![How to fix](https://raw.githubusercontent.com/music-assistant/music-assistant-desktop/main/cant_connect_error.gif)
+    ![How to fix](assets/screenshots/cant_connect_error.gif)
 
 ## Features
 

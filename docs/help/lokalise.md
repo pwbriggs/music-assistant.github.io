@@ -14,11 +14,11 @@ We would love to support more languages, and we need your help to do so.
 
 - Once the issue is resolved, you'll be able to use this [sign-up link](https://app.lokalise.com/public/321419046440c0f2bba414.05634832/) to join the project as a translator.
 
-<img width="700" alt="lokalise-main-join-screen" src="https://user-images.githubusercontent.com/60214390/234080011-6125d904-dd24-4abd-989f-265ea48c5ba8.png">
+![image](../assets/screenshots/lokalise-stats.png)
 
 Please only select the language that you intend to contribute to when requesting to join the team on Lokalise.
 
-<img width="700" alt="lokalise-language-selection" src="https://user-images.githubusercontent.com/60214390/234080040-3e9ca743-bdc2-400e-bb37-fa11e73aee76.png">
+![image](../assets/screenshots/lokalise-select-language.png)
 
 Thanks for taking the time to read this, we're looking forward to your contributions.
 

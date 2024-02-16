@@ -24,5 +24,5 @@ The Radio provider doesn't add stations to the 'radiostation' tab by default.
 3. Then navigate to the radio-station you want to listen to
 4. Click play now or add to library 
 
-After completing step 4 the station will become available in the 'radio stations' section of MA
+After completing step 4 the station will become available in the Radio view
 

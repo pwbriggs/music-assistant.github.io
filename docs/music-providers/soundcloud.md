@@ -18,8 +18,7 @@ Two fields need to be completed to use this provider, Client id and Authorizatio
 
 `Authorization`: string that begins with O-Auth and a string (the o-auth token is "O-Auth . . .")
 
-<img width="1005" alt="Scherm­afbeelding 2023-03-24 om 17 39 48" src="https://user-images.githubusercontent.com/17234951/227590129-b3c289fe-d9cc-4494-aa7c-c328a3b728a6.png">
-
+![screenshot](../assets/screenshots/soundcloud-auth-token.png){ width=1005 align=center }
 
 Example code snippet (O-Auth and client_id are NOT real, use yours):
 
