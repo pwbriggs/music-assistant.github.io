@@ -18,6 +18,8 @@ The codec shown in the UI to the right of the track title is the codec of the or
 
 Album and Track Views look the same as the above except there is no album artist filter icon but there is an additional view specific menu item
 
+A red dot on the search icon indiactes that the viewed results are subject to filtering by search. This is useful if the search box has been closed.
+
 Items in all views can be "right clicked" or "long pressed" to bring up an extensive menu of options. See an example below in the [Track Menu](ui.md#track-menu) section
 
 Multiple selections of albums / artists / tracks is possible by clicking the multi-select icon. Once one or more items are selected then clicking on the "ACTIONS" at the bottom
