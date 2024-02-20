@@ -32,7 +32,7 @@ During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5d
 
 **Installation Requirements**
 
-- You need to be running the latest BETA of the HA Integration
+- You need to be running the latest version of the HA Integration
 - You need a voice assistant configured (even if you want to just type in the query)
 - You need to create/add another OpenAI integration that is purely for Music Assistant.
 Add the prompt found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/prompt/prompt.txt) when completing the configuration. For the ChatGPT version `gpt-3.5-turbo-1106` has been found to work well.
