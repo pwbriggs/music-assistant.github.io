@@ -24,7 +24,7 @@ Music Assistant consists of multiple building blocks:
 
 - Music Assistant Server ([Installation Instructions](installation.md))
 - Music Assistant Integration for Home Assistant ([Installation Instructions](integration/installation.md))
-    - A optional sub-component of the Integraton is the Home Assistant Plugin for Music Assistant. This allows the importing of Home Assistant media players into the Music Assistant engine to use as targets for playback
+    - An optional sub-component of the Integraton is the Home Assistant Plugin for Music Assistant. This allows the importing of Home Assistant media players into the Music Assistant engine to use as targets for playback
 
 ## Music Assistant Server
 
