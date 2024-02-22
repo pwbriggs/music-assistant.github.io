@@ -14,3 +14,11 @@ HA media player entities, which are not natively available in MA, can be exposed
 With some additional setup voice control of MA via HA is also possible.
 
 Music Assistant was originally designed to solely work with HA and as a result this tight connection has been maintained and installing the integration will also install the server as an addon. This provides a minimal effort and most secure way of getting up and running. However, this is not the only way and if you have installed the MA server elsewhere (or as an addon before) you will be able to configure the integration to connect to it.
+
+The Home Assistant integration consists of 2 parts:
+
+1) The Home Assistant Plug-in provider
+This plugin is currently an empty placeholder but will in the future contain some additional features such as allowing the linking of HA player controls (for example an amplifier volume control) to an MA player 
+
+2) The Home Assistant Player Provider
+Allows you to use your HA players within MA.
