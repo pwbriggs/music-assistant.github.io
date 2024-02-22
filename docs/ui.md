@@ -10,6 +10,9 @@ When visiting Browse you will only see what is already in the Library of the Str
 The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player. 
 
 ![image](assets/screenshots/UI-speakers-menu.png)
+
+!!! note
+    The volume shown against a player group is the AVERAGE of the volumes of each individal player. When the group volume is changed then each player is changed by a proportionate amount.
 ***************************************************************
 
 ## Artist / Album / Track View
