@@ -1,2 +1,2 @@
-# ma-docs-site
+# music-assistant.io
 Documentation repo for Music Assistant
