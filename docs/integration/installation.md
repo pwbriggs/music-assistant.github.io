@@ -46,7 +46,7 @@ The integration adds two service calls for use in scripts and automations.
 
 ## OpenAI features
 
-During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration.
+During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration. Some people have used the [Extended OpenAI Conversation](https://github.com/jekalmin/extended_openai_conversation) custom component to do something similar but the difference is that component requires you to expose your entities to openAI. This Integration only sends to openAI part of the request you make and openAI only responds with a JSON formatted response which is then used locally to initiate playback.  
 
 **Installation Requirements**
 
