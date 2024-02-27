@@ -30,4 +30,4 @@ Login by pressing the `Authenticate` button when adding the provider in the Musi
 - Podcasts support ([see this feature request](https://github.com/music-assistant/hass-music-assistant/discussions/429))
 - Fully featured recommendation/flow ([see this feature request](https://github.com/music-assistant/hass-music-assistant/discussions/535))
 
-Big thanks to [Deezer-python](https://GitHub.com/browniebroke/deezer-python) made by [browniebroke]((https://github.com/browniebloke). Without it, this would have taken alot longer to make.
+Big thanks to [Deezer-python](https://GitHub.com/browniebroke/deezer-python) made by [browniebroke](https://github.com/browniebloke). Without it, this would have taken alot longer to make.

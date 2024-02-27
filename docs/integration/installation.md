@@ -19,16 +19,16 @@
 !!! note 
     The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to `HA settings>>Devices & services>>Integrations>>Music Assistant` and view the entities. It is these players that need to be targeted in your automations.
 
-The Home Assistant integration consists of 2 parts:
-
 ## Installation of the Home Assistant Player Provider
 
 First you must install the Home Assistant Plug-in provider
+
 - Navigate to MA SETTINGS>>PROVIDERS and add the plug-in provider
 - If using the Music Assistant add-on (i.e. HAOS), you wont need any server details, it should auto connect to the local HA instance
 - If using the docker version of the MA server, you will be required to enter the URL to your HA instance and then authenticate
 
 Next install the Home Assistant Player Provider
+
 - You need the HA plug-in first before you can use/install this provider
 - In the provider settings, you can select which players you want to utilise
 - You can only use players that support "play_media", other players will be filtered out
@@ -46,7 +46,7 @@ The integration adds two service calls for use in scripts and automations.
 
 ## OpenAI features
 
-During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration.
+During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration. Some people have used the [Extended OpenAI Conversation](https://github.com/jekalmin/extended_openai_conversation) custom component to do something similar but the difference is that component requires you to expose your entities to openAI. This Integration only sends to openAI part of the request you make and openAI only responds with a JSON formatted response which is then used locally to initiate playback.  
 
 **Installation Requirements**
 

@@ -17,8 +17,6 @@ Music Assistant was originally designed to solely work with HA and as a result t
 
 The Home Assistant integration consists of 2 parts:
 
-1) The Home Assistant Plug-in provider
-This plugin is currently an empty placeholder but will in the future contain some additional features such as allowing the linking of HA player controls (for example an amplifier volume control) to an MA player 
+1) The Home Assistant Plug-in provider. This plugin is currently an empty placeholder but will in the future contain some additional features such as allowing the linking of HA player controls (for example an amplifier volume control) to an MA player 
 
-2) The Home Assistant Player Provider
-Allows you to use your HA players within MA.
+2) The Home Assistant Player Provider. This allows you to use your HA players within MA.

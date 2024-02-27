@@ -10,6 +10,9 @@ When visiting Browse you will only see what is already in the Library of the Str
 The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player. 
 
 ![image](assets/screenshots/UI-speakers-menu.png)
+
+!!! note
+    The volume shown against a player group is the AVERAGE of the volumes of each individal player. When the group volume is changed then each player is changed by a proportionate amount.
 ***************************************************************
 
 ## Artist / Album / Track View
@@ -50,7 +53,7 @@ Right click or long press on a track to get the following
 
 ![image](assets/screenshots/UI-track-menu.png)
 
-If the provider supports it you will also see the START RADIO option. This will populate the queue with tracks based on the selected track.
+If the provider supports it you will also see the START RADIO option. This will populate the queue with tracks based on the selected track. The tracks are selected by the provider not MA. 
 
 ![image](assets/screenshots/UI-start-radio.jpeg)
 

@@ -8,7 +8,7 @@ Most players are discovered using mDNS (broadcast) so if your players do not get
 
 Make sure the HA internal url is set correctly. HA SETTINGS>>SYSTEM>>NETWORK>>Home Assistant URL>>Local network (set to automatic or use your internal HA IP). If it is automatic you can try changing it to http://your.internal.ip:8123/
 
-MA streams at high quality which may max out poor network connections. If possible used wired connections for MA players. Input codec is not always the same as the output codec (which is FLAC) so playing a low qualiy MP3 will not change the apparent performance. If you exoerience stuttering or other interrupted playback issues which are not apparent on wired players or those close to your access points then poor WiFi is likely to blame. You will need to improve your WiFi coverage.
+MA streams at high quality which may max out poor network connections. If possible use wired connections for MA players. Input codec is not always the same as the output codec (which is FLAC) so playing a low qualiy MP3 will not change the apparent performance. If you experience stuttering or other interrupted playback issues which are not apparent on wired players or those close to your access points then poor WiFi is likely to blame. You will need to improve your WiFi coverage.
 
 If after an update something isnt working then check the GitHub Issues and Discord to see if it is a known problem. If not try restarting MA, try restarting HA, and try a full HOST REBOOT (in that order). If it is an integration problem then trying removing it from HA settings and HACS then restart HA then reinstall.
 
@@ -71,3 +71,7 @@ Some amplifiers may auto turn on when a signal is detected so check the amplifie
 # My local music isn’t being imported or I’m seeing missing ID3 tag warnings in the logs
 
 This is likely a tagging problem. See [here](../music-providers/filesystem.md/#tagging-files)
+
+# MA is interfering with my Spotify Connect or Other Streaming App
+
+If the MA player is "powered on" from the MA UI then MA understands that it is allowed to take control of the player. This may then happen even though you have started playback via another app but have not started playback via MA. To avoid this situation "power off" the MA player.
