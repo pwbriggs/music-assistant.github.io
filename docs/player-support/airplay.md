@@ -17,6 +17,6 @@ Music Assistant has support for Airplay based devices. This includes Apple devic
 - Whilst it is believed to have been fixed, issues have been reported when using Shairport and Airplay V2. If problems are encountered they try disabling Airplay V2
 - To enable playback to a Macbook, you need to enable access to "everyone on the same network" in the Airplay settings of the Macbook
 - Because Apple TV's require authentication, they are not supported yet (but will be in the future if there's any demand)
-- Samsung seems to have implemented AirPlay 2 in a way that it isn't fully backwards compatible. Everything seems to work, changing volume, song info is shown, and you can control the samsung device as expected, however there is no sound. Users of similar applications such as Roon and anything based on slimproto have the same problem. 
+- Samsung seems to have implemented AirPlay 2 in a way that it isn't fully backwards compatible. Everything seems to work, changing volume, song info is shown, and you can control the Samsung device as expected, however there is no sound. Users of similar applications such as Roon and anything based on slimproto have the same problem. 
 - Some devices (such as Kodi or some 3rd party airplay receivers) require encryption. You can enable encryption in the player settings
 - If you find your player is going unavailable when still powered on then it may not be sending its keep alive message. A timeout can be configured for each player. Some users have reported they have needed to set it as long as one hour
