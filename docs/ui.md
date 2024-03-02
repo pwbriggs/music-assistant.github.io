@@ -1,18 +1,43 @@
 # User Interface
 
+## Main Menu
+
 ![image](assets/screenshots/UI-main-menu.png)
 
 When visiting Browse you will only see what is already in the Library of the Streaming Providers. For the local Providers you will see all files and if a folder is visited that is not already in the MA Library it will be automatically added even if it has been previously removed.
 ***************************************************************
 
+## Control Bar
 ![image](assets/screenshots/UI-playercontrols-bar.png)
 
 The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player. 
+***************************************************************
+
+## Player List
 
 ![image](assets/screenshots/UI-speakers-menu.png)
 
 !!! note
     The volume shown against a player group is the AVERAGE of the volumes of each individal player. When the group volume is changed then each player is changed by a proportionate amount.
+
+When a player group is powered on the members of that group will disappear from the player list and individual playback to those players will not be possible. In order to playback to an individual player then either power off the group or remove the player from the group.
+***************************************************************
+
+## Grouping Players
+
+If mutiple players in a group are being streamed to then this is shown by a number on the player name in the control bar. In the example image below there are two ACTIVE players in the group.
+
+![image](assets/screenshots/group_indication.png)
+
+There are three ways to group players
+
+1.    As shown in the previous section players can be linked via the icon in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. For example, player A has an existing queue and players B and C are joined to player A. If player A is turned off, players B and C will also stop.
+2.    Create a group player via the settings. The native player types shown (i.e. not the Universal Group option) support perfect sync (this is a requirement to be shown here). In addition to playing in sync the group will also keep playing regardless of which player(s) in the group are powered off. So the group player holds the queue rather that any individual player. 
+
+![image](assets/screenshots/syncgroup.png)
+
+3.   Create a [Universal Group](player-support/universal.md)
+
 ***************************************************************
 
 ## Artist / Album / Track View

@@ -8,3 +8,5 @@ All devices (except Chromecast) can be grouped but not all will play in sync. Se
 
 !!! tip
     Reminder chromecast devices must be grouped in the Google Home app for perfect sync
+
+![image](../assets/screenshots/universal-group.png)
