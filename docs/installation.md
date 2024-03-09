@@ -8,11 +8,11 @@ MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical
 
 ## Primary installation method: Home Assistant Integration Installation
 
-Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server.
+Using HAOS. Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
 
 ## Secondary installation method: Home Assistant Add-on Manual Installation
 
-If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
+Using HAOS. If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
 
 1. Add the Music Assistant repository to your Home Assistant instance.
 2. Install the Music Assistant add-on.
