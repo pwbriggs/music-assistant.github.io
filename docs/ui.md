@@ -7,10 +7,15 @@
 When visiting Browse you will only see what is already in the Library of the Streaming Providers. For the local Providers you will see all files and if a folder is visited that is not already in the MA Library it will be automatically added even if it has been previously removed.
 ***************************************************************
 
-## Control Bar
+## Player Bar
 ![image](assets/screenshots/UI-playercontrols-bar.png)
 
 The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player. 
+***************************************************************
+
+## Now Playing View
+![image](assets/screenshots/now-playing-view.png)
+ 
 ***************************************************************
 
 ## Player List
