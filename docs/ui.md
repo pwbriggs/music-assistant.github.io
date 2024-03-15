@@ -51,10 +51,10 @@ There are three ways to group players
 
 Album and Track Views look the same as the above except there is no album artist filter icon but there is an additional view specific menu item
 
-A red dot on the search icon ![image](https://github.com/OzGav/music-assistant.github.io/assets/19848947/43e0fa5c-378a-4d30-aa2a-2eea686d324d)
+A red dot on the search icon ![image](assets/icons/search-icon.png)
 indicates that the viewed results are subject to filtering by search. This is useful if the search box has been closed.
 
-A red dot on the refresh icon ![image](https://github.com/OzGav/music-assistant.github.io/assets/19848947/e61beec1-cf91-4f53-be49-b2a97b091fa2)
+A red dot on the refresh icon ![image](assets/icons/refresh-icon.png)
 indicates that the viewed results have some sort of update pending. Press the refresh button.
 
 Items in all views can be "right clicked" or "long pressed" to bring up an extensive menu of options. See an example below in the [Track Menu](ui.md#track-menu) section
