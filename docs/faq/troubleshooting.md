@@ -22,6 +22,7 @@ Before you raise an issue [read this first](../support.md). Report issues using 
 - How is playback being instigated (e.g. automation or via the UI)
 - If you aren't using HAOS then exactly how you have installed MA
 - What is working (e.g. player works with music provider X but not Y)
+- What you have tried from this page that hasn't helped
 
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
