@@ -6,12 +6,12 @@
 - Click the button again and in the dialog make sure `Show beta versions` is selected if you want to use those versions.
 - Download the desired version
 - Restart Home Assistant.
-- Go to Configuration -> Integrations and click the big `+` button.
+- Go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button.
 - Look for Music Assistant and click to add it.
 - In the configuration if you do not intend to use the voice features then leave the Conversation Agent as None and you do not need to check the "expose players to Assist" checkbox. If you do intend to use voice it is slightly easier if you do the steps as part of the Installation Requirements first (see below). If you don't do them first then you will have to come back later and reconfigure the Conversation Agent.
 - If Music Assistant does not show, refresh your browser (cache).
 - The Music Assistant integration is ready for use.
-- The MA server addon will be installed automatically.
+- The MA server addon will be installed automatically if you are using HAOS.
 
 !!! note
     You need to set-up the players and music sources within Music Assistant itself.
