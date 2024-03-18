@@ -11,6 +11,8 @@ The Music Assistant HA Integration provides a connection between MA and HA. This
 
 HA media player entities, which are not natively available in MA, can be exposed to MA as well to allow playback on those devices.
 
+Text To Speech announcements will pause MA players, play the message and then resume playback.  
+
 With some additional setup voice control of MA via HA is also possible.
 
 Music Assistant was originally designed to solely work with HA and as a result this tight connection has been maintained and installing the integration will also install the server as an addon. This provides a minimal effort and most secure way of getting up and running. However, this is not the only way and if you have installed the MA server elsewhere (or as an addon before) you will be able to configure the integration to connect to it.
