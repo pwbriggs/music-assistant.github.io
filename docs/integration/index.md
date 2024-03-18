@@ -16,7 +16,7 @@ Text To Speech announcements are supported with the following features:
 - Players will be powered on before the announcement and then off again if it was not powered/active before the announcement
 - Volume will be increased slightly while playing the announcement
 - If a player type has native support for announcements (e.g. Sonos) then that will be used in preference to the MA functionality providing an even smoother experience
-- Works with all players
+- Works with all players that are supported by Music Assistant
 - For TTS announcements, support is provided for prepending it with a "pre announcement sound". This sound can be enabled/disabled in the HA integration options
 
 With some additional setup voice control of MA via HA is also possible.
