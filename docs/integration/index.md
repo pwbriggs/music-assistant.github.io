@@ -11,7 +11,7 @@ The Music Assistant HA Integration provides a connection between MA and HA. This
 
 HA media player entities, which are not natively available in MA, can be exposed to MA as well to allow playback on those devices.
 
-Text To Speech announcements are supported with the following features:
+Announcements are supported with the following features:
 - If music is playing this will be temporarily paused and restored after the announcement
 - Players will be powered on before the announcement and then off again if it was not powered/active before the announcement
 - Volume will be increased slightly while playing the announcement
