@@ -10,14 +10,18 @@ Make sure the HA internal url is set correctly. HA SETTINGS>>SYSTEM>>NETWORK>>Ho
 
 MA streams at high quality which may max out poor network connections. If possible use wired connections for MA players. Input codec is not always the same as the output codec (which is FLAC) so playing a low qualiy MP3 will not change the apparent performance. If you experience stuttering or other interrupted playback issues which are not apparent on wired players or those close to your access points then poor WiFi is likely to blame. You will need to improve your WiFi coverage.
 
+Check the physical device aettings. There have been numerous reports where the issue was actually a setting external to MA such as receivers set to repeat tracks or ESP devices with incorrect arguments passed on install.
+
+Ensure local files are tagged properly.
+
 Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes.
 
 If after an update something isnt working then check the GitHub Issues and Discord to see if it is a known problem. If not try restarting MA, try restarting HA, and try a full HOST REBOOT (in that order). If it is an integration problem then trying removing it from HA settings and HACS then restart HA then reinstall.
 
-Before you raise an issue [read this first](../support.md). Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Screenshots can be helpful. Look in the LOGS for errors. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
+Before you raise an issue [read this first](../support.md). Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Screenshots can be helpful. DOWNLOAD and ATTACH complete logs from MA settings>>CORE. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
 
-- What music provider is in use
-- What player provider is in use
+- What music provider is in use when the problem is observed? What other music providers have you tried (if you have no others then make that clear)
+- What player provider is in use when the problem is observed? What other player providers have you tried (if you have no others then make that clear)
 - Are the players grouped?
 - How is playback being instigated (e.g. automation or via the UI)
 - If you aren't using HAOS then exactly how you have installed MA
