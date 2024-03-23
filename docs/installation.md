@@ -2,7 +2,7 @@
 
 Installing via Home Assistant is the easiest way to get started!
 
-Music Assistant (MA) can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant. MA is built with automation in mind, hence our recommended installation method is to run the server as a Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration. Imstall using one of the three methods below.
+Music Assistant (MA) can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant. MA is built with automation in mind, hence our recommended installation method is to run the server as a Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration. Install using one of the three methods below.
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
 
