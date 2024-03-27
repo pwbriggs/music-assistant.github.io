@@ -26,6 +26,10 @@ The codec shown in the UI to the right of the track title is the codec of the or
     The volume shown against a player group is the AVERAGE of the volumes of each individal player. When the group volume is changed then each player is changed by a proportionate amount.
 
 When a player group is powered on the members of that group will disappear from the player list and individual playback to those players will not be possible. In order to playback to an individual player then either power off the group or remove the player from the group.
+
+!!! note
+    The MDI icon shown against each player can be changed in the player settings.
+
 ***************************************************************
 
 ## Grouping Players
