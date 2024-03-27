@@ -17,6 +17,7 @@ Music Assistant has support for [Tidal](https://tidal.com). Contributed and main
 ## Known Issues / Notes
 
 - If the authorisation process gets stuck then try a different browser. It is likely the authorisation pop up window is being blocked
+- The highest quality that can be provided is 48kHz / 24 bits due to limitations in the login method
 
 ## Not yet supported
 

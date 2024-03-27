@@ -19,6 +19,7 @@ Announcements are supported with the following features:
 - If a player type has native support for announcements (e.g. Sonos) then that will be used in preference to the MA functionality providing an even smoother experience
 - Works with all players that are supported by Music Assistant
 - For TTS (Text to Speech) announcements, support is provided for prepending it with a "pre announcement sound". This sound can be enabled/disabled in the HA integration options
+- Each player has settings which allow for adjustment of certain aspects of the announcement playback
 
 With some additional setup voice control of MA via HA is also possible.
 
