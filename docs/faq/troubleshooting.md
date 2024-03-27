@@ -18,7 +18,7 @@ Review the applicable player or music provider documentation to see if there are
 
 Try power cycling the physical player(s) if they won't connect or if there is no sound.
 
-If after an update something isn't working then check the GitHub Issues and Discord to see if it is a known problem. If not try restarting MA, try restarting HA, and try a full HOST REBOOT (in that order). If it is an integration problem then trying removing it from HA settings and HACS then restart HA then reinstall.
+If after an update something isn't working then trying clearing the cache MA settings>>CORE>> CACHE CONTROLLER>>CLEAR CACHE. If that doesn't fix it then check the GitHub Issues and Discord to see if it is a known problem. If not try restarting MA, try restarting HA, and try a full HOST REBOOT (in that order). If it is an integration problem then trying removing it from HA settings and HACS then restart HA then reinstall.
 
 Before you raise an issue [read this first](../support.md). Report issues using the template with as much detail as possible. Often posts aren’t clear about exactly what is typed where, how something is configured or what series of menus are selected. Screenshots can be helpful. DOWNLOAD and ATTACH complete logs from MA settings>>CORE. You can also look in the Browser console when you have front end issues which in Chrome browser is --> F12 for developer tools --> console. Please include the following in ALL reports:
 
