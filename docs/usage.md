@@ -30,3 +30,7 @@ Right clicking or long press on a track in the queue will show this menu
 The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom in the control bar (or in the NOW PLAYING view for narrow mobile devices).
 
 ![Preview image](assets/screenshots/queue3.png)
+
+!!! note
+    If a queue is paused for more than 30 seconds it's status will change to stopped 
+    
