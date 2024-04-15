@@ -16,7 +16,7 @@ The [MA Companion App](../companion-app.md) can also be configured to run a sque
 If the hardware has at least 4MB of flash and 4MB of PSRAM it will be capable of running squeezelite directly. Use the [Squeezelite ESP32 firmware](https://github.com/sle118/squeezelite-esp32). A nice solution with speaker terminals is the [Louder ESP32](https://www.tindie.com/products/sonocotta/louder-esp32/)
 
 
-If the ESP32 device has other firmware on it that has been discovered by Home Assistant then use the [Home Assistant Player Provider](https://music-assistant.io/integration/installation/) to expose the HA media player entitiy to MA. If the exposed player is running ESPHOME then enable "Use MP3" in the player settings as this is all the player can handle.
+If the ESP32 device has other firmware on it that has been discovered by Home Assistant then use the [Home Assistant Player Provider](https://music-assistant.io/integration/installation/) to expose the HA media player entitiy to MA. If the exposed player is running ESPHOME then enable "Enforce (lossy) MP3 stream" in the player settings as this is all the player can handle.
 
 There is a [Snapclient port](https://github.com/jorgenkraghjakobsen/snapclient) which could also be used.
 
