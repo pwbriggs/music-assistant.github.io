@@ -28,7 +28,8 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 ## Known Issues / Notes
 
-- If you are using the remote share connection, be aware that use of SMB1 (which is very old) is not receommended. If the connection keeps failing, look in your NAS settings to see if you can somehow disable SMB1.
+- Write access to the share is required in order to edit or create playlists which are stored locally. You can still save playlists into the MA built-in provider if only read access is granted.
+- If you are using the remote share connection, be aware that use of SMB1 (which is very old) is not recommended. If the connection keeps failing, look in your NAS settings to see if you can somehow disable SMB1.
 - If you have local artwork then it is important that album FOLDER names exactly match the tagged album name except characters that are not allowed in folder names are not parsed. Therefore, "The Big Chill: Soundtrack" will match "The Big Chill Soundtrack" but "Vika and Linda" will not match "Vika & Linda"
 - Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the ⋮ menu in the banner at the top of a view.
 - Embedded album thumbs will be extracted from audio files. However, you can save disk space by providing a single local artwork file vice embedding the same artwork in all files.
