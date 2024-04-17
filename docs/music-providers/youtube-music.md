@@ -27,6 +27,7 @@ Music Assistant uses OAuth for Youtube Music, which means login is accomplished 
 
 ## Known Issues / Notes
 
+- This provider mimics YouTube Music. Do not expect to see the same search results as you see if using YouTube.
 - There is no support for the disc and track number in album tracks listings. Currently, the disc number is always 0 and the track number is the order number in which the tracks were returned by Youtube Music. This should generally give the desired result, but could mess up multi-disc albums.
 - Whether music videos are selected for playback fully depends on what you are playing. If you have saved a specific album in your library, then that exact version will show up in MA and thus you will have the album version. However, if you start a radio on, for example, a playlist, then Youtube Music decides which songs will be played in a 'dynamic radio' playlist which could include videos.
 - Uploaded Music should be able to be found when it is in a playlist. If it's just a single track being searched for then it may not be found, since often those uploaded songs don't have proper metadata. It will be hard to find them via the UI in MA.

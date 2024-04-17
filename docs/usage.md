@@ -30,3 +30,18 @@ Right clicking or long press on a track in the queue will show this menu
 The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom in the control bar (or in the NOW PLAYING view for narrow mobile devices).
 
 ![Preview image](assets/screenshots/queue3.png)
+
+!!! note
+    If a queue is paused for more than 30 seconds it's status will change to stopped 
+    
+## Playlists
+
+Playlists must be stored on a provider. A music provider's playlist can only contain tracks from that provider. However, MA has a built-in provider with the ability to create playlists that have tracks from multiple music providers. In this case the playlist will be stored solely within the MA database. These options are automtically presented in the Add to Playlist dialog.
+
+Playlists which consist of tracks from the filesystem provider will be stored in the MA database.
+
+User created playlists from streaming providers will be imported into the MA database and will remain synchronised reagrdless of whether changes are made from the MA UI or from the streaming providers native applicatons.
+
+Automatically generated playlists from streaming providers may be supported. See the specific provider documentation for further information.
+
+MA automatically generates some dynamic playlists. These playlists will be updated when they are viewed or played.
