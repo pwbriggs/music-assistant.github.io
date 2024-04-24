@@ -12,7 +12,7 @@ MA streams at high quality which may max out poor network connections. If possib
 
 Check the physical device settings. There have been numerous reports where the issue was actually a setting external to MA such as receivers set to repeat tracks or ESP devices with incorrect arguments passed on install.
 
-Ensure local files are tagged properly.
+Ensure local files are [tagged properly](https://music-assistant.io/music-providers/filesystem/#tagging-files).
 
 Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes.
 
