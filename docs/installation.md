@@ -8,11 +8,11 @@ MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical
 
 ## Primary installation method: Home Assistant Integration Installation
 
-Using HAOS. Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
+Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
 
 ## Secondary installation method: Home Assistant Add-on Manual Installation
 
-Using HAOS. If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
+Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
 
 1. Add the Music Assistant repository to your Home Assistant instance.
 2. Install the Music Assistant add-on.
@@ -61,9 +61,9 @@ ____________
 - Music from your music sources will be automatically loaded into the Music Assistant library. If you have multiple sources, they will be merged as one library.
 - In this first implementation the UI centres around the concept of the [Library](usage.md), so your artists, albums, tracks, playlists and radio stations. You can BROWSE the various providers to add aditional items to your Library. In a later release options will be provided to browse the recommendations of the various streaming providers.
 - Note that at the first startup it can take a while before data is available (first sync), the Music Assistant UI will notify you about tasks that are in progress.
-- Music sources are synced at addon (re)start and every 3 hours.
+- Music sources are synced at addon (re)start and every 3 hours (or other interval as selected in the settings).
 - If a song is available on multiple providers (e.g. Spotify and a flac file on disk), the file/stream with the highest quality is always preferred when starting a stream.
-- Music Assistant uses a custom stream port (TCP 8096 by default) to stream audio to players. Players must be able to reach the Home Assistant instance and this port. If you're running one of the recommended HAOS installation methods, this is all handled for you, otherwise you will have to make sure you're running MA in a container in HOST network mode. Note: If the default port 8096 is occupied, the next port will be tried, and so on.
+- Music Assistant uses a custom stream port (TCP 8096 by default) to stream audio to players. Players must be able to reach the Home Assistant instance and this port. If you're running one of the recommended HAOS installation methods, this is all handled for you, otherwise you will have to make sure you're running MA in a container in privileged mode and HOST network mode. Note: If the default port 8096 is occupied, the next port will be tried, and so on.
 
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
 [repository-url]: https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon
