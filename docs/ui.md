@@ -10,7 +10,7 @@ When visiting Browse you will only see what is already in the Library of the Str
 ## Player Bar
 ![image](assets/screenshots/UI-playercontrols-bar.png)
 
-The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player. 
+The codec shown in the UI to the right of the track title is the codec of the original source. MA re-encodes the track to FLAC when it is sent to the player (Unless the force lossy MP3 option is selected in the player settings (only available for some player types)). 
 ***************************************************************
 
 ## Now Playing View
@@ -79,7 +79,7 @@ The behaviour described above will work on any view where you see the "x item(s)
 
 ![image](assets/screenshots/UI-individual-artist.png)
 
-The tracks and albums section are collapsible. The view above shows them both collapsed. The tracks section shows ALL tracks. To see what albums any given track is on you can either sort alphabetically or click on one and use the context menu and SHOW INFO. 
+The tracks and albums section are collapsible. The view above shows them both collapsed. The tracks section shows ALL tracks that are in the library or that are available across all of the providers. A red dot on the library icon ![image](assets/icons/library-icon.png) indicates that the viewed results are filtered to only show items that are in the library. To see what albums any given track is on you can either sort alphabetically or click on one and use the context menu and SHOW INFO. 
 
 The PROVIDER DETAILS section shows from where the albums and tracks listed above were obtained. It is normal to have multiple entries here if an artist has aliases or there are variant spellings, use of punctuation etc.  The ID shown against the streaming provider may be used in automations and scripts.
 
