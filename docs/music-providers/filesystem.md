@@ -32,7 +32,7 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 - If you are using the remote share connection, be aware that use of SMB1 (which is very old) is not recommended. If the connection keeps failing, look in your NAS settings to see if you can somehow disable SMB1.
 - If you have local artwork then it is important that album FOLDER names exactly match the tagged album name except characters that are not allowed in folder names are not parsed. Therefore, "The Big Chill: Soundtrack" will match "The Big Chill Soundtrack" but "Vika and Linda" will not match "Vika & Linda"
 - Use the following naming convention for local artwork (png should also work). Artist thumb: artist.jpg; Album thumb: folder.jpg or cover.jpg; Fan Art (used as background in banners): fanart.jpg. Artist thumb and Fanart should be in the folder with the artist name. Album thumbs should be in the folder with the album name or in the disc folders below that. More about artwork file types can be found here https://kodi.wiki/view/Artwork_types
-- Embedded album thumbs will be extracted from audio files. However, you can improve performance and save disk space by providing a single local artwork file vice embedding the same artwork in all files.
+- Embedded album thumbs will be extracted from audio files. However, you can improve performance and save disk space by providing a single local artwork file vs. embedding the same artwork in all files.
 
 !!! tip "Local Artwork is Optimal" Using embedded images impacts performance as the same query is called mutiple times per album. This is very noticeable with large numbers of files.
 
