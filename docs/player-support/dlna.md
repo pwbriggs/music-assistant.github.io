@@ -9,7 +9,7 @@ Music Assistant has support for uPnP/DLNA based devices. This is a (somewhat) un
 ## Known Issues / Notes
 
 - Some devices need special workarounds to enable playback. If playback is not working, look at the Music Assistant logs for clues and report an issue with these logs provided. 
-- Enabling flow mode may solve issues relating to the playback stopping randomly 
+- Enabling [flow mode](../faq/normalization/#track-queueing) may solve issues relating to the playback stopping randomly 
 - If your device is not found then try turning on the option "allow network scan for discovery"
 - DLNA speakers do not support crossfading of audio. If you want crossfades and/or full gapless support, enable the "flow mode" in the player's advanced settings. Enabling flow mode comes at the cost of losing metadata on the player itself, unless your player supports "icy metadata".
 - It is not possible to group/sync DLNA players together.
