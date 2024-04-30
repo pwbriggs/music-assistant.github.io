@@ -12,7 +12,7 @@ MA streams at high quality which may max out poor network connections. If possib
 
 Check the physical device settings. There have been numerous reports where the issue was actually a setting external to MA such as receivers set to repeat tracks or ESP devices with incorrect arguments passed on install.
 
-Ensure local files are tagged properly.
+Ensure local files are [tagged properly](https://music-assistant.io/music-providers/filesystem/#tagging-files).
 
 Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes.
 
@@ -84,3 +84,12 @@ This is likely a tagging problem. See [here](../music-providers/filesystem.md/#t
 # MA is interfering with my Spotify Connect or Other Streaming App
 
 If the MA player is "powered on" from the MA UI then MA understands that it is allowed to take control of the player. This may then happen even though you have started playback via another app but have not started playback via MA. To avoid this situation "power off" the MA player.
+
+# MA is crashing on start
+
+Start MA in safe mode
+- With the addon select the toggle in the configration
+- With Docker run the container with the environmental variable MASS_SAFE_MODE set to a boolean true value, e.g. "1" or "true"
+
+If MA now starts, you can start any of the providers by clicking "reload" in the settings (click the 3 dots). If one particular provider causes MA to crash then open an issue with the details
+
