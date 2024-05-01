@@ -16,3 +16,4 @@ This means you can use squeezebox players directly with Music Assistant. This ap
 
 - Make sure that you do not have Logitech Media Server running
 - Make sure that you do not have the "slimproto" integration running in Home Assistant
+- Ordinarily do not use flow mode unless using older squeezebox hardware player that has issues transitioning
