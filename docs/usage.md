@@ -6,6 +6,9 @@ For local music providers all artists/albums/tracks/playlists are imported into 
 
 For streaming providers ONLY the SPECIFIC artists/albums/tracks/playlists that are in the streaming providers library (or favourites or however it is termed in the provider) will be imported into the MA library when the provider is added and at each sync. This means, for example, if you have an artist in the providers library but none of their albums then all you will see in the MA library is the artist with NO associated albums or tracks. You have to subsequently add albums or tracks to the MA library if you want to see them in the library views. Note you can toggle the library / streaming provider filter option to see all that is available in the streaming provider.
 
+!!! note
+    If identical items (e.g. an album or track) have not been matched across providers or within a provider then select the item and using the ⋮ menu in the top banner select REFRESH ITEM
+    
 ![Preview image](assets/screenshots/library.png)
 
 **Favourites**
