@@ -12,7 +12,7 @@ Music Assistant has full support for Google Cast based devices. This includes Go
 
 ## Known Issues / Notes
 
-- Cast speakers do not support crossfading of audio. If you want crossfade and/or full gapless support, enable the "[flow mode](../faq/normalization/#track-queueing)" in the player's advanced settings. Enabling flow mode will upsample all audio to 48k/24 bits on chromecast. If the unaltered stream is desired then do not use flow mode.
+- Cast speakers do not support crossfading of audio. If you want crossfade and/or full gapless support, enable the "[flow mode](../faq/normalization/#track-queueing)" in the player's advanced settings.
 - If your Chromecast speakers are not auto detected or randomly unavailable then make sure that your Cast enabled speakers are on the same network/subnet as your Music Assistant server. Additionally, ensure that multicast traffic (more specifically mDNS) can travel freely as that is used for the discovery of players.
 - After re-enabling a disabled speaker, it can take a while before the speaker is rediscovered, the process can be sped up by restarting Music Assistant.
 - It is not possible to group/sync cast players from within the MA interface (simply because an api does not exist for that).
