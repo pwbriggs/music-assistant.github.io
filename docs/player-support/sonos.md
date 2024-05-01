@@ -10,4 +10,4 @@ Music Assistant has support for Sonos devices.
 
 ## Known Issues / Notes
 
-- Issues have been reported with the Sonos Arc and Unifi networking equipment. Ensure Multicast DNS and IGMP snooping is turned on if you have problems 
+- Issues have been reported with the Sonos Arc and Unifi networking equipment. Ensure Multicast DNS and IGMP snooping are turned on if you have problems
