@@ -9,8 +9,7 @@ Music Assistant has support for uPnP/DLNA based devices. This is a (somewhat) un
 ## Known Issues / Notes
 
 - Some devices need special workarounds to enable playback. If playback is not working, look at the Music Assistant logs for clues and report an issue with these logs provided. 
-- Enabling [flow mode](../faq/normalization/#track-queueing) may solve playback issues relating however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
 - If your device is not found then try turning on the option "allow network scan for discovery"
-- DLNA speakers do not support crossfading of audio. If you want crossfade and/or full gapless support, enable the [flow mode](../faq/normalization/#track-queueing) in the player's advanced settings. Flow mode may also solve issues when a player doesn't transition between tracks. Enabling flow mode comes at the cost of losing metadata on the player itself, unless your player supports "icy metadata".
+- DLNA speakers do not support crossfading of audio. If you want crossfade and/or full gapless support, enable [flow mode](../faq/normalization/#track-queueing) in the player's advanced settings. Enabling flow mode may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself.
 - It is not possible to group/sync DLNA players together.
 - Although Sonos devices are strictly also based on DLNA, they created their own extra layer on top of that such as crossfade support and many other goodies. It is therefore advised to use the Sonos Player provider with Music Assistant instead of the DLNA provider. MA disables any discovered Sonos DLNA devices by default.
