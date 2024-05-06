@@ -33,6 +33,12 @@ Before you raise an issue [read this first](../support.md). Report issues using 
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
 
+# A provider isn't working
+
+Naviagte to MA settings and inspect the provider entry. If there is a red circle with an exclamation mark next to it then hover over that icon to see the error message.
+
+![image](../assets/screenshots/setup_error.png)
+
 # Why aren't tracks/albums matching between providers
 
 Matching items between streaming providers is challenging as they do not all provide the same or unique metadata to definitively identify a match. If you think there is an obvious match (eg. same artist and track and album) then please submit an issue report. For more information about how MA uses metadata in various ways see here https://github.com/music-assistant/hass-music-assistant/discussions/543
