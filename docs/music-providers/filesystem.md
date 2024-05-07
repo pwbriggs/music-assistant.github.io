@@ -36,7 +36,7 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 
 !!! tip "Local Artwork is Optimal" 
-    Using embedded images impacts performance as the same query is called mutiple times per album. This is very noticeable with large numbers of files.
+    Using embedded images on every track of the same album is suboptimal for both disk space and performance. Use a single folder.jpg in the album's folder instead.
 
 - Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the ⋮ menu in the banner at the top of a view.
 - Local tracks and albums will be linked to the same tracks or albums on other streaming providers. Note that same is not simply same name. The tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length. However, poor tag information may lead to poor matches.
