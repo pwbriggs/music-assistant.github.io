@@ -50,6 +50,7 @@ nav:
   - I Want to Help / Donate: 
     - help/index.md
     - Translations: help/lokalise.md
+  - Release Cycle: release.md
 
 theme:
   custom_dir: overrides

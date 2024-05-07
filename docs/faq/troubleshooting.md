@@ -2,7 +2,7 @@
 
 Probably the most common issue is people trying to run MA with complicated network setups. Running behind VPNs, across subnets or VLANs, behind firewalls, local SSL, using reverse proxies or inside containers is not supported (it might work but we can’t troubleshoot for you as MA is run by a small team who don't have the resources to help with non-MA issues). Search Discord for these problems as users have regularly reported these issues and found that it is their setup that was causing the fault; their solution might help you.
 
-There are settings available in MA SETTINGS>>CORE>>STREAMSERVER>>CONFIGURE>>ADVANCED that might help you if you have complicated setups. If you are running MA in your own docker container then make sure you have the correct  PUBLISHED IP ADDRESS and BIND TO IP/INTERFACE set. Ensure containers are in HOST networking mode.
+There are settings available in MA SETTINGS>>CORE>>STREAMSERVER>>CONFIGURE>>ADVANCED that might help you if you have complicated setups. If you are running MA in your own docker container then make sure you have the correct  PUBLISHED IP ADDRESS and BIND TO IP/INTERFACE set. Ensure containers are in HOST networking and PRIVILEGED mode.
 
 Most players are discovered using mDNS (broadcast) so if your players do not get discovered it means that your network is blocking that traffic (e.g. IGMP or multicast snooping or filtering). You will have to check your settings (e.g. WiFi setup) if multicast is being blocked. Business solutions tend to block multicast traffic as much as possible as it hurts performance when there are many clients. In a home setup is it mandatory to have because all home gear relies on multicast.
 
@@ -32,6 +32,12 @@ Before you raise an issue [read this first](../support.md). Report issues using 
 
 !!! note
     You can retrieve the full MA logs by going to the MA settings and clicking on CORE
+
+# A provider isn't working
+
+Navigate to MA settings and inspect the provider entry. If there is a red circle with an exclamation mark next to it then hover over that icon to see the error message.
+
+![image](../assets/screenshots/setup_error.png)
 
 # Why aren't tracks/albums matching between providers
 

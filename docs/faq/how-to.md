@@ -36,6 +36,8 @@ data:
   media_content_type: music
 ```
 
+See here for [enqueue options](https://www.home-assistant.io/integrations/media_player/)
+
 See also [mass.play_media service call](./massplaymedia.md)
 
 # Start a playlist with a script
