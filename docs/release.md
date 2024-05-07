@@ -2,7 +2,7 @@
 
 ## Stable Releases
 
-Stable releases will only be pushed every 1-3 months, depending on the amount of features and quality. This stable release only comes after a beta cycle has been promoted to RC and the dev team all agree its stable enough to be promoted.
+Stable releases will only be published every 1-3 months, depending on the amount of features and quality. This stable release only comes after a beta cycle has been promoted to"Release Candidate" and the development team all agree its stable enough to be promoted.
 
 Patch releases on stable will be pushed if there if there is a real need, such as an important bugfix that was missed during beta but never any new functionality.
 
