@@ -35,7 +35,7 @@ Before you raise an issue [read this first](../support.md). Report issues using 
 
 # A provider isn't working
 
-Naviagte to MA settings and inspect the provider entry. If there is a red circle with an exclamation mark next to it then hover over that icon to see the error message.
+Navigate to MA settings and inspect the provider entry. If there is a red circle with an exclamation mark next to it then hover over that icon to see the error message.
 
 ![image](../assets/screenshots/setup_error.png)
 
