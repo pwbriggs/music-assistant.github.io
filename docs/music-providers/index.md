@@ -9,6 +9,6 @@ General Notes:
 - Music providers are added by navigating to MA Settings and then clicking on ADD MUSIC PROVIDER at the top of the page
 
 !!! tip "Note" 
-    Depending up on the sequence of adding providers the automatic linking process may need to be initiated again. If what appears to be identical albums or tracks are seen then navigate to the album or track and using the ⋮ menu in the banner at the top of the view select "Refresh Item". This will trigger the linking process and should result in the same albums and tracks being collapsed together.
+    Depending upon the sequence of adding providers, the automatic linking process may need to be initiated again. If what appears to be identical albums or tracks are seen then navigate to the album or track and using the ⋮ menu in the banner at the top of the view select "Refresh Item". This will trigger the linking process and should result in the same albums and tracks being collapsed together.
 
 ![image](../assets/screenshots/add-music-provider.png)
