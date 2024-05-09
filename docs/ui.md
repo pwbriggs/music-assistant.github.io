@@ -65,7 +65,7 @@ There are three ways to group players
 
 ![image](assets/screenshots/UI-artist-view.png)
 
-Album and Track Views look the same as the above except there is no album artist filter icon but there is an additional view specific menu item
+Album and Track Views look the same as the above except there is no album artist filter icon
 
 A red dot on the search icon ![image](assets/icons/search-icon.png)
 indicates that the viewed results are subject to filtering by search. This is useful if the search box has been closed.
@@ -73,7 +73,7 @@ indicates that the viewed results are subject to filtering by search. This is us
 A red dot on the refresh icon ![image](assets/icons/refresh-icon.png)
 indicates that the viewed results have some sort of update pending. Press the refresh button.
 
-Items in all views can be "right clicked" or "long pressed" to bring up an extensive menu of options. See an example below in the [Track Menu](ui.md#track-menu) section
+Items in all views can be "right clicked" or "long pressed" to bring up an extensive menu of options which is the same as that accessed by the ⋮ menu on the right. In the image above the complete list of possibilities is shown and this will vary slightly depending on the current view.
 
 Multiple selections of albums / artists / tracks is possible by clicking the multi-select icon. Once one or more items are selected then clicking on the "ACTIONS" at the bottom
 
