@@ -39,6 +39,10 @@ The options in the menu available in the top right is shown below. Repeat and Sh
 
 Playlists must be stored on a provider. A music provider's playlist can only contain tracks from that provider. However, MA has a built-in provider with the ability to create playlists that have tracks from multiple music providers. In this case the playlist will be stored solely within the MA database. These options are automtically presented in the Add to Playlist dialog.
 
+Playlists can be created or added to from various menus in the different views. They can also be created in the Playlist view by clicking on the icon in the top right.
+
+![Preview image](assets/screenshots/playlist-create.png)
+
 Playlists which consist of tracks from the filesystem provider will be stored in the MA database.
 
 User created playlists from streaming providers will be imported into the MA database and will remain synchronised regardless of whether changes are made from the MA UI or from the streaming provider's native applicatons.
