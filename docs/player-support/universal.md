@@ -13,5 +13,5 @@ All devices (except Chromecast) can be grouped but not all will play in sync. Se
 
 ## Known Issues / Notes
 
-UGP is on best-effort basis and might not work correctly with all player models or give unexpected results. For best reaults use standalone or syncgroup playback as [explained here](../ui.md/#grouping-players)
+UGP is on best-effort basis and might not work correctly with all player models or give unexpected results. For best results use standalone or syncgroup playback as [explained here](../ui.md/#grouping-players)
 
