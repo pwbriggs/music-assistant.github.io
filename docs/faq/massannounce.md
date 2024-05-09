@@ -2,6 +2,12 @@
 
 !!! note
     For sending text messages use the HA TTS service calls and target the MA media player entity
+```
+    service: tts.google_say
+      data:
+        entity_id: media_player.ma_kitchen_speaker
+        message: This is a test
+```
     
 This service call allows you to send audio announcements via a URL to a player. The URL could be accessed in a variety of ways. For example:
 - External such as `https://www.soundjay.com/door/doorbell-5.mp3` 
