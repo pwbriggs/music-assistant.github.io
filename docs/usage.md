@@ -43,8 +43,8 @@ Playlists must be stored on a provider. A music provider's playlist can only con
 
 Playlists which consist of tracks from the filesystem provider will be stored in the MA database.
 
-User created playlists from streaming providers will be imported into the MA database and will remain synchronised regardless of whether changes are made from the MA UI or from the streaming providers native applicatons.
+User created playlists from streaming providers will be imported into the MA database and will remain synchronised regardless of whether changes are made from the MA UI or from the streaming provider's native applicatons.
 
 Automatically generated playlists from streaming providers may be supported. See the specific provider documentation for further information.
 
-MA automatically generates some dynamic playlists. These playlists will be updated when they are viewed or played.
+MA automatically generates some dynamic playlists. These playlists will be updated at the sync interval set in MA SETTINGS>>CORE>>MUSIC CONTROLLER or they can be updated manually by navigating to the playlist and then the ⋮ menu in the top right and selecting REFRESH ITEM.
