@@ -1,14 +1,16 @@
 # Installing the Server
 
-Installing via Home Assistant is the easiest way to get started!
 
 Music Assistant (MA) can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant. MA is built with automation in mind, hence our recommended installation method is to run the server as a Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration. Install using one of the three methods below.
+
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
 
 ## Primary installation method: Home Assistant Integration Installation
 
 Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
+
+[![Add Music Assistant as Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
 
 ## Secondary installation method: Home Assistant Add-on Manual Installation
 
