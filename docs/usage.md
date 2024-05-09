@@ -17,20 +17,18 @@ As a further means of filtering the library, items can be marked as a "favourite
 
 ## The Queue
 
-Each player has its own queue. Viewing the queue is done by pressing the :material-playlist-play: button. This button can be found on the control bar at the bottom of the UI or for narrow displays in the NOW PLAYING view.
+Each player has its own queue. Viewing the queue is done by pressing the :material-playlist-play: button. This button can be found on the player bar at the bottom of the UI or for narrow displays in the NOW PLAYING view.
 
-Depending upon screen resolution the PLAYED ITEMS option may or may not be visible. If it is then selecting that will show the previous items from the queue and selecting any will restart the queue from that point.
+Selecting the PLAYED ITEMS option will show the previous items from the queue and selecting any will show a menu and this will allow a restart of the queue from that point.
 
 ![Preview image](assets/screenshots/queue1.png)
+
+A menu of options to control the queue is available for each upcoming track and is shown in the image above.
 
 !!! note
     What happens to the queue when the different types of items (e.g. album, artist, playlist etc) are added to it is configurable in MA SETTINGS>>CORE>>PLAYER QUEUES CONTROLLER
     
-Right clicking or long press on a track in the queue will show this menu
-
-![Preview image](assets/screenshots/queue2.png)
-
-The options in the menu in the top right is shown below. This is the only place crossfade can be enabled or disabled (crossfade duration is set in the player settings). Repeat and Shuffle have buttons at the bottom in the control bar (or in the NOW PLAYING view for narrow mobile devices).
+The options in the menu available in the top right is shown below. Repeat and Shuffle also have buttons at the bottom in the player bar (or in the NOW PLAYING view for narrow mobile devices).
 
 ![Preview image](assets/screenshots/queue3.png)
 
