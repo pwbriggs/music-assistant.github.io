@@ -11,6 +11,7 @@ nav:
     - integration/index.md
     - Installation: integration/installation.md
     - Play Media Service Call: faq/massplaymedia.md
+    - Play Announcement Service Call: faq/massannounce.md
     - Search Service Call: faq/masssearch.md
   - Companion App: companion-app.md
   - Usage: 
