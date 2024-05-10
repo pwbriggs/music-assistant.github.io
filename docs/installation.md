@@ -22,6 +22,9 @@ Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If yo
 
 Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
 
+!!! note 
+    When using this method (and ticking the `Use the official Music Assistant server add-on` checkbox) the Integration will install the server and auto update it. The server will be uninstalled if the Integration is removed. The server will be shutdown if the Integration is disabled. You will not be able to manually uninstall the server and if you manually shut it down it will be restarted.
+    
 ## Tertiary installation method: Docker image
 
 An alternative way to run the Music Assistant server is by running the docker image:
