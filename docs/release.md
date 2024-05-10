@@ -4,7 +4,7 @@
 
 Stable releases will only be published every 1-3 months, depending upon the number of feature improvements. These stable releases will come after a beta cycle has been promoted to "Release Candidate" and the development team all agree its stable enough to be promoted.
 
-Patch releases may be pushed if there if there is a compelling need (e.g. an urgent bugfix)
+Patch releases may be pushed if there is a compelling need (e.g. an urgent bugfix)
 
 ## Beta Releases
 
