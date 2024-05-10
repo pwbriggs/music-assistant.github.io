@@ -39,9 +39,10 @@ Next install the Home Assistant Player Provider
 
 ## Service Calls
 
-The integration adds two service calls for use in scripts and automations. 
+The integration adds three service calls for use in scripts and automations. 
 
 - [mass.play_media](../faq/massplaymedia.md)
+- [mass.play_annnouncement](../faq/massannounce.md)
 - [mass.search](../faq/masssearch.md)
 
 ## OpenAI features
