@@ -84,6 +84,8 @@ filesystem_smb://track/blah
 
 Relative paths to the playlist (e.g.` ../Mariah Carey/Merry Christmas/02 All I Want for Christmas Is You.flac` ) should also work.
 
+M3U, M3U8 and PLS playlists are supported.
+
 # Go to next/previous radio station via a script
 
 Create a playlist with multiple radio stations and start playing it. Now you can use next and previous to switch between the stations
