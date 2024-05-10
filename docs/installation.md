@@ -6,11 +6,7 @@ Music Assistant (MA) can be operated as a complete standalone product but it is 
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
 
-## Primary installation method: Home Assistant Integration Installation
-
-Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
-
-## Secondary installation method: Home Assistant Add-on Manual Installation
+## Primary installation method: Home Assistant Add-on Manual Installation
 
 Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
 
@@ -19,6 +15,9 @@ Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If yo
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
 
+## Secondary installation method: Home Assistant Integration Installation
+
+Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
 
 ## Tertiary installation method: Docker image
 
