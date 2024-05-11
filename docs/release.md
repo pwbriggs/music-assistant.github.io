@@ -19,9 +19,11 @@ There is also a dev/nightly add-on which can be run to get the absolute latest v
 
 ### Running Parallel Server Versions
 
-It is possible to run the stable, beta or dev server add-ons side by side as they don't share any data. Thus you can temporarily run the beta add-on to try out new features and then revert to the stable version. HOWEVER, you must ensure that if you are using the HA Integration that it is setup WITHOUT selecting `Use the official addon` checkbox. This is because the Integration will install and try and control the Stable Addon and you will have major problems trying to control which version of the addon is running. You will have to uninstall and reinstall the Integration if you initially installed it with that checkbox selected.
+It is possible to run the stable, beta or dev server add-ons side by side as they don't share any data. Thus you can temporarily run the beta add-on to try out new features and then revert to the stable version. You can do this in one of two ways:
 
-When setting up the Integration you will have to set the `URL of the Music Assistant server` to the IP address and port that you can find in the server logs in a line that looks like `2024-05-10 15:59:50.863 INFO (MainThread) [music_assistant.webserver] Starting server on  172.30.32.1:8095 - base url: http://172.30.32.1:8095/` If you want the Integration to function with whichever server version you are running then you will need to reconfigure the Integration with the appropriate IP address.
+1. If you setup the Integration with the `Use the official addon` checkbox ticked then disable the HA Integration which will stop the stable server. Now start the Beta/Dev server. Reverse this process to restore the stable server.
+
+2. If you setup the HA Integration without selecting `Use the official addon` checkbox then you will have to manually start and stop the relevant servers
 
 ## HA Integration
 
