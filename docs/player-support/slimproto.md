@@ -14,6 +14,6 @@ This means you can use squeezebox players directly with Music Assistant. This ap
 
 ## Known Issues / Notes
 
-- Make sure that you do not have Logitech Media Server running
+- Running LMS on the same server as MA with the MA slimproto provider enabled can have undesired effects
 - Make sure that you do not have the "slimproto" integration running in Home Assistant
 - Ordinarily do not use flow mode unless using older squeezebox hardware player that has issues transitioning. Enabling flow mode may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
