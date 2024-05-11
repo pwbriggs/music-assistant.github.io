@@ -45,8 +45,6 @@ ____________
 
 - The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be accessible via HTTP (no HTTPS) by IP-address from local players. See the server's logging at startup to see if the server has correctly auto-detected the local IP.
 
-- The server itself hosts a websocket API and a JSON RPC API which is more or less compatible with LMS, however, you cannot run a separate LMS server on your network if the MA slimproto provider is enabled. The Music Assistant fronted communicates with the server using the websockets API.
-
 - You cannot run the slimproto integration in Home Assistant if the slimproto provider is emabled.
 
 - The webinterface of the server can be reached on TCP port 8095 if enabled in the settings. By default, on HAOS based installations, the webserver is internal only and not exposed to the outside world. It is protected by HA authentication using the Ingress feature of Home Assistant (you also get the sidepanel shortcut for free!)
