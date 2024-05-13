@@ -1,6 +1,6 @@
 # Music Assistant
 
-![MA Banner](assets/MA_banner.png)
+![Banner](assets/banner.png)
 
 Music Assistant is a music library manager for your offline and online music sources which can easily stream your favourite music to a wide range of supported players and be combined with the power of Home Assistant!
 
@@ -30,6 +30,8 @@ Music Assistant consists of multiple building blocks:
 ## Music Assistant Server
 
 The Music Assistant server is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and it keeps track of your music sources. It must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike. The server can access multiple music providers and stream to multiple player types.
+
+![MA Banner](assets/MA_banner.png)
 
 ## Music Assistant Integration
 

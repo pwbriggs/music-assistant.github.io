@@ -9,7 +9,7 @@ This service call allows you to send audio announcements via a URL to a player. 
 ![image](../assets/screenshots/service-call/play_announcement.png)
 
 !!! note
-    For sending text messages use the HA TTS service calls and target the MA media player entity
+    For sending text messages use the HA TTS service calls and target the MA media player entity. There are a number of options available to control the volume of announcements in the MA settings for each player.
 ```
 service: tts.google_say
   data:

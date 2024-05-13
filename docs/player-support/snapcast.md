@@ -14,14 +14,14 @@ MA includes a built-in Snapserver although an external server can also be used. 
 
 ## Known Issues / Notes
 
-- The Snapcast provider is not enabled by default. A built-in Snapserver with the Snapweb option is launched when this provider is added. Once enabled the workings of the server are transparent and the clients appear in the MA UI
-- Music Assistant only supports Snapcast version 0.27.0 (or newer)
-- The Snapcast provider will use the built-in Snapserver by default although a switch in the settings allows the use of an external server if desired. When using an external server the server IP and port must be entered.
+- The Snapcast provider will use the built-in Snapserver by default although a switch in the settings allows the use of an external server if desired. When using an external server the server IP and port must be entered. 
+- Music Assistant only supports external Snapcast servers running version 0.27.0 (or newer). If using an external server ensure it is launched with the command "snapserver -v".
+- If not using an external server then the built-in Snapserver with the Snapweb option will be launched when this provider is added. Once enabled the workings of the server are transparent and the clients appear in the MA UI.
+- Clients are created by pointing a browser or Snapdroid at `<YOUR_MA_IP_ADDRESS>:1780`. The browser tab must remain open to maintain the stream.
+- Client names for all clients can be adjusted in Snapweb and Snapdroid via their respective UIs. Additionally, it is possible to rename the players in the MA settings.
 - The built-in Snapserver can only accept connections from Music Assistant
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as Snapdroid or Snapweb
 - Pausing the player is NOT supported. If you try and do that you will get weird behaviour.
 - The Snapcast app for iOS is broken as it uses an old version of Snapclient. Using it brings problems with this provider
-- If using an external server ensure it is launched with the command "snapserver -v".
 - Ensure that the ports 1704 and 1705 on the Snapserver host are open. Also ensure that for each client a port equal to or greater than 4953 is open
 - Try the default Snapcast settings and then make changes as necessary.
-- Client names for all clients can be adjusted in Snapweb and Snapdroid via their respective UIs

@@ -11,3 +11,4 @@ Music Assistant has support for Sonos devices.
 ## Known Issues / Notes
 
 - Issues have been reported with the Sonos Arc and Unifi networking equipment. Ensure Multicast DNS and IGMP snooping are turned on if you have problems
+- Using the Sonos HA Integration at the same time as the MA player provider may cause problems. Recommend only using the MA player provider.

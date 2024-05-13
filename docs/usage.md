@@ -1,3 +1,13 @@
+## Online Metadata Sources
+
+Music Assistant relies heavily on metadata to work well and it gets this information from locally tagged files and online sources. The free online resources have limits and MA is often hitting those limits so further restrictions have been put in place. This means that:
+
+- Online resources will only be queried on the (first) open or play of an item
+- No more background scanning for missing metadata
+- Users with local files that are badly tagged or without images in the music folders will see no more artist thumbs
+- If a user has no album artist tag, we no longer try to look it up in musicbrainz
+- Simply default to various artists if the album artist tag is missing in local files
+
 ## The Library
 
 The Music Assistant Library is a database containing details of the music which the user has indicated they are interested in listening to on a regular basis. It consists of information about Artists, Albums, Tracks, Playlists and Radio Stations which allows easy searching, display and cross referencing across the User Interface.

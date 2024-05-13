@@ -8,10 +8,10 @@
 - Restart Home Assistant.
 - Go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button.
 - Look for Music Assistant and click to add it.
-- In the configuration if you do not intend to use the voice features then leave the Conversation Agent as None and you do not need to check the "expose players to Assist" checkbox. If you do intend to use voice it is slightly easier if you do the steps as part of the Installation Requirements first (see below). If you don't do them first then you will have to come back later and reconfigure the Conversation Agent.
 - If Music Assistant does not show, refresh your browser (cache).
-- The Music Assistant integration is ready for use.
-- The MA server addon will be installed automatically if you are using HAOS.
+- If using HAOS tick `Use the official Music Assistant Server add-on` checkbox if you want the Integration to install and manage the server. If you don't tick this box then you must have already installed and have running the MA server. You will need the server IP which you can find in the server logs. For example, `http://172.30.32.1:8095/` 
+- If you do not intend to use the voice features then leave the Conversation Agent as None and you do not need to check the `Expose players to Assist` checkbox. If you do intend to use voice it is slightly easier if you do the steps as part of the Installation Requirements first (see below). If you don't do them first then you will have to come back later and reconfigure the Conversation Agent.
+- Click SUBMIT and the Music Assistant integration is ready for use.
 
 !!! note
     You need to set-up the players and music sources within Music Assistant itself.
@@ -21,7 +21,7 @@
 
 ## Installation of the Home Assistant Player Provider
 
-First you must install the Home Assistant Plug-in provider
+Once the HA Integration is installed it is possible to stream to HA media player entities. In order to do that you need to install the HA Player Provider.  First you must install the Home Assistant Plug-in provider
 
 - Navigate to MA SETTINGS>>PROVIDERS and add the plug-in provider
 - If using the Music Assistant add-on (i.e. HAOS), you wont need any server details, it should auto connect to the local HA instance
