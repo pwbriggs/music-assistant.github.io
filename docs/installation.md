@@ -1,5 +1,9 @@
-# Installing the Server
+---
+title: Installation
+description: Installation guide for Music Assistant 
+---
 
+# Installing the Server
 
 Music Assistant (MA) can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant. MA is built with automation in mind, hence our recommended installation method is to run the server as a Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration. Install using one of the three methods below.
 

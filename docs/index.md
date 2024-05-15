@@ -1,3 +1,8 @@
+---
+title: Music Assistant
+description: Music Assistant is a music library manager for local and streaming providers
+---
+
 # Music Assistant
 
 ![Banner](assets/banner.png)
