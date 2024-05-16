@@ -44,7 +44,7 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
   
 ## Tagging Files 
 
-- It is very important that all of your audio files contain proper [ID3 tag](https://en.wikipedia.org/wiki/ID3) information. The more comprehensive the tagging the better the results will be when using MA. For this reason it is strongly recommended that all files are tagged with [MusicBrainz Picard](https://picard.musicbrainz.org). This will ensure consistency and completeness of the tags that MA needs to work best. Other programs such as Mp3Tag are often also based on the Musicbrainz catalog and can work as well provided they include ISRC and all MBID tags.
+- It is very important that all of your audio files contain proper [ID3 tag](https://en.wikipedia.org/wiki/ID3) information. The more comprehensive the tagging the better the results will be when using MA. For this reason it is strongly recommended that all files are tagged with [MusicBrainz Picard](https://picard.musicbrainz.org). This will ensure consistency and completeness of the tags that MA needs to work best. Other programs such as [Mp3Tag](https://www.mp3tag.de/en/) are often also based on the Musicbrainz catalog and can work as well provided they include ISRC and all MBID tags.
 - Music Assistant puts you in control by fully trusting the ID3 tags you provide, only additional information is scraped from metadata providers.
 - Music Assistant has support for both embedded artwork and artwork stored in a common folder structure of Artist \ Album and .nfo files with enhanced metadata are also supported.
 - Files simply dumped into a random structure will also be imported but no other data will be retrieved from the folder structure.
@@ -54,4 +54,15 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 ![image](../assets/screenshots/no-disc-tag.png)
 
+### Manually Adjusting Tags
 
+!!! danger
+    The following should be considered as advanced. Making manual changes to the tags can have undesired effects to the MA library if you make mistakes. Additionally, matching may not occur or may occur incorrectly between providers.
+
+Normally it is best to leave the Picard tags unchanged. However, some people do not agree with Musicbrainz that [remasters are the same as the original recording.](https://musicbrainz.org/doc/Style/Recording#Recordings_with_different_mastering) To separate these out you can edit the tags as follows:
+
+- Remove MusicBrainz Release ID and Recording ID
+- Keep MusicBrainz Artist ID
+- Remove ISRC (as that is also used as strong identifier for tracks)
+- Remove barcode (as that is also used as string identifier for albums)
+- Because there is no version specific ID3 tag, place the version between brackets in the title. For example, Great Song (Vinyl Rip)
