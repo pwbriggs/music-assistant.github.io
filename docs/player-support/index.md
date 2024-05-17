@@ -6,6 +6,9 @@ If a device supports multiple protocols then multiple players for the device wil
 
 ![Preview image](../assets/screenshots/player-disable.png){ width = 600 } 
 
+!!! note
+    If any player is not transitioning between somgs then check if the player has the option QUEUE FLOW MODE. Try enabling it if it does.
+
 ## Audio Quality
 
 Audio quality is the principal reason why native MA players are developed. These players provide the highest quality playback experience. HA players will work and may work well but they may also have been written with a basic objective such as enabling text to speech. Therefore, if there is a MA player available and a HA integration then you should always choose the MA player. 
