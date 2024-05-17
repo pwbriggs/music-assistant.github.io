@@ -48,6 +48,32 @@ Use the `media_player.play_media` service call shown above or `mass.play_media` 
 
 Use the `mass.play_media` service call and set the `media_id` as the station name.
 
+# Play a Random Item
+
+Use mass search and an script/automation such as this:
+
+``` yaml
+alias: Random Album
+sequence:
+  - service: mass.search
+    data:
+      limit: 9
+      name: ARTISTNAME
+      media_type:
+        - album
+    response_variable: results
+  - service: mass.play_media
+    data:
+      media_id: "{{ results.albums[range(0, 8) | random].uri }}"
+    target:
+      device_id: XYZ
+mode: single
+```
+
+This could be modified for other item tyoes (e.g. tracks or playlists). 
+
+Thanks to [ministryofsillywalks](https://github.com/ministryofsillywalks) who showed us [here](https://github.com/orgs/music-assistant/discussions/1637#discussioncomment-9462085)
+
 # Clear the queue with a script or automation
 
 Use the HA service call of `media_player.clear_playlist` or the new `mass.play_media` service call and select the appropriate enqueue option if wanting to clear the queue and play something else.
