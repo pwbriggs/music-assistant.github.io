@@ -8,7 +8,7 @@
 
 The desktop companion app for Music Assistant!
 
-**Download for** macOS ([Apple Silicon](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.35/music-assistant-companion_0.0.35_aarch64.dmg) | [Intel](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.35/music-assistant-companion_0.0.35_x64.dmg)) · [Windows](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.35/music-assistant-companion_0.0.35_x64_en-US.msi) · Linux ([Debian](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.35/music-assistant-companion_0.0.35_amd64.deb) | [Other](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.35/music-assistant-companion_0.0.35_amd64.AppImage))
+**Download for** macOS ([Apple Silicon](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_aarch64.dmg) | [Intel](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_x64.dmg)) · [Windows](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_x64_en-US.msi) · Linux ([Debian](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_amd64.deb) | [Other](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_amd64.AppImage))
  
 !!! tip "This is still in very early alpha. Bugs *will* be present."
     Please help finding them. You can report any bugs on the [Discord server](https://discord.gg/kaVm8hGpne) or in the [repo issues](https://github.com/music-assistant/music-assistant-desktop/issues)
@@ -31,15 +31,27 @@ When starting the app for the first time you are asked for some information abou
 
 Squeezelite comes embedded in the application. This allows playback of music to your computer. The player name will be the same as your computer name. You can change the name in Music Assistant settings. You can also toggle if you wish to enable squeezelite at all.
 
+To allow playback to the companion app you have to enable the slimproto provider in the Music Assistant settings.
+
 ### [Discord Rich Presence](https://discord.com/developers/docs/rich-presence/how-to#so-what-is-it)
 
 Like the Spotify app, the Music Assistant app can do Discord Rich Presence.
 
 Example of Discord Rich Presence:
 
-![Example of Discord Rich Presence](https://github.com/Un10ck3d/massapp/assets/74015378/8de18bac-b963-4aba-bb61-5730b41759a9)
+![Example of Discord Rich Presence](https://github.com/music-assistant/companion/assets/74015378/8de18bac-b963-4aba-bb61-5730b41759a9)
 
 ## Installation
+
+### Windows
+
+You can download the .msi installer from the [releases](https://github.com/music-assistant/companion/releases/latest/).
+
+### MacOS
+
+You can download the .dmg from the [releases](https://github.com/music-assistant/companion/releases/latest/).
+
+Or you can download it using homebrew: `brew install music-assistant/tap/companion`
 
 ### Arch Linux
 
@@ -47,25 +59,13 @@ This app is on the arch aur with the name `music-assistant-desktop` or `music-as
 
 You can install it with yay: `yay music-assistant-desktop-bin`
 
-### Debian (And debian based distributions)
+### Debian (And debian based distrobutions)
 
-You can download the .deb from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
+You can download the .deb from the [releases](https://github.com/music-assistant/companion/releases/latest/).
 
 ### All the other linux distros
 
-You can download the AppImage from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
-
-### MacOS
-
-You can download the .dmg from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
-
-
-!!! danger "The app is unsigned since we currently don't want to spend 90 USD/yr for an Apple Developer account."
-    Therefore it will warn you about an untrusted developer/app downloaded from the internet. To open it follow [these instructions](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac)
-
-### Windows
-
-You can download the .msi installer from the [releases](https://github.com/Un10ck3d/massapp/releases/latest/).
+You can download the AppImage from the [releases](https://github.com/music-assistant/companion/releases/latest/).
 
 ### From source
 
@@ -90,6 +90,4 @@ $ cd ..
 
 And then build the app
 
-```bash
-$ npx tauri build
-```
+`$ npx tauri build`
