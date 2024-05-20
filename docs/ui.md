@@ -1,3 +1,8 @@
+---
+title: User Interface
+description: A Walkthrough of the Music Assistant User Interface
+---
+
 # User Interface
 
 ## Main Menu
