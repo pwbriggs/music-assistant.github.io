@@ -4,7 +4,7 @@ See [here](../integration/installation.md#openai-features). This adds a PLAY com
 
 # Use volume normalization? How does it work?
 
-The setting in MA is the target level for the volume normalization. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. We recommend to use a value between -23 and -17 LUFS (and -17 is the recommended starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
+After a track has been played by MA once then data is retained for volumes to be normalised across all tracks being played. The setting in MA is the target level for the volume normalisation. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. It is recommended to use a value between -23 and -17 LUFS (and -17 is the default starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
 
 More details [here](normalization.md)
 
@@ -175,7 +175,7 @@ Trying to run MA with SSL is not recommended. Having said that, whilst you can n
 
 If you are running the addon within the HA host go to SETTINGS>>ADDONS>>MUSIC ASSISTANT and select "Show in sidebar".
 
-If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/integrations/panel_iframe/)
+If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/dashboards/iframe/)
 
 # Add a rotary encoder with push button to a piCorePlayer
 
