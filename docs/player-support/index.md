@@ -1,3 +1,8 @@
+---
+title: Player Support
+description: Information Relevant to all Player Providers 
+---
+
 # Player Providers
 
 For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically discovered by Music Assistant.
