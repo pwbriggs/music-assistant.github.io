@@ -1,3 +1,8 @@
+---
+title: Frequently Asked Questions - How Do I...?
+description: Common Uses for Music Assistant
+---
+
 # Use Assist and AI to Play my Music?
 
 See [here](../integration/installation.md#openai-features). This adds a PLAY command. The core HA voice intents support NEXT TRACK, PAUSE, UNPAUSE and VOLUME to a specific player. Until all of the media player service calls are supported by HA (including to areas) you can use custom sentences. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
