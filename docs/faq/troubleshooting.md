@@ -1,3 +1,8 @@
+---
+title: Troubleshooting
+description: Common Problems and Fixes
+---
+
 # First things to try and how to report issues
 
 Probably the most common issue is people trying to run MA with complicated network setups. Running behind VPNs, across subnets or VLANs, behind firewalls, local SSL, using reverse proxies or inside containers is not supported (it might work but we can’t troubleshoot for you as MA is run by a small team who don't have the resources to help with non-MA issues). Search Discord for these problems as users have regularly reported these issues and found that it is their setup that was causing the fault; their solution might help you.
