@@ -1,3 +1,8 @@
+---
+title: File System Provider
+description: Features, Configuration, Issues and More for the File System Player Provider
+---
+
 # Filesystem Provider ![Preview image](../assets/icons/localfiles-icon.png){ width=70 align=right }
 
 Music Assistant has full support for reading your own (local) music files on disk or a remote server and catalogs it into the library, allowing playback to all player providers supported by Music Assistant. 
