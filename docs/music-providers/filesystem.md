@@ -69,5 +69,5 @@ Normally it is best to leave the Picard tags unchanged. However, some people do 
 - Remove MusicBrainz Release ID and Recording ID
 - Keep MusicBrainz Artist ID
 - Remove ISRC (as that is also used as strong identifier for tracks)
-- Remove barcode (as that is also used as string identifier for albums)
+- Remove barcode (as that is also used as strong identifier for albums)
 - Because there is no version specific ID3 tag, place the version between brackets in the title. For example, Great Song (Vinyl Rip)
