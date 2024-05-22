@@ -26,7 +26,7 @@ Authentication with Apple Music happens through a Music User Token. Unfortunatel
 Note the "Expires / Max-Age" column. Your token will expire on that date and Apple Music within Music Assistant will stop working. You will have to repeat the above process to obtain a fresh token. We will try to find an unofficial way to implement 'Login with  Apple' to make it easier to authenticate with Apple Music, but until then, this is the way to authenticate.
 
 ## Known Issues / Notes
-- Only the library functionality is officially supported by Apple. Playback unfortunately is not. This means that there are limitations to what Music Assistant can play from Apple Music. Currently, only high quality AAC versions of songs can be played back. The AAC versions of songs are protected by Widevine DRM, which Music Assistant can currently decrypt. Lossless (ALAC) and Dolby Atmos versions of songs are **not supported**, since they are protected by Apple's proprietary FairPlay DRM solution. This will remain the case until Apple decide to open up playback via their official API's.
+- Due to Apple's proprietary encryption (Fairplay), Lossless and Dolby Atmos versions of songs are not supported
 
 ## Not yet supported
 - Library interaction, such as adding and removing items to your Apple Music library from within Music Assistant.
