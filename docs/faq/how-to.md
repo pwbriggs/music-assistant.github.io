@@ -1,10 +1,15 @@
+---
+title: Frequently Asked Questions - How Do I...?
+description: Common Uses for Music Assistant
+---
+
 # Use Assist and AI to Play my Music?
 
 See [here](../integration/installation.md#openai-features). This adds a PLAY command. The core HA voice intents support NEXT TRACK, PAUSE, UNPAUSE and VOLUME to a specific player. Until all of the media player service calls are supported by HA (including to areas) you can use custom sentences. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
 
 # Use volume normalization? How does it work?
 
-The setting in MA is the target level for the volume normalization. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. We recommend to use a value between -23 and -17 LUFS (and -17 is the recommended starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
+After a track has been played by MA once then data is retained for volumes to be normalised across all tracks being played. The setting in MA is the target level for the volume normalisation. MA does not compress the dynamic range (because that is bad for quality) but just adjusts the gain of the entire track based on its overall loudness as measured by the EBU R128 standard. A greater negative value will typically make the track sound less loud but leaves a lot of headroom. However, for each individual track the gain could rise or fall to ensure that the overall loudness of all tracks played is at the selected level. It is recommended to use a value between -23 and -17 LUFS (and -17 is the default starting point). **Do not** set it too high (close to zero) because that can make your music sound distorted due to clipping.
 
 More details [here](normalization.md)
 
@@ -47,6 +52,32 @@ Use the `media_player.play_media` service call shown above or `mass.play_media` 
 # Start a radio stream with an automation
 
 Use the `mass.play_media` service call and set the `media_id` as the station name.
+
+# Play a Random Item
+
+Use mass search and an script/automation such as this:
+
+``` yaml
+alias: Random Album
+sequence:
+  - service: mass.search
+    data:
+      limit: 9
+      name: ARTISTNAME
+      media_type:
+        - album
+    response_variable: results
+  - service: mass.play_media
+    data:
+      media_id: "{{ results.albums[range(0, 8) | random].uri }}"
+    target:
+      device_id: XYZ
+mode: single
+```
+
+This could be modified for other item tyoes (e.g. tracks or playlists). 
+
+Thanks to [ministryofsillywalks](https://github.com/ministryofsillywalks) who showed us [here](https://github.com/orgs/music-assistant/discussions/1637#discussioncomment-9462085)
 
 # Clear the queue with a script or automation
 
@@ -149,7 +180,7 @@ Trying to run MA with SSL is not recommended. Having said that, whilst you can n
 
 If you are running the addon within the HA host go to SETTINGS>>ADDONS>>MUSIC ASSISTANT and select "Show in sidebar".
 
-If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/integrations/panel_iframe/)
+If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/dashboards/iframe/)
 
 # Add a rotary encoder with push button to a piCorePlayer
 

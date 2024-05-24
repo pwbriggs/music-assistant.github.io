@@ -1,3 +1,8 @@
+---
+title: Player Support
+description: Information Relevant to all Player Providers 
+---
+
 # Player Providers
 
 For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically discovered by Music Assistant.
@@ -5,6 +10,9 @@ For specific player provider information refer to the relevant section in this d
 If a device supports multiple protocols then multiple players for the device will be seen. In the player provider settings you can disable or hide any players you do not use.
 
 ![Preview image](../assets/screenshots/player-disable.png){ width = 600 } 
+
+!!! note
+    If any player is not transitioning between somgs then check if the player has the option QUEUE FLOW MODE. Try enabling it if it does.
 
 ## Audio Quality
 

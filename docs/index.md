@@ -59,7 +59,7 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 [![Jozef](assets/team/jozef.png){ width=100 }](https://github.com/jozefKruszynski "Jozef. Author of the Tidal provider and Voice Search")
 [![Jonathan](assets/team/jonathan.png){ width=100 }](https://github.com/arctixdev "Jonathan. Author of the Deezer provider and the Companion App")
 [![Gavin](assets/team/gavin.png){ width=100 }](https://github.com/OzGav "Gavin. Community Support and Documentation")
-[![Marvin](assets/team/marvin.png){ width=100 }](https://github.com/marvinschenkel "Marvin. Author of the YouTube provider")
+[![Marvin](assets/team/marvin.png){ width=100 }](https://github.com/marvinschenkel "Marvin. Author of the YouTube and Apple Music providers")
 [![Giel](assets/team/gieljnssns.png){ width=100 }](https://github.com/gieljnssns "Giel. Author of the Soundcloud provider")
 [![Santiago](assets/team/santiago.png){ width=100 }](https://github.com/santiagosotoc "Santiago. Author of the Snapcast provider")
 [![khers](assets/team/khers.png){ width=100 }](https://github.com/khers "Eric. Author of the Subsonic provider")

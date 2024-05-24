@@ -1,3 +1,8 @@
+---
+title: User Interface
+description: A Walkthrough of the Music Assistant User Interface
+---
+
 # User Interface
 
 ## Main Menu
@@ -17,7 +22,7 @@ When visiting Browse you will only see what is already in the Library of the Str
 
 Searches can be done via any combinbination of words or partial words and also via a URL to a provider such as `https://open.spotify.com/album/0BwWUstDMUbgq2NYONRqlu` 
 
-Results are returned in the six categories of Top Results, Tracks, Artists, Albums, Playlists and Radio. Context sensitive menus are available for the various items.
+Results, limited to a maximum of 50 items, are returned in the six categories of Top Results, Tracks, Artists, Albums, Playlists and Radio. Context sensitive menus are available for the various items.
 ***************************************************************
 
 ## Player Bar

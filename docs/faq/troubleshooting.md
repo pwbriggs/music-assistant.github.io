@@ -1,3 +1,8 @@
+---
+title: Troubleshooting
+description: Common Problems and Fixes
+---
+
 # First things to try and how to report issues
 
 Probably the most common issue is people trying to run MA with complicated network setups. Running behind VPNs, across subnets or VLANs, behind firewalls, local SSL, using reverse proxies or inside containers is not supported (it might work but we can’t troubleshoot for you as MA is run by a small team who don't have the resources to help with non-MA issues). Search Discord for these problems as users have regularly reported these issues and found that it is their setup that was causing the fault; their solution might help you.
@@ -49,7 +54,7 @@ Review the list of player providers. If your device doesn't support one of the l
 
 If your device does support one of the supported protocols then review the documentation for that player provider for known issues and troubleshooting tips.
 
-If your device still doesn't work and you think it should then review the full logs for discovery information and errors. Review the first things to try at the top of this page as usually if you get this far without identiying why the player isnt working it will be a networking or non-standard installation issue which, generally, you will need to resolve yourself. Search the Github [Issues](https://github.com/orgs/music-assistant/issues), [Discussions](https://github.com/orgs/music-assistant/discussions) and [Discord](https://discord.gg/kaVm8hGpne)) as likely someone has asked your question before.
+If your device still doesn't work and you think it should then review the full logs for discovery information and errors. Review the first things to try at the top of this page as usually if you get this far without identiying why the player isnt working it will be a networking or non-standard installation issue which, generally, you will need to resolve yourself. Search the Github [Issues](https://github.com/music-assistant/hass-music-assistant/issues), [Discussions](https://github.com/orgs/music-assistant/discussions) and [Discord](https://discord.gg/kaVm8hGpne)) as likely someone has asked your question before.
 
 # All my media is missing 
 
