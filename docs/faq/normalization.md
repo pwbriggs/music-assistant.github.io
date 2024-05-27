@@ -34,3 +34,17 @@ The player has native enqueue support so we tell it what the next track will be 
 
 **FLOW MODE**
 As an alternative to native enqueuing we can also send one stream of audio to the player and let Music Assistant stitch the songs together (with gapless or crossfade). This mode is used by default for Airplay and snapcast and will be used by DLNA and Cast if crossfade gets enabled. Downside of this approach is that Google cast (and most DLNA players) looses metadata display (on the speaker itself). Some DLNA players support "icy metadata" which is what we send to inform what is playing. 
+
+## Player Perfect Sync
+
+Audio sync between speakers is only possible if there is accurate knowledge of the exact (millisecond-precise) timestamp a player played each audio frame. In practice there are 2 common strategies used to sync audio:
+
+1) Sending timestamped frames to each player - there is one master clock and audio frames are sent to each receiving device in a sync group including the timestamp. So each player will have knowledge when it should play each frame and it can drop or inject frames to keep in sync. This strategy is often used in the proprietary protocols such as Google Cast, Sonos, Roon RAAT, BluOS and even Apple Airplay (RAOP).
+This is by far the best (most precise) sync method because each player is responsible for sending the correct audio frames to the DAC (or digital transport).
+
+2) Server-side corrected sync. Each player is sent the audio stream from the centralized source and then the server keeps track of each player's latency and corrects it by pausing/forwarding, playing faster/slower or injecting frames. This is easier to implement because the only thing needed client-side is accurate progress reporting of the client (how many milliseconds it played) and the server contains all the centralized logic to keep the sync. This is used by, for example, slimproto (squeezebox) and snapcast.
+
+How well the time synchronisation works depends on multiple factors but often you will find that strategy 1 is superior to strategy 2 and/or strategy 2 needs tweaking to get it right. For instance on snapcast you often hear skipping (small disturbances to the sound while its adjusting) and slimproto works very poorly with wifi based devices due to changing player latency.
+
+RECOMMENDATION: To have the best synced audio experiences of players, try to stick with one ecosystem and, if possible, choose one of the options that implement strategy 1 (proprietary protocol).
+Airplay is favoured because it a very good sync protocol that originally was proprietary but has been reverse engineered. You can now have airplay targets in both commercially available audio gear (even high end equipment) and DIY devices. It outperforms all the strategy 2 stream protocols by a wide margin. The same applies to a $35 chromecast audio puck with the google cast protocol. It works really well out of the box.
