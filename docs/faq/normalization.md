@@ -1,3 +1,8 @@
+---
+title: Technical Information
+description: Indepth Information Regarding Certain MA Functions
+---
+
 # Technical Information
 
 This section contains more indepth technical information regarding Music Assistant's workings for those interested.
