@@ -5,14 +5,14 @@ description: Installation guide for Music Assistant
 
 # Installing the Server
 
-Music Assistant (MA) can be operated as a complete standalone product but it is actually tailored to use side by side with Home Assistant. MA is built with automation in mind, hence our recommended installation method is to run the server as a Home assistant Add-on which will be automatically installed when you add the Home Assistant Integration. Install using one of the three methods below.
+Music Assistant (MA) can be operated as a complete standalone product but it is actually designed to use side by side with Home Assistant. MA is built with automation in mind, hence the recommended installation method is to run the server as a Home assistant Add-on and then optionally [add the HA integration](https://music-assistant.io/integration/installation/). Install using one of the two methods below.
 
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
 
-## Primary installation method: Home Assistant Add-on Manual Installation
+## Primary installation method: Home Assistant Add-on
 
-Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If you dont need the HA Integration but want to run the Music Assistant Server then install the Music Assistant Add-on manually:
+This is only available when running [HAOS](https://developers.home-assistant.io/docs/operating-system/). To install the Music Assistant Add-on:
 
 1. Add the Music Assistant repository to your Home Assistant instance.
 
@@ -20,16 +20,9 @@ Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). If yo
 
 2. Install the Music Assistant add-on.
 
-[![Add Music Assistant as Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
-
-## Secondary installation method: Home Assistant Integration Installation
-
-Using [HAOS](https://developers.home-assistant.io/docs/operating-system/). Go to the [Home Assistant Integration](integration/installation.md) page and follow the instructions there which will install the integration and the server (as an addon).
-
-!!! note 
-    When using this method (and ticking the `Use the official Music Assistant server add-on` checkbox) the Integration will install the server and auto update it. The server will be uninstalled if the Integration is removed. The server will be shutdown if the Integration is disabled. You will not be able to manually uninstall the server and if you manually shut it down it will be restarted.
+    [![Add Music Assistant as Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
     
-## Tertiary installation method: Docker image
+## Secondary installation method: Docker image
 
 An alternative way to run the Music Assistant server is by running the docker image:
 
@@ -64,7 +57,8 @@ ____________
 
 ## Usage and Notes
 
-- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095. When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port (although the port can be exposed in the settings).
+- When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port (although the port can be exposed in the settings).
+- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095.
 - No providers are installed initially. You must navigate to the MA settings and add the providers (Music and Players) that you use.
 - Music from your music sources will be automatically loaded into the Music Assistant library. If you have multiple sources, they will be merged as one library.
 - In this first implementation the UI centres around the concept of the [Library](usage.md), so your artists, albums, tracks, playlists and radio stations. You can BROWSE the various providers to add aditional items to your Library. In a later release options will be provided to browse the recommendations of the various streaming providers.
