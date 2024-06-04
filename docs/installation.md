@@ -42,7 +42,7 @@ ____________
 
 - The server itself hosts a very simple webserver to stream audio to devices. This webinterface must be accessible via HTTP (no HTTPS) by IP-address from local players. See the server's logging at startup to see if the server has correctly auto-detected the local IP.
 
-- You cannot run the slimproto integration in Home Assistant if the slimproto provider is emabled.
+- You cannot run the slimproto integration in Home Assistant if the slimproto provider is enabled.
 
 - The webinterface of the server can be reached on TCP port 8095 if enabled in the settings. By default, on HAOS based installations, the webserver is internal only and not exposed to the outside world. It is protected by HA authentication using the Ingress feature of Home Assistant (you also get the sidepanel shortcut for free!)
   
