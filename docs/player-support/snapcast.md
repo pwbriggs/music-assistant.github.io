@@ -23,5 +23,5 @@ MA includes a built-in Snapserver although an external server can also be used. 
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as Snapdroid or Snapweb
 - Pausing the player is NOT supported. If you try and do that you will get weird behaviour.
 - The Snapcast app for iOS is broken as it uses an old version of Snapclient. Using it brings problems with this provider
-- Ensure that the ports 1704 and 1705 on the Snapserver host are open. Also ensure that for each client a port equal to or greater than 4953 is open
+- Ensure that the ports 1704 and 1705 on the Snapserver host are open. Also make sure that the ports between 4953 and 5153 inclusive are open. 
 - Try the default Snapcast settings and then make changes as necessary.
