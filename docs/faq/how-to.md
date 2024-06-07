@@ -69,7 +69,7 @@ sequence:
     response_variable: results
   - service: mass.play_media
     data:
-      media_id: "{{ results.albums[range(0, 8) | random].uri }}"
+      media_id: "{{ results.albums[range(0, 8) | random].name }}"
     target:
       device_id: XYZ
 mode: single
