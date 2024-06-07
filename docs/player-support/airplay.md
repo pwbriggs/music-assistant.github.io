@@ -18,6 +18,6 @@ Music Assistant has support for Airplay based devices. This includes Apple devic
 - Because Apple TV's require authentication, they are not supported yet (but will be in the future if there's any demand)
 - Samsung seems to have implemented AirPlay 2 in a way that it isn't fully backwards compatible. Everything seems to work, changing volume, song info is shown, and you can control the Samsung device as expected, however there is no sound. Users of similar applications such as Roon and anything based on slimproto have the same problem. 
 - Some devices (such as Kodi or some 3rd party airplay receivers) require encryption. You can enable encryption in the advanced player settings if there is no sound
-- Also try compression on and off in the advanced player settimgs if there is no sound
-- A device password can be set for those devices which require it in the advanced settimgs
+- Also try compression on and off in the advanced player settings if there is no sound
+- A device password can be set for those devices which require it in the advanced settings
 - If you find your player is going unavailable when still powered on then it may not be sending its keep alive message. A timeout can be configured for each player. Some users have reported they have needed to set it as long as one hour
