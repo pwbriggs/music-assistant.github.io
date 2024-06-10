@@ -19,11 +19,12 @@ nav:
     - UI: ui.md
     - How Do I...: faq/how-to.md
     - I Want To Stream To: faq/stream-to.md
-    - Technical Info: faq/normalization.md
+    - Technical Info: faq/tech-info.md
     - Troubleshooting: faq/troubleshooting.md
   - Music Providers:
     - music-providers/index.md
     - Apple Music: music-providers/apple-music.md
+    - Builtin: music-providers/builtin.md
     - Deezer: music-providers/deezer.md
     - Jellyfin: music-providers/jellyfin.md
     - Local Files: music-providers/filesystem.md
@@ -35,7 +36,6 @@ nav:
     - Subsonic: music-providers/subsonic.md
     - Tidal: music-providers/tidal.md
     - TuneIn: music-providers/tunein.md
-    - URL: music-providers/url.md
     - YouTube Music: music-providers/youtube-music.md
   - Player Providers:
     - player-support/index.md

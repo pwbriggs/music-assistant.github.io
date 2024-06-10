@@ -5,7 +5,7 @@ description: Common Uses for Music Assistant
 
 # Use Assist and AI to Play my Music?
 
-See [here](../integration/installation.md#openai-features). This adds a PLAY command to a specific player. The core HA voice intents support NEXT TRACK, PAUSE, UNPAUSE and VOLUME to a specific player or to an area. Until all of the media player service calls are supported by HA (including to areas) you can use custom sentences. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
+See [here](../integration/installation.md#openai-features). This adds a PLAY command to a specific player. The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player service calls at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
 
 # Use volume normalization? How does it work?
 
@@ -69,7 +69,7 @@ sequence:
     response_variable: results
   - service: mass.play_media
     data:
-      media_id: "{{ results.albums[range(0, 8) | random].uri }}"
+      media_id: "{{ results.albums[range(0, 8) | random].name }}"
     target:
       device_id: XYZ
 mode: single
