@@ -1,6 +1,6 @@
-# URL Provider
+# Builtin Provider  ![Preview image](../assets/icon.png){ width=70 align=right }
 
-Music Assistant has support for manually adding radio station URLs to the database.
+The Builtin provider supports manually adding radio station URLs to the database as well as generating various [Playlists](../usage/#playlists).
 
 ## Features
 
