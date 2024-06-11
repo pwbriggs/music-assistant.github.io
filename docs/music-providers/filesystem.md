@@ -50,6 +50,7 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 ## Tagging Files 
 
 - It is very important that all of your audio files contain proper [ID3 tag](https://en.wikipedia.org/wiki/ID3) information. The more comprehensive the tagging the better the results will be when using MA. For this reason it is strongly recommended that all files are tagged with [MusicBrainz Picard](https://picard.musicbrainz.org). This will ensure consistency and completeness of the tags that MA needs to work best. Other programs such as [Mp3Tag](https://www.mp3tag.de/en/) are often also based on the Musicbrainz catalog and can work as well provided they include ISRC and all MBID tags.
+- MA requires the Album Artist tag to be set. If you do not have that tag set then what happens to those tracks when the provider is scanned depends on the `Action when a track is missing the Albumartist ID3 tag` setting for the local provider 
 - Music Assistant puts you in control by fully trusting the ID3 tags you provide, only additional information is scraped from metadata providers.
 - Music Assistant has support for both embedded artwork and artwork stored in a common folder structure of Artist \ Album and .nfo files with enhanced metadata are also supported.
 - Files simply dumped into a random structure will also be imported but no other data will be retrieved from the folder structure.
