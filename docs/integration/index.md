@@ -15,7 +15,7 @@ Announcements are supported with the following features:
 
 - If music is playing this will be temporarily paused and restored after the announcement
 - Players will be powered on before the announcement and then off again if it was not powered/active before the announcement
-- Volume will be increased slightly while playing the announcement
+- Volume can be increased while playing the announcement
 - If a player type has native support for announcements (e.g. Sonos) then that will be used in preference to the MA functionality providing an even smoother experience
 - Works with all players that are supported by Music Assistant
 - For TTS (Text to Speech) announcements, support is provided for prepending it with a "pre announcement sound". This sound can be enabled/disabled in the HA integration options
@@ -23,7 +23,7 @@ Announcements are supported with the following features:
 
 With some additional setup voice control of MA via HA is also possible.
 
-Music Assistant was originally designed to solely work with HA and as a result this tight connection has been maintained and installing the integration will also install the server as an addon. This provides a minimal effort and most secure way of getting up and running. However, this is not the only way and if you have installed the MA server elsewhere (or as an addon before) you will be able to configure the integration to connect to it.
+The integration can connect to the MA server which is running as a HA addon or if it is running separately in a docker container.
 
 The Home Assistant integration consists of 2 parts:
 
