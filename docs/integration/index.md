@@ -23,7 +23,7 @@ Announcements are supported with the following features:
 
 With some additional setup voice control of MA via HA is also possible.
 
-The integration can connect to the MA server which is running as a HA addon or if it is running separately in a docker container.
+The integration can connect to the MA server which is running either as an HA addon or as a docker container on the same or another host system.
 
 The Home Assistant integration consists of 2 parts:
 
