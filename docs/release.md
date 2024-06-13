@@ -19,11 +19,7 @@ There is also a dev/nightly add-on which can be run to get the absolute latest v
 
 ### Running Parallel Server Versions
 
-It is possible to run the stable, beta or dev server add-ons side by side as they don't share any data. Thus you can temporarily run the beta add-on to try out new features and then revert to the stable version. You can do this in one of two ways:
-
-1. If you setup the Integration with the `Use the official addon` checkbox ticked then disable the HA Integration which will stop the stable server. Now start the Beta/Dev server. Reverse this process to restore the stable server.
-
-2. If you setup the HA Integration without selecting `Use the official addon` checkbox then you will have to manually start and stop the relevant servers
+It is possible to run the stable, beta or dev server add-ons side by side as they don't share any data. Thus you can temporarily run the beta add-on to try out new features and then revert to the stable version. You can do this by manually stopping and starting the relevant server. Don't have two servers running on the same host at the same time.
 
 ## HA Integration
 

@@ -45,11 +45,11 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 - Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the ⋮ menu in the banner at the top of a view.
 - Local tracks and albums will be linked to the same tracks or albums on other streaming providers. Note that same is not simply same name. The tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length. However, poor tag information may lead to poor matches.
-- MA prefers an Album Artist to be set for all albums. There is a setting under Advanced in the provider configuration for what to do if a track is found without this set. The default is to skip the track, so if your tracks are not being imported into the Library then check for this (there will be warnings in the log)
   
 ## Tagging Files 
 
 - It is very important that all of your audio files contain proper [ID3 tag](https://en.wikipedia.org/wiki/ID3) information. The more comprehensive the tagging the better the results will be when using MA. For this reason it is strongly recommended that all files are tagged with [MusicBrainz Picard](https://picard.musicbrainz.org). This will ensure consistency and completeness of the tags that MA needs to work best. Other programs such as [Mp3Tag](https://www.mp3tag.de/en/) are often also based on the Musicbrainz catalog and can work as well provided they include ISRC and all MBID tags.
+- MA requires the Album Artist tag to be set. If you do not have that tag set then what happens to those tracks when the provider is scanned depends on the `Action when a track is missing the Albumartist ID3 tag` setting for the local provider 
 - Music Assistant puts you in control by fully trusting the ID3 tags you provide, only additional information is scraped from metadata providers.
 - Music Assistant has support for both embedded artwork and artwork stored in a common folder structure of Artist \ Album and .nfo files with enhanced metadata are also supported.
 - Files simply dumped into a random structure will also be imported but no other data will be retrieved from the folder structure.

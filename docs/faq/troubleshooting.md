@@ -19,6 +19,8 @@ Check the physical device settings. There have been numerous reports where the i
 
 Ensure local files are [tagged properly](https://music-assistant.io/music-providers/filesystem/#tagging-files).
 
+If it is a playback issue then turn on QUEUE FLOW MODE in the settings for the specific player (where that is available).
+
 Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes.
 
 Try power cycling the physical player(s) if they won't connect or if there is no sound.
@@ -84,7 +86,7 @@ For the IOS app see [here](https://community.home-assistant.io/t/anyone-know-how
 
 # The second zone of my amplifier is not seen by MA or MA won't turn on my amplifier
 
-MA is an INPUT to your amplifier. So you need to power on your amplifier and then select the INPUT that MA is streaming to (e.g. Airplay, DLNA, Chromsecast). For this reason MA does not see the amplifier zones it only sees the compatible inputs of the amplifier. 
+MA is an INPUT to your amplifier. So you need to power on your amplifier and then select the INPUT that MA is streaming to (e.g. Airplay, DLNA, Chromecast). For this reason MA does not see the amplifier zones it only sees the compatible inputs of the amplifier. 
 
 Some amplifiers may auto turn on when a signal is detected so check the amplifier options. If this functionality is not available then you will need to power on the amplifier via another means. The power icons that are seen beside the players must be seen as starting and stopping the stream to the player not as physically powering on or off the device.
 

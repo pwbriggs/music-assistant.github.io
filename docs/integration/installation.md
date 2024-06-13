@@ -1,27 +1,24 @@
 ## Installation of the Home Assistant Integration
 
+!!! note
+    Ensure the MA server is up and running properly with music and player providers added before trying to link it to HA via the integration
+
 - Make sure that you have the [Home Assistant Community Store](https://hacs.xyz/) installed.
 - Within HACS, search for `Music Assistant` and click the entry in the search results.
 - Click the big (blue) button at the bottom for `Download`.
 - Click the button again and in the dialog make sure `Show beta versions` is selected if you want to use those versions.
 - Download the desired version
 - Restart Home Assistant.
-- Go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button.
-- Look for Music Assistant and click to add it.
-- If Music Assistant does not show, refresh your browser (cache).
-- If using HAOS tick `Use the official Music Assistant Server add-on` checkbox if you want the Integration to install and manage the server. If you don't tick this box then you must have already installed and have running the MA server. You will need the server IP which you can find in the server logs. For example, `http://172.30.32.1:8095/` 
-- If you do not intend to use the voice features then leave the Conversation Agent as None and you do not need to check the `Expose players to Assist` checkbox. If you do intend to use voice it is slightly easier if you do the steps as part of the Installation Requirements first (see below). If you don't do them first then you will have to come back later and reconfigure the Conversation Agent.
+- The MA server will normally be discovered automatically by HA and you can just click on CONFIGURE.
+- If for some reason you need to add the integration manually the go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button. Look for Music Assistant and click to add it. You will need to add the server IP and port (usually 8095). Look for the relevant line in the server logs. For example, `Starting server on 172.30.32.1:8095`. 
 - Click SUBMIT and the Music Assistant integration is ready for use.
 
-!!! note
-    You need to set-up the players and music sources within Music Assistant itself.
-
 !!! note 
-    The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to `HA settings>>Devices & services>>Integrations>>Music Assistant` and view the entities. It is these players that need to be targeted in your automations.
+    The HA integration will create new media_player entities for those player types which are supported natively by MA. To see the names of those players go to `HA settings>>Devices & services>>Integrations>>Music Assistant` and view the entities. It is these players that need to be targeted in automations.
 
 ## Installation of the Home Assistant Player Provider
 
-Once the HA Integration is installed it is possible to stream to HA media player entities. In order to do that you need to install the HA Player Provider.  First you must install the Home Assistant Plug-in provider
+Once the HA Integration is installed it is possible to stream to HA media player entities. In order to do that the HA Player Provider needs to be installed.  However, first the Home Assistant Plug-in provider needs to be installed.
 
 - Navigate to MA SETTINGS>>PROVIDERS and add the plug-in provider
 - If using the Music Assistant add-on (i.e. HAOS), you wont need any server details, it should auto connect to the local HA instance
@@ -57,7 +54,8 @@ During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5d
 Add the prompt found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/prompt/prompt.txt) when completing the configuration. For the ChatGPT version `gpt-3.5-turbo-1106` has been found to work well.
 - Add a directory to your Home Assistant `config` directory named `custom_sentences/en`
 - Add the file found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/custom_sentences/en/play_media_on_media_player.yaml), to that directory.
-- When setting up the Music Assistant integration, make sure that you select the correct Conversation Agent and also allow the auto-exposure of MA media players to Assist
+- Navigate to Music Assistant in the Integration view of the HA settings. Click on CONFIGURE in the `Integration entries` section.
+- Ensure the correct Conversation Agent is selected and preferably allow the auto-exposure of MA media players to Assist (otherwise you will have to do that manually)
 
 ![Preview image](../assets/screenshots/screen6.png)
 
