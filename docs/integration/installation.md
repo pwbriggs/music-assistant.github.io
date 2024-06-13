@@ -10,7 +10,7 @@
 - Download the desired version
 - Restart Home Assistant.
 - The MA server will normally be discovered automatically by HA and you can just click on CONFIGURE.
-- If for some reason you need to add the integration manually the go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button. Look for Music Assistant and click to add it. You will need to add the server IP and port (usually 8095). Look for the relevant line in the server logs. For example, `Starting server on 172.30.32.1:8095`. 
+- If for some reason you need to add the integration manually then go to HA Settings>>Devices & services>>Integrations and click the big `+ ADD INTEGRATION` button. Look for Music Assistant and click to add it. You will need to add the server IP and port (usually 8095). Look for the relevant line in the server logs. For example, `Starting server on 172.30.32.1:8095`. 
 - Click SUBMIT and the Music Assistant integration is ready for use.
 
 !!! note 
