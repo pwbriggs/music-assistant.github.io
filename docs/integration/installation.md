@@ -18,7 +18,7 @@
 
 ## Installation of the Home Assistant Player Provider
 
-Once the HA Integration is installed it is possible to stream to HA media player entities. In order to do that the HA Player Provider need to be installed.  However, first the Home Assistant Plug-in provider needs to be installed.
+Once the HA Integration is installed it is possible to stream to HA media player entities. In order to do that the HA Player Provider needs to be installed.  However, first the Home Assistant Plug-in provider needs to be installed.
 
 - Navigate to MA SETTINGS>>PROVIDERS and add the plug-in provider
 - If using the Music Assistant add-on (i.e. HAOS), you wont need any server details, it should auto connect to the local HA instance
