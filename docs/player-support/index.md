@@ -12,7 +12,7 @@ If a device supports multiple protocols then multiple players for the device wil
 ![Preview image](../assets/screenshots/player-disable.png){ width = 600 } 
 
 !!! note
-    If any player is not transitioning between somgs then check if the player has the option QUEUE FLOW MODE. Try enabling it if it does.
+    If any player is not transitioning between songs then check if the player has the option QUEUE FLOW MODE. Try enabling it if it does.
 
 ## Audio Quality
 
