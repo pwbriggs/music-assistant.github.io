@@ -75,7 +75,7 @@ sequence:
 mode: single
 ```
 
-This could be modified for other item tyoes (e.g. tracks or playlists). 
+This could be modified for other item types (e.g. tracks or playlists). 
 
 Thanks to [ministryofsillywalks](https://github.com/ministryofsillywalks) who showed us [here](https://github.com/orgs/music-assistant/discussions/1637#discussioncomment-9462085)
 
