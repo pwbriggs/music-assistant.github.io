@@ -15,4 +15,4 @@ Music Assistant has full support for Google Cast based devices. This includes Go
 - If your Chromecast speakers are not auto detected or randomly unavailable then make sure that your Cast enabled speakers are on the same network/subnet as your Music Assistant server. Additionally, ensure that multicast traffic (more specifically mDNS) can travel freely as that is used for the discovery of players
 - After re-enabling a disabled speaker, it can take a while before the speaker is rediscovered, the process can be sped up by restarting Music Assistant
 - It is not possible to group/sync cast players from within the MA interface (simply because an api does not exist for that)
-- Google TV devices (not the AV dongles) are disabled by default
+- TV/Video devices (not the AV dongles) are disabled by default
