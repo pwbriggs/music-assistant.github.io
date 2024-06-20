@@ -5,7 +5,7 @@ description: Information Relevant to all Player Providers
 
 # Player Providers
 
-For specific player provider information refer to the relevant section in this document. Most players are enabled by default and will be automatically discovered by Music Assistant. The following table summarises player capabilities
+For specific player provider information refer to the relevant section in this document. When a player provider is enabled then the devices which support that protocol will be automatically discovered by Music Assistant. The following table summarises player capabilities
 
 ![Preview image](../assets/player-provider-summary.png){ width = 600 }
 
