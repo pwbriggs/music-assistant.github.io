@@ -4,7 +4,7 @@ This section describes what is required to add a PLAY command which will be unde
 
 The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player service calls at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
 
-## LLM Based Voice Control
+## LLM Conversation Agent
 
 **Installation Requirements**
 
@@ -19,7 +19,7 @@ Any reasonable request to play on a device should be understood by the LLM thus 
 
 In some cases it is still advantageous to setup the `Open AI Privacy Option` described below as well as it provides a more specific prompt for the AI model to use and the LLM will be made aware of and can use this additional functionality. For example, in testing the LLM did not return a good response for `play a list of 5 classic 80's rock tracks` if the `Open AI Privacy Option` described in the next section was not configured.
 
-## OpenAI Privacy Option
+## MA Specific Conversation Agent
 
 During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration. This method does not require you to expose your entities to the AI LLM. This Integration only sends to openAI part of the request you make and openAI only responds with a JSON formatted response which is then used locally to initiate playback.  
 
