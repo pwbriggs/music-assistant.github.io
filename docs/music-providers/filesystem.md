@@ -15,7 +15,7 @@ When streaming providers are also availabe in MA linking will only occur when th
 - Local music is automatically included in the MA Library. 
 - Files are not favourited by default. You can see all items if you deselect the "favourite" filter (the heart) and decide for yourself what you want in your favourites.
 - If you also have any streaming providers connected, your media will be automatically linked and completed with info from the streaming provider(s).
-- On playback, when tracks are linked across providers the highest quality version is used automatically.
+- On playback, when tracks are linked across providers (or within the same provider) the highest quality version is used automatically.
 - You can add multiple filesystem providers.
 
 ## Configuration
@@ -44,7 +44,7 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
     Using embedded images on every track of the same album is suboptimal for both disk space and performance. Use a single folder.jpg in the album's folder instead.
 
 - Artwork which is downloaded is throttled to approximately one request every 30 seconds so it will take some time to download all required artwork with large collections. You can force the download by selecting "Refresh Item" from the ⋮ menu in the banner at the top of a view.
-- Local tracks and albums will be linked to the same tracks or albums on other streaming providers. Note that same is not simply same name. The tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length. However, poor tag information may lead to poor matches.
+- Local tracks and albums will be linked to the same tracks or albums on any provider (local or streaming). Note that same is not simply same name. The tags are reviewed to ascertain whether it is indeed the exact same track. Without tag information MA will attempt to identify identical tracks based on the other information it has such as artist name, album, and track length. However, poor tag information may lead to poor matches.
   
 ## Tagging Files 
 
