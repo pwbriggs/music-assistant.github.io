@@ -17,7 +17,7 @@ The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE,
 
 Any reasonable request to play on a device should be understood by the LLM thus there are no mandatory sentences that must be used. 
 
-In some cases it is still advantageous to setup the `MA Specific Conversation Agent` described below as well as it provides a more specific prompt for the AI model to use and the LLM will be made aware of and can use this additional functionality. For example, in testing the LLM did not return a good response for `play a list of 5 classic 80's rock tracks` if the `Open AI Privacy Option` described in the next section was not configured.
+In some cases it is still advantageous to setup the `MA Specific Conversation Agent` described below as well as it provides a more specific prompt for the AI model to use and the LLM will be made aware of and can use this additional functionality. For example, in testing the LLM did not return a good response for `play a list of 5 classic 80's rock tracks` if the `MA Specific Conversation Agent` described in the next section was not configured.
 
 ## MA Specific Conversation Agent
 
