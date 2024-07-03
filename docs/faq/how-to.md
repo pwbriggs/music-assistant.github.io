@@ -185,3 +185,7 @@ If you are using docker then you can use an [iframe panel](https://www.home-assi
 # Add a rotary encoder with push button to a piCorePlayer
 
 See [here](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-7945369)
+
+# Access my music on Nextcloud?
+
+The [Nextcloud Music App](https://apps.nextcloud.com/apps/music) supports [Subsonic](../music-providers/subsonic.md) so you can use that provider in MA to connect. 
