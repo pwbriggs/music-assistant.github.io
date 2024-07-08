@@ -2,7 +2,7 @@
 
 This section describes what is required to add a PLAY command which will be understood by Assist and will start playback to a specific player or an area. 
 
-The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player service calls at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
+The core HA voice intents support NEXT TRACK, PREVIOUS TRACK, PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player service calls at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
 
 ## LLM Conversation Agent
 
