@@ -7,11 +7,10 @@ description: Information regarding various elements of Music Assistant
 
 Music Assistant relies heavily on metadata to work well and it gets this information from locally tagged files and online sources. The free online resources have limits and MA is often hitting those limits so further restrictions have been put in place. This means that:
 
-- Online resources will only be queried on the (first) open or play of an item
-- No more background scanning for missing metadata
-- Users with local files that are badly tagged or without images in the music folders will see no more artist thumbs
-- If a user has no album artist tag, we no longer try to look it up in musicbrainz
-- Simply default to various artists if the album artist tag is missing in local files
+- Online resources will be queried very slowly in the background
+- Users with local files that are badly tagged or without images in the music folders will see a significant delay until artist thumbs appear
+- If a track has no album artist tag, there will no longer be an attempt to look it up in musicbrainz
+- Various artists will be the default option if the album artist tag is missing in local files
 
 ## The Library
 
