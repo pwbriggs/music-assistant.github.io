@@ -1,4 +1,5 @@
 # Music Assistant Companion
+
 [![latest version](https://img.shields.io/github/release/music-assistant/music-assistant-desktop?display_name=tag&include_prereleases&label=Latest%20version)](https://github.com/music-assistant/music-assistant-desktop/releases/latest)
 [![discord](https://img.shields.io/discord/753947050995089438?label=Discord&logo=discord&color=5865F2)](https://discord.gg/kaVm8hGpne)
 [![sponsor](https://img.shields.io/github/sponsors/music-assistant?label=sponsors)](https://github.com/sponsors/music-assistant)
@@ -8,8 +9,8 @@
 
 The desktop companion app for Music Assistant!
 
-**Download for** macOS ([Apple Silicon](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/Music.Assistant.Companion_0.0.45_aarch64.dmg) | [Intel](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/Music.Assistant.Companion_0.0.45_x64.dmg)) · [Windows](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/Music.Assistant.Companion_0.0.45_x64_en-US.msi) · Linux ([Debian](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_amd64.deb) | [Other](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.45/music-assistant-companion_0.0.45_amd64.AppImage))
- 
+**Download for** macOS ([Apple Silicon](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.67/Music.Assistant.Companion_0.0.67_aarch64.dmg) | [Intel](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.67/Music.Assistant.Companion_0.0.67_x64.dmg)) · [Windows](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.67/Music.Assistant.Companion_0.0.67_x64_en-US.msi) · Linux ([Debian](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.67/music-assistant-companion_0.0.67_amd64.deb) | [Other](https://github.com/music-assistant/music-assistant-desktop/releases/download/v0.0.67/music-assistant-companion_0.0.67_amd64.AppImage))
+
 !!! tip "This is still in very early alpha. Bugs *will* be present."
     Please help finding them. You can report any bugs on the [Discord server](https://discord.gg/kaVm8hGpne) or in the [repo issues](https://github.com/music-assistant/music-assistant-desktop/issues)
 
