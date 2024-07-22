@@ -28,7 +28,7 @@ During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5d
 - You need to be running the latest version of the HA Integration
 - You need a voice assistant configured (even if you want to just type in the query) (Examples: [Cloud Pipeline](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/) or [Local Pipeline](https://www.home-assistant.io/voice_control/voice_remote_local_assistant/))
 - You need to create/add another OpenAI integration that is purely for Music Assistant.
-Add the prompt found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/prompt/prompt.txt) when completing the configuration. For the ChatGPT version `gpt-3.5-turbo-1106` has been found to work well.
+Add the prompt found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/prompt/prompt.txt) when completing the configuration. For the ChatGPT version `gpt-4o-mini` has been found to work well.
 - Add a directory to your Home Assistant `config` directory named `custom_sentences/en`
 - Add the file found [here](https://github.com/music-assistant/hass-music-assistant/blob/main/custom_sentences/en/play_media_on_media_player.yaml), to that directory.
 - Navigate to Music Assistant in the Integration view of the HA settings. Click on CONFIGURE in the `Integration entries` section.

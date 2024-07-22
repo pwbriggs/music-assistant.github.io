@@ -189,3 +189,14 @@ See [here](https://github.com/orgs/music-assistant/discussions/1123#discussionco
 # Access my music on Nextcloud?
 
 The [Nextcloud Music App](https://apps.nextcloud.com/apps/music) supports [Subsonic](../music-providers/subsonic.md) so you can use that provider in MA to connect. 
+
+# Access the Now Playing view directly via URL
+
+You will need to expose the webserver port to enable this feature. See [here](../installation/#server-notes) for the instructions and considerations before doing so.
+
+Display the Now Playing view for a specific player (or the last known) by adding "player=" to the home URL. You can use a player name or `true` to open the last known. Player names are not case sensitive.
+
+Examples
+- http://192.168.1.1:8095/#/home?player=true
+- http://192.168.1.1:8095/#?player=true
+- http://192.168.1.1:8095/#/home?player=Livingroom
