@@ -12,16 +12,24 @@ Music Assistant has support for [Tidal](https://tidal.com). Contributed and main
 
 ## Configuration
 
-- In the configuration, you only need to click the button to authenticate with Tidal. Then you will be redirected to the Tidal login page and the device code will be automatically filled
+In the configuration, there are a series of steps that must be completed in order. Start at the top of the page and work down. 
+
+![Tidal Config](../assets/screenshots/tidal-config.png){ width=800 }
+
+1. Click on the first button and you will be redirected to the Tidal login page and after logging in you will be taken to an error page which is normal.
+
+![Oops Page](../assets/screenshots/oops-page.png){ width=800 }
+
+2. Take the full URL in the address bar of the Oops error page and insert it into the configuration screen  
+
+3. Click on the last button to complete the setup
 
 ## Known Issues / Notes
 
 - If the authorisation process gets stuck then try a different browser. It is likely the authorisation pop up window is being blocked
-- The highest quality that can be provided is 48kHz / 24 bits due to limitations in the login method
 
 ## Not yet supported
 
 - Recommendations ([see this feature request](https://github.com/music-assistant/hass-music-assistant/discussions/535))
 - Multiple accounts (this is being worked on and available soon)
-- Tidal Master Quality etc. will be supported in the near future
 - Mixes
