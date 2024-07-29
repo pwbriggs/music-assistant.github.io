@@ -9,3 +9,7 @@ The stations which are in your TuneIn library will be imported into the MA libra
 ## Configuration
 
 In the configuration, you only need to add your login name.
+
+## Known Issues / Notes
+
+- You cannot search the TuneIn provider from within MA
