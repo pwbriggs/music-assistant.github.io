@@ -15,6 +15,7 @@ Music Assistant has full support for Spotify media listing and playback.
 - In the configuration, you need to enter your Spotify username and password
 - If you login to Spotify with 3rd party accounts (eg. Facebook) then you can set a device password to use by going [here](https://www.spotify.com/de-en/account/set-device-password/)
 - You will receive an error of “Only premium accounts are supported” if you use incorrect login credentials so check the login details, try a different account or reset the password if you think that error message is incorrect.
+- Optionally, a personal ClientID can be entered in the settings. This may speed up access to the Spotify API or eliminate rate limiting if that is encountered. How to obtain a ClientID is explained [here](https://developer.spotify.com/documentation/web-api/concepts/apps)
 
 ## Known Issues / Notes
 
