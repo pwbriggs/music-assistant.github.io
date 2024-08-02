@@ -197,6 +197,7 @@ You will need to expose the webserver port to enable this feature. See [here](..
 Display the Now Playing view for a specific player (or the last known) by adding "player=" to the home URL. You can use a player name or `true` to open the last known. Player names are not case sensitive.
 
 Examples
+
 - http://192.168.1.1:8095/#/home?player=true
 - http://192.168.1.1:8095/#?player=true
 - http://192.168.1.1:8095/#/home?player=Livingroom
