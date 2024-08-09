@@ -172,6 +172,9 @@ Similarly, if the album name is ambiguous you can specify the artist name first 
 
 You can also use the `mass.search` service call and the URI will be shown in the results.
 
+!!! note
+    URIs which begin with `media-source://` are HA URIs and should not be used when targetting MA player entities. Doing so will result in inconsistent behaviour.
+
 # Run MA when I have SSL setup on my internal network?
 
 Trying to run MA with SSL is not recommended. Having said that, whilst you can not run the stream service behind SSL you can configure the frontend entirely to your requirements. The default is that the frontend is protected by Ingress in HAOS. For those using docker, it is possible to host it on a desired port and then run a (Ingress) reverse proxy. No support will be provided for these setups, we recommend you use HAOS.
