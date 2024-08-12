@@ -7,7 +7,6 @@
   ![Jellyfin](../assets/icons/jellyfin-logo.svg){ width=70 } 
   ![Preview image](../assets/icons/plex-icon.svg){ width=70 } 
   ![Qobuz](../assets/icons/qobuz-icon.svg){ width=70 }
-  
   ![Radio Browser](../assets/icons/radiobrowser_icon.png){ width=70 } 
   ![Soundcloud](../assets/icons/soundcloud-icon.svg){ width=70 } 
   ![Spotify](../assets/icons/spotify-icon.svg){ width=70 } 
