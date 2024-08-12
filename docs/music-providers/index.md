@@ -1,5 +1,6 @@
 # Music Providers
 
+<figure markdown="span">
   ![Apple Music](../assets/icons/apple-music.svg){ width=70 } 
   ![MA](../assets/icon.png){ width=70 } 
   ![Deezer](../assets/icons/deezer-icon.svg){ width=70 } 
@@ -14,6 +15,7 @@
   ![Tidal](../assets/icons/tidal-icon.svg){ width=70 } 
   ![TuneIn](../assets/icons/tunein-icon.svg){ width=70 } 
   ![YouTube Music](../assets/icons/ytm-icon.svg){ width=70 }
+</figure>
 
 For specific music provider information refer to the relevant section.
 
