@@ -13,7 +13,7 @@ Music Assistant has full support for Spotify media listing and playback.
 
 ## Configuration
 - In the configuration, you need to click on the large button AUTHENTICATE SPOTIFY
-- A spinning circle will appear and will remain until you go to the Spotify App and click on the players icon and select MUSIC_ASSISTANT
+- A spinning circle will appear and will remain until you go to the Spotify App and click on the players icon and select MUSIC_ASSISTANT (Your device must be on the same network (subnet) as MA)
   
   ![Spotify App Image](../assets/Spotify-app-image.png)
   
