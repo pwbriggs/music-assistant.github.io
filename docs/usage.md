@@ -59,7 +59,9 @@ Playlists can be created or added to from various menus in the different views. 
 
 Playlists which consist of tracks from the filesystem provider will be stored in the MA database.
 
-User created playlists from streaming providers will be imported into the MA database and will remain synchronised regardless of whether changes are made from the MA UI or from the streaming provider's native applicatons.
+User created playlists from streaming providers will be imported into the MA database and will remain synchronised regardless of whether changes are made from the MA UI or from the streaming provider's native applicatons. Refer to the individual Music Provider pages for any limitations.
+
+Playlists can be copied from one provider to another by opening the source playlist and selecting all of the tracks and then in the ACTIONS menu select `Add to Playlist`.
 
 Automatically generated playlists from streaming providers may be supported. See the specific provider documentation for further information.
 
