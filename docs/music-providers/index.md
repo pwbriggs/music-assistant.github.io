@@ -1,5 +1,4 @@
 # Music Providers
-
 <figure markdown>
   ![Logo Banner](../assets/music-provider-logos.png)
 </figure>
