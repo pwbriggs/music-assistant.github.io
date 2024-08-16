@@ -2,23 +2,22 @@
 
 Music Assistant has full support for Spotify media listing and playback.
 
+!!! warning "Beta"
+    This provider is currently only supported on 2.2.0 Beta 7 or above
+    
 ## Features
 
-- Support for Artists, Albums, Tracks and Playlists.
-- Items in your Spotify library (including the Liked Songs playlist) will be added to the Library in Music Assistant.
+- Support for Artists, Albums, Tracks and Playlists
+- Items in your Spotify library (including the Liked Songs playlist) will be added to the Library in Music Assistant
 - Adding an item from Spotify to the Music Assistant Library will also add it to "Your Library" in Spotify
 - Marking an item as a favourite in Music Assistant will also add it to the MA Library and "Your Library" in Spotify
-- Multiple Spotify accounts can be added. All playlists from all accounts will be shown. If a playlist is selected for playback the source Spotify account will be used.
+- Multiple Spotify accounts can be added. All playlists from all accounts will be shown. If a playlist is selected for playback the source Spotify account will be used
 - Radio mode is supported
 
 ## Configuration
-- In the configuration, you need to click on the large button AUTHENTICATE SPOTIFY
-- A spinning circle will appear and will remain until you go to the Spotify App and click on the players icon and select MUSIC_ASSISTANT (Your device must be on the same network (subnet) as MA)
-  
-  ![Spotify App Image](../assets/Spotify-app-image.png)
-  
-- Once that is done the configuration page in MA will change and you can optionally alter the name of the provider or add a personal ClientID
-- Entering a personal ClientID may speed up access to the Spotify API or eliminate rate limiting if that is encountered. How to obtain a ClientID is explained [here](https://developer.spotify.com/documentation/web-api/concepts/apps)
+- Entering a personal ClientID may speed up access to the Spotify API or eliminate rate limiting if that is encountered. How to obtain a ClientID is explained [here](https://developer.spotify.com/documentation/web-api/concepts/apps). When entering the information in the various fields the only mandatory item is the REDIRECT URL which must be set to `https://music-assistant.io/callback`. Using a personal ClientID is optional
+- After deciding whether to use a personal ClientID, click on the large button AUTHENTICATE WITH SPOTIFY
+- A new window will open where you must allow Spotify to connect to Music Assistant
 
 ## Known Issues / Notes
 
