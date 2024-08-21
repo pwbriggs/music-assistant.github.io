@@ -72,7 +72,7 @@ There are three ways to group players
 
 ![image](assets/screenshots/UI-artist-view.png)
 
-Album and Track Views look the same as the above except there is no album artist filter icon
+Album and Track Views look the same as the above except there is no album artist filter icon and the track view has an [ADD VIA URL](music-providers/builtin.md) option.
 
 A red dot on the search icon ![image](assets/icons/search-icon.png)
 indicates that the viewed results are subject to filtering by search. This is useful if the search box has been closed.
@@ -99,7 +99,7 @@ The behaviour described above will work on any view where you see the "x item(s)
 
 The tracks and albums sections are collapsible. The view above shows them both collapsed. The tracks section shows ALL tracks that are in the library or that are available across all of the providers. A red dot on the library icon ![image](assets/icons/library-icon.png) indicates that the viewed results are filtered to only show items that are in the library. To see what albums any given track is on you can either sort alphabetically or click on one and use the context menu and SHOW INFO.
 
-The album section has an additional filter option. You can choose to filter by or in any combination of ALBUM, SINGLE, COMPILATION or UNKNOWN album types.
+The album section has an additional filter option. You can choose to filter by or in any combination of ALBUM, SINGLE, COMPILATION, EP or UNKNOWN album types.
 
 Expanding the IMAGES section allows for the selection of Thumb, Fanart or Logo. The other types shown are not used in the UI at this time. If there are no or limited images shown or the Images section is missing then go to the ⋮ menu in the top right of the view and select REFRESH ITEM. Right click on an image to make it the primary to be used. (Similar functionality is also available in the album view for Thumb)
 
