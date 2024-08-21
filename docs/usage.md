@@ -67,4 +67,4 @@ Playlists can be copied from one provider to another by opening the source playl
 
 Automatically generated playlists from streaming providers may be supported. See the specific provider documentation for further information.
 
-MA automatically generates some dynamic playlists. These playlists will be updated at the sync interval set in MA SETTINGS>>CORE>>MUSIC CONTROLLER or they can be updated manually by navigating to the playlist and then the ⋮ menu in the top right and selecting REFRESH ITEM.
+MA automatically generates some dynamic playlists. These playlists will be updated at the sync interval set in MA SETTINGS>>CORE>>MUSIC CONTROLLER or they can be updated manually by navigating to the playlist and then pressing on the refresh icon ![refresh](assets/icons/icon-refresh-plain.png) or by going to the ⋮ menu in the top right and selecting REFRESH ITEM.
