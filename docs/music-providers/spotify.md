@@ -12,6 +12,7 @@ Music Assistant has full support for Spotify media listing and playback.
 - Radio mode is supported
 
 ## Configuration
+- You can only configure the Spotify provider from a device which is on the same subnet as the MA server
 - Entering a personal ClientID may speed up access to the Spotify API or eliminate rate limiting if that is encountered. How to obtain a ClientID is explained [here](https://developer.spotify.com/documentation/web-api/concepts/apps). When entering the information in the various fields the only mandatory item is the REDIRECT URL which must be set to `https://music-assistant.io/callback`. Using a personal ClientID is optional
 - After deciding whether to use a personal ClientID, click on the large button AUTHENTICATE WITH SPOTIFY
 - A new window will open where you must allow Spotify to connect to Music Assistant
