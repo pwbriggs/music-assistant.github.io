@@ -35,7 +35,12 @@ Music Assistant has support for SMB (also known as samba or CIFS) shares and DFS
 
 - Write access to the share is required in order to edit or create playlists which are stored locally. You can still save playlists into the MA built-in provider if only read access is granted
 - If you are using the remote share connection, be aware that use of SMB1 (which is very old) is not recommended. If the connection keeps failing, look in your NAS settings to see if you can somehow disable SMB1
-- Use the following naming convention for local artwork. Artist thumb: folder.jpg or artist.jpg (or png); Album thumb: folder.jpg or cover.jpg (or png); Fan Art (used as background in banners): fanart.jpg (or png). Logo (used on Artist view): logo.png. Artist thumb, Fanart and Logo should be in the folder with the artist name. Album thumbs should be in the folder with the album name or in the disc folders below that. More about artwork file types can be found here https://kodi.wiki/view/Artwork_types
+- Use the following naming convention for local artwork
+  - Artist thumb: folder.jpg or artist.jpg (or png)
+  - Album thumb: folder.jpg or cover.jpg (or png)
+  - Fan Art (used as background in banners): fanart.jpg (or png)
+  - Logo (used on Artist view): logo.png
+- Artist thumb, Fanart and Logo should be in the folder with the artist name. Album thumbs should be in the folder with the album name or in the disc folders below that. More about artwork file types can be found here https://kodi.wiki/view/Artwork_types
 - Embedded album thumbs will be extracted from audio files. However, you can improve performance and save disk space by providing a single local artwork file vs. embedding the same artwork in all files
 
 !!! tip "Local Artwork is Optimal" 
