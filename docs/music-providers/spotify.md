@@ -2,9 +2,6 @@
 
 Music Assistant has full support for Spotify media listing and playback.
 
-!!! warning "Beta"
-    This provider is currently only supported on 2.2.0 Beta 7 or above
-    
 ## Features
 
 - Support for Artists, Albums, Tracks and Playlists
@@ -18,6 +15,7 @@ Music Assistant has full support for Spotify media listing and playback.
 - Entering a personal ClientID may speed up access to the Spotify API or eliminate rate limiting if that is encountered. How to obtain a ClientID is explained [here](https://developer.spotify.com/documentation/web-api/concepts/apps). When entering the information in the various fields the only mandatory item is the REDIRECT URL which must be set to `https://music-assistant.io/callback`. Using a personal ClientID is optional
 - After deciding whether to use a personal ClientID, click on the large button AUTHENTICATE WITH SPOTIFY
 - A new window will open where you must allow Spotify to connect to Music Assistant
+- You must then come back to MA and press SAVE in the Spotify settings page. If the device you are on kills the MA frontend before this is done then the provider setup will fail (Use a different, typically non-mobile, device if this happens)
 
 ## Known Issues / Notes
 
