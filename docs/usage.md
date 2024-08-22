@@ -20,6 +20,8 @@ For local music providers all artists/albums/tracks/playlists are imported into 
 
 For streaming providers ONLY the SPECIFIC artists/albums/tracks/playlists that are in the streaming providers library (or favourites or however it is termed in the provider) will be imported into the MA library when the provider is added and at each sync. This means, for example, if you have an artist in the providers library but none of their albums then all you will see in the MA library is the artist with NO associated albums or tracks. You have to subsequently add albums or tracks to the MA library if you want to see them in the library views. Note you can toggle the library / streaming provider filter option to see all that is available in the streaming provider.
 
+In each view there is a ⋮ menu in the top right corner. This menu has various library related functions. Two important ones are UPDATE METADATA amd REFRESH ITEM.  Update metadata only retrieves additional metadata and doesn't alter any of the existing/base details, while refresh item completely re-adds the item into the database, overwriting all existing data. To update the images section you only need to select UPDATE METADATA.
+
 !!! note
     If identical items (e.g. an album or track) have not been matched across providers or within a provider then select the item and using the ⋮ menu in the top banner select REFRESH ITEM
     
@@ -65,4 +67,4 @@ Playlists can be copied from one provider to another by opening the source playl
 
 Automatically generated playlists from streaming providers may be supported. See the specific provider documentation for further information.
 
-MA automatically generates some dynamic playlists. These playlists will be updated at the sync interval set in MA SETTINGS>>CORE>>MUSIC CONTROLLER or they can be updated manually by navigating to the playlist and then the ⋮ menu in the top right and selecting REFRESH ITEM.
+MA automatically generates some dynamic playlists. These playlists will be updated at the sync interval set in MA SETTINGS>>CORE>>MUSIC CONTROLLER or they can be updated manually by navigating to the playlist and then pressing on the refresh icon ![refresh](assets/icons/icon-refresh-plain.png) or by going to the ⋮ menu in the top right and selecting REFRESH ITEM.
