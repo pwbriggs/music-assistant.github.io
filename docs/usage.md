@@ -12,6 +12,8 @@ Music Assistant relies heavily on metadata to work well and it gets this informa
 - If a track has no album artist tag, there will no longer be an attempt to look it up in musicbrainz
 - Various artists will be the default option if the album artist tag is missing in local files
 
+Music Assistant never modifies the tags in the local files. Online metadata retrieval occurs when local data is lacking. MusicBrainz is only used for streaming providers (so not for local files) OR when the musicbrainz IDs are missing in local files and audiodb and/or fanarttv are enabled. At this time MusicBrainz is only used to get the musicbrainz id's, not for metadata itself.
+
 ## The Library
 
 The Music Assistant Library is a database containing details of the music which the user has indicated they are interested in listening to on a regular basis. It consists of information about Artists, Albums, Tracks, Playlists and Radio Stations which allows easy searching, display and cross referencing across the User Interface.
