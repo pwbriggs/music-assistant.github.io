@@ -16,4 +16,4 @@ Music Assistant has support for playing to media player entities in Home Assista
 - You can only use players that support "play_media", other players will be filtered out
 - MA players will be filtered out
 - Synchronisation between this player type and any others is not possible
-- Enabling [flow mode](../faq/normalization.md/#track-queueing) may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
+- Enabling [flow mode](../faq/tech-info/#track-queueing) may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
