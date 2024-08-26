@@ -17,3 +17,4 @@ Music Assistant has support for playing to media player entities in Home Assista
 - MA players will be filtered out
 - Synchronisation between this player type and any others is not possible
 - Enabling [flow mode](../faq/tech-info/#track-queueing) may solve playback issues however it might come with the side effect of disabling actual physical buttons and/or display of metadata on the device itself
+- In order to support a greater number of players, different streaming profiles are available. If the player doesn't work, stops mid stream or has other playback issues then change the player setting `HTTP Profile used for sending audio` and try each option until the player works
