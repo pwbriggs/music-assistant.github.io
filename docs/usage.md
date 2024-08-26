@@ -48,6 +48,8 @@ A menu of options to control the queue is available for each upcoming track and 
     
 The options in the menu available in the top right is shown below. Repeat and Shuffle also have buttons at the bottom in the player bar (or in the NOW PLAYING view for narrow mobile devices).
 
+Transferring the queue will also transfer the shuffle and repeat setting to the new player.
+
 ![Preview image](assets/screenshots/queue3.png)
 
 !!! note
