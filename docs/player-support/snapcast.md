@@ -22,7 +22,7 @@ MA includes a built-in Snapserver although an external server can also be used. 
 - The built-in Snapserver can only accept connections from Music Assistant
 - If it is necessary to adjust the latency of a client, it must be done from another interface such as Snapdroid or Snapweb
 - If muted players go out of sync or exhibit undesirable rebuffer delays when subsequently unmuted, or shutdown while muted then try turning on the option `Send audio to muted clients`
-- Pausing the player is NOT supported. If you try and do that you will get weird behaviour
+- Pausing has been implemented as best as can be achieved with the limitations of Snapcast. Do not report problems when pausing
 - The Snapcast app for iOS is broken as it uses an old version of Snapclient. Using it brings problems with this provider
 - Ensure that the ports 1704 and 1705 on the Snapserver host are open. Also make sure that the ports between 4953 and 5153 inclusive are open
 - Try the default Snapcast settings and then make changes as necessary
