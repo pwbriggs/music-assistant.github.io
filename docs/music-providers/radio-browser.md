@@ -26,3 +26,6 @@ The Radio provider doesn't add stations to the 'radiostation' tab by default.
 
 After completing step 4 the station will become available in the Radio view
 
+## Known Issues / Notes
+
+When browsing the various Radio Browser categories, results are limited to the first 1000. For categories with more than 1000 stations use the search function.

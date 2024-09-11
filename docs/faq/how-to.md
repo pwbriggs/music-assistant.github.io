@@ -204,3 +204,7 @@ Examples
 - http://192.168.1.1:8095/#/home?player=true
 - http://192.168.1.1:8095/#?player=true
 - http://192.168.1.1:8095/#/home?player=Livingroom
+
+# Play a Playlist (or any item) in a Different Order
+
+Playlists will be played in the order that they were created. Changing the displayed order has no impact on the played order. If playing in the displayed order is desired then select the multi-select button in the menu  bar and then use CTRL-A or manually select the tracks and then in the floating ACTIONS menu play the tracks.
