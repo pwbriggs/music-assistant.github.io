@@ -42,6 +42,7 @@ nav:
   - Player Providers:
     - player-support/index.md
     - AirPlay: player-support/airplay.md
+    - Bluesound: player-support/bluesound.md
     - DLNA: player-support/dlna.md
     - Fully Kiosk: player-support/fully-kiosk.md
     - Google Cast: player-support/google-cast.md
