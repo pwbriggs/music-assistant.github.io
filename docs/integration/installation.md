@@ -34,7 +34,7 @@ Next install the Home Assistant Player Provider
 !!! note
     Features are most likely limited with these players. Always prefer a native player provider if it exists in MA as that is optimised
 
-## Service Calls
+## Actions
 
 The integration adds four actions for use in scripts and automations. 
 
