@@ -6,10 +6,15 @@ Music Assistant has support for [Bluesound](https://www.bluesound.com/) (BlueOS)
 
 ## Features
 
-- Bluesound devices are auto detected in Music Assistant, plug and play
-- Bluesound devices will play in sync
+- Bluesound devices are auto detected in Music Assistant
 
 ## Known Issues / Notes
 
-- TBA
+- Alternative inputs might not be detected
+  
+## Not Yet Supported
+
+- Announcements
+- Synchronised playback
+
 ![Beta](../assets/beta-testing.png){ width=350 align=center }
