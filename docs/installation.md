@@ -25,7 +25,7 @@ You can simply browse the addon store within Home Assistant to install Music Ass
 An alternative way to run the Music Assistant server is by running the docker image:
 
 ```
-docker run --network host --cap-add=DAC_READ_SEARCH --cap-add=SYS_ADMIN --security-opt apparmor:unconfined -v <dir>:/data ghcr.io/music-assistant/server
+docker run -v <dir>:/data --network host --cap-add=DAC_READ_SEARCH --cap-add=SYS_ADMIN --security-opt apparmor:unconfined ghcr.io/music-assistant/server
 ```
 
 You must run the docker container with host network mode. The data volume is `/data` - replace `<dir>` with a writable directory to ensure the data volume persists between updates. If you want access to your local music files from within MA, make sure to also mount that, e.g. /media.
