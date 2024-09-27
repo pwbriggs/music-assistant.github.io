@@ -16,16 +16,16 @@ script:
     mode: queued
     alias: "Jukebox MA search"
     sequence:
-      - service: mass.search
+      - action: mass.search
         data:
           limit: 8
           name: "{{ states.input_text.jukebox_search.state}}"
         response_variable: results
-      - service: input_text.set_value
+      - action: input_text.set_value
         data:
           entity_id: input_text.jukebox_track_1
           value: '{{ results.tracks[0].name }}'
-      - service: input_text.set_value
+      - action: input_text.set_value
         data:
           entity_id: input_text.jukebox_artist_1
           value: '{{ results.tracks[0].artists[0].name }}'
