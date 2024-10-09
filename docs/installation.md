@@ -5,7 +5,7 @@ description: Installation guide for Music Assistant
 
 # Installing the Server
 
-Music Assistant (MA) can be operated as a complete standalone product but it is actually designed to use side by side with Home Assistant. MA is built with automation in mind, hence the recommended installation method is to run the server as a Home assistant Add-on and then optionally [add the HA integration](https://music-assistant.io/integration/installation/). Install using one of the two methods below.
+Music Assistant (in short: MA) can be operated as a complete standalone product but it is actually designed to use side by side with Home Assistant. MA is built with automation in mind, hence the recommended installation method is to run the server as a Home assistant Add-on and then optionally [add the HA integration](https://music-assistant.io/integration/installation/). Install using one of the two methods below.
 
 
 MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical device or the container (physical devices are recommended to have 4GB+ if they are running anything else)
@@ -14,25 +14,50 @@ MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical
 
 This is only available when running [HAOS](https://developers.home-assistant.io/docs/operating-system/). To install the Music Assistant Add-on:
 
-1. Add the Music Assistant repository to your Home Assistant instance.
-
-    [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
-
-2. Install the Music Assistant add-on.
+The Music Assistant add-on repository is by default available on Home Assistant.
+You can simply browse the addon store within Home Assistant to install Music Assistant.
 
     [![Add Music Assistant as Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
-    
+
+
 ## Secondary installation method: Docker image
 
 An alternative way to run the Music Assistant server is by running the docker image:
 
 ```
-docker run --network host --privileged -v <dir>:/data ghcr.io/music-assistant/server
+docker run -v <dir>:/data --network host --cap-add=DAC_READ_SEARCH --cap-add=SYS_ADMIN --security-opt apparmor:unconfined ghcr.io/music-assistant/server
 ```
 
-You must run the docker container with host network mode and in privileged mode. The data volume is `/data` - replace `<dir>` with a writable directory to ensure the data volume persists between updates.
-If you want access to your local music files from within MA, make sure to also mount that, e.g. /media.
-Note that accessing remote (SMB) shares can be done from within MA itself using the SMB File provider (but requires the privileged flag).
+You must run the docker container with host network mode. The data volume is `/data` - replace `<dir>` with a writable directory to ensure the data volume persists between updates. If you want access to your local music files from within MA, make sure to also mount that, e.g. /media.
+
+Note that accessing remote (SMB) shares can be done from within MA itself using the SMB File provider.
+The additional privileges are only required if you want to mount use remote (samba/nfs) share within Music Assistant.
+
+Docker compose:
+
+```
+version: "3"
+services:
+  music-assistant-server:
+    image: ghcr.io/music-assistant/server:latest # <<< Desired release version here (or use beta to get the latest beta version)
+    container_name: music-assistant-server
+    restart: unless-stopped
+    # Network mode must be set to host for MA to work correctly
+    network_mode: host
+    volumes:
+      - ${USERDIR:-$HOME}/docker/music-assistant-server/data:/data/
+    # privileged caps (and security-opt) needed to mount smb folders within the container
+    cap_add:
+      - SYS_ADMIN
+      - DAC_READ_SEARCH
+    security_opt:
+      - apparmor:unconfined
+    environment:
+      # Provide logging level as environment variable.
+      # default=info, possible=(critical, error, warning, info, debug)
+      - LOG_LEVEL=info
+
+```
 
 ____________
 
