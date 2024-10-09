@@ -12,12 +12,11 @@ MA requires a 64bit Operating System and a minimum of 2GB of RAM on the physical
 
 ## Primary installation method: Home Assistant Add-on
 
-This is only available when running [HAOS](https://developers.home-assistant.io/docs/operating-system/). To install the Music Assistant Add-on:
+This is only available when running [HAOS](https://developers.home-assistant.io/docs/operating-system/).
 
-The Music Assistant add-on repository is by default available on Home Assistant.
-You can simply browse the addon store within Home Assistant to install Music Assistant.
+The Music Assistant add-on repository is available in Home Assistant. Browse the addon store within Home Assistant to install or click on the following button:
 
-    [![Add Music Assistant as Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
+[![Add Music Assistant as an Add-on to Home Assistant.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=d5369777_music_assistant&repository_url=https%3A%2F%2Fgithub.com%2Fmusic-assistant%2Fhome-assistant-addon)
 
 
 ## Secondary installation method: Docker image
@@ -28,10 +27,10 @@ An alternative way to run the Music Assistant server is by running the docker im
 docker run -v <dir>:/data --network host --cap-add=DAC_READ_SEARCH --cap-add=SYS_ADMIN --security-opt apparmor:unconfined ghcr.io/music-assistant/server
 ```
 
-You must run the docker container with host network mode. The data volume is `/data` - replace `<dir>` with a writable directory to ensure the data volume persists between updates. If you want access to your local music files from within MA, make sure to also mount that, e.g. /media.
+You must run the docker container with host network mode. The data volume is `/data` - replace `<dir>` with a writable directory to ensure the data volume persists between updates. If you want access to your local music files from within MA, make sure to also mount that local directory, e.g. /media.
 
-Note that accessing remote (SMB) shares can be done from within MA itself using the SMB File provider.
-The additional privileges are only required if you want to mount use remote (samba/nfs) share within Music Assistant.
+Note that accessing remote (SMB) shares is done from within MA by using the SMB File provider.
+The additional privileges are only required if you want to use a remote (Samba/NFS) share within Music Assistant.
 
 Docker compose:
 
