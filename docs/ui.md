@@ -58,14 +58,19 @@ If mutiple players in a group are being streamed to then this is shown by a numb
 
 ![image](assets/screenshots/group_indication.png)
 
-There are three ways to group players
+There are four ways to group players
 
-1.    As shown in the previous section players can be linked via the icon in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. For example, player A has an existing queue and players B and C are joined to player A. If player A is turned off, players B and C will also stop.
-2.    Create a group player via the settings. The native player types shown (i.e. not the Universal Group option) support perfect sync (this is a requirement to be shown here). In addition to playing in sync the group will also keep playing regardless of which player(s) in the group are powered off. So the group player holds the queue rather than any individual player. 
+1.    **MANUAL SYNC.** As shown in the [Player List](#player-list) section players can be linked via the chain icon in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. For example, player A has an existing queue and players B and C are joined to player A. If player A is turned off, players B and C will also stop. This type of group is created when the HA action [media_player.join](https://www.home-assistant.io/integrations/media_player/#action-media_playerjoin) is used.
+2.    **SYNC GROUP.** Create a group player via the settings. The native player types shown (i.e. not the Universal Group option) support perfect sync (this is a requirement to be shown here). In addition to playing in sync the group will also keep playing regardless of which player(s) in the group are powered off. So the group player holds the queue rather than any individual player. 
 
-    ![image](assets/screenshots/syncgroup.png)
+![image](assets/screenshots/syncgroup.png)
 
-3.   Create a [Universal Group](player-support/universal.md)
+3.   **[UNIVERSAL GROUP.](player-support/universal.md)** This allows grouping of dissimilar player provider types but carefully note the potentional limitations on the linked page.
+4.   **NATIVE GROUP.** Use the native functionality to group players offered by some player provider types (e.g. Google Cast)
+
+!!! warning "Important"
+    Do not attempt to group other groups. Doing so will likely result in unpredicatable behaviour. Future MA versions may support this in limited circumstances.
+
 ***************************************************************
 
 ## Artist / Album / Track View
