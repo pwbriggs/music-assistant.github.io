@@ -24,7 +24,7 @@ Example code snippet (O-Auth and client_id are NOT real, use yours):
 
 ```
 client_id = jHvc9wa0Ejf092wj3f3920w3F920as02
-Authorization = O-Auth 3-26432-21446-asdif2309fj
+Authorization = OAuth 3-26432-21446-asdif2309fj
 ```
 ## Known Issues / Notes
 
