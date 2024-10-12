@@ -16,11 +16,11 @@ Two fields need to be completed to use this provider, Client id and Authorizatio
 
 `client_id`: string of 32 bytes alphanumeric
 
-`Authorization`: string that begins with O-Auth and a string (the o-auth token is "O-Auth . . .")
+`Authorization`: string that begins with OAuth and a string (the o-auth token is "OAuth . . .")
 
 ![screenshot](../assets/screenshots/soundcloud-auth-token.png){ width=1005 align=center }
 
-Example code snippet (O-Auth and client_id are NOT real, use yours):
+Example code snippet (OAuth and client_id are NOT real, use yours):
 
 ```
 client_id = jHvc9wa0Ejf092wj3f3920w3F920as02
