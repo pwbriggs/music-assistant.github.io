@@ -71,6 +71,9 @@ There are four ways to group players
 !!! warning "Important"
     Do not attempt to group other groups. Doing so will likely result in unpredicatable behaviour. Future MA versions may support this in limited circumstances.
 
+!!! note "Note"
+    If a player is taken over by another app, MA will not have knowledge of that, and the group won't recover. Additionally, if a player of a syncgroup joins late (e.g. it was unpowered) it also wont recover.
+
 ***************************************************************
 
 ## Artist / Album / Track View
