@@ -35,3 +35,13 @@ You could use [Darkcast](http://www.darkice.org/) to capture and [Icecast](https
 For such a project you need an audio-capture and ADC (analogue-to-digital converter) device that provides audio-input and digitalization. For example, you can use either a USB Audio Device Interface adapter from [Behringer](https://www.behringer.com/catalog.html?catalog=Category&category=C-BEHRINGER-AUDIOINTERFACES-USBAUDIOINTERFACES) or [IK Multimedia](https://www.ikmultimedia.com/products/irigstream/), or a [HiFiBerry board with ADC](https://www.hifiberry.com/blog/need-some-input/).
 
 You can find a generic tutorial [here](https://maker.pro/raspberry-pi/projects/how-to-build-an-internet-radio-station-with-raspberry-pi-darkice-and-icecast), and for those that like step-by-step guides look [here](https://github.com/quebulm/Raspberry-Pi-Vinyl-Streamer) and [here](https://github.com/gieljnssns/darkice-libaacplus-rpi-guide/blob/master/README.md) (the first of which also offers a pre-configured Linux appliance image for Raspberry Pi 3 / Raspberry Pi Zero 2 W). 
+
+## Web Radio
+
+You can indirectly stream to a device which only accepts a URL such as a Web Radio. In order to do so you will need to be running Home Assistant and do this:
+
+- Install https://github.com/Poeschl-HomeAssistant-Addons/mpd (this will create an mpd media_player entity)
+- Enable httpd_output in the mpd addon (which allows for web streaming)
+- Use the HA media player plugin in music assistant and select mpd as the output
+
+Thanks to [Manuel Rüger](https://github.com/mrueg) who showed us [here](https://github.com/orgs/music-assistant/discussions/2410#discussioncomment-10885780)
