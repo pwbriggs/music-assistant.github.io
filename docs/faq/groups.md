@@ -23,6 +23,8 @@ These are temporary group players that are configured via the [Player List](ui.m
 
 These are permanent group players that are configured via the MA settings. These should be used when the make up of the group will rarely change.
 
+![image](assets/screenshots/syncgroup.png)
+
 ## Features
 
 - The native player types shown (i.e. not the Universal Group option) support perfect sync (this is a requirement to be shown in the list)
