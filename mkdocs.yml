@@ -19,6 +19,7 @@ nav:
   - Usage: 
     - General: usage.md
     - UI: ui.md
+    - Groups: faq/groups.md
     - How Do I...: faq/how-to.md
     - I Want To Stream To: faq/stream-to.md
     - Technical Info: faq/tech-info.md
@@ -50,7 +51,6 @@ nav:
     - Slimproto: player-support/slimproto.md
     - Snapcast: player-support/snapcast.md
     - Sonos: player-support/sonos.md
-    - Universal Groups: player-support/universal.md
   - Support: support.md
   - I Want to Help / Donate: 
     - help/index.md
