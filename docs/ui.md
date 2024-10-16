@@ -60,8 +60,8 @@ If mutiple players in a group are being streamed to then this is shown by a numb
 
 There are four ways to group players
 
-1.    **MANUAL SYNC.** As shown in the [Player List](#player-list) section players can be linked via the chain icon in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. For example, player A has an existing queue and players B and C are joined to player A. If player A is turned off the queue will be lost and players B and C will stop. This type of group is created when the HA action [media_player.join](https://www.home-assistant.io/integrations/media_player/#action-media_playerjoin) is used.
-2.    **SYNC GROUP.** Create a group player via the settings. The native player types shown (i.e. not the Universal Group option) support perfect sync (this is a requirement to be shown in the list). In addition to playing in sync the group will also keep the queue regardless of which player(s) in the group are powered off. So the group player holds the queue rather than any individual player. Note however that if the group leader is lost then playback will stop but the queue can be restarted.
+1.    **[MANUAL SYNC.](faq/groups.md)** As shown in the [Player List](#player-list) section players can be linked via the chain icon in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. 
+2.    **[SYNC GROUP.](faq/groups.md)** Create a (permanent) group player via the settings. In addition to playing in sync the group will also keep the queue on the group player instead of one of its child players.
 
   ![image](assets/screenshots/syncgroup.png)
 
@@ -72,7 +72,7 @@ There are four ways to group players
     Do not attempt to group other groups. Doing so will likely result in unpredicatable behaviour. Future MA versions may support this in limited circumstances.
 
 !!! note "Note"
-    If a player is taken over by another app, MA will not have knowledge of that, and the group won't recover. Additionally, if a player of a syncgroup joins late (e.g. it was unpowered) it also wont recover.
+    If a player is taken over by another app, MA will not have knowledge of that, and the group may no longer function correctly. Additionally, if a player of a syncgroup tries to join late (e.g. it was unpowered) it will not be synced to the group.
 
 ***************************************************************
 
