@@ -11,7 +11,7 @@ Probably the most common issue is people trying to run MA with complicated netwo
 
 For clarity, running installation options other than HAOS or simple docker and/or more complex network setups is at your own risk and we do not have the capacity to provide direct support (e.g Kubernetes is not supported).
 
-There are settings available in MA SETTINGS>>CORE>>STREAMSERVER>>CONFIGURE>>ADVANCED that might help you if you have non-standard setups. If you are running MA in your own docker container then make sure you have the correct PUBLISHED IP ADDRESS and BIND TO IP/INTERFACE set. Ensure containers are in HOST networking and PRIVILEGED mode.
+There are settings available in MA SETTINGS>>CORE>>STREAMSERVER>>CONFIGURE>>ADVANCED that might help you if you have non-standard setups. If you are running MA in your own docker container then make sure you have the correct PUBLISHED IP ADDRESS and BIND TO IP/INTERFACE set. Ensure containers are in HOST networking mode and note the extra privileges in the [example docker command](../installation.md#docker-image).
 
 Most players are discovered using mDNS (broadcast) so if your players do not get discovered it means that your network is blocking that traffic (e.g. IGMP or multicast snooping or filtering). You will have to check your settings (e.g. WiFi setup) if multicast is being blocked. Business solutions tend to block multicast traffic as much as possible as it hurts performance when there are many clients. In a home setup is it mandatory to have because all home gear relies on multicast.
 
