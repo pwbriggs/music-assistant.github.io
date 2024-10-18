@@ -5,6 +5,9 @@ description: Player Grouping Functionality in Music Assistant
 
 # Groups
 
+!!! warning "Note"
+    Do not delete or disable a player which is in a group while the group is playing
+    
 ## Manual Sync
 
 These are temporary group players that are configured via the [Player List](ui.md#player-list).
