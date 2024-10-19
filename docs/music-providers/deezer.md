@@ -17,7 +17,19 @@ Music Assistant has support for [Deezer](https://www.deezer.com/). Contributed a
 - Radio mode (Similar to Deezer flow)
 
 ## Configuration
-Login by pressing the `Authenticate` button when adding the provider in the Music Assistant interface.
+
+Authentication with Deezer happens through an Access and ARL Token. Unfortunately, Deezer does not officially support third party logins, so you will need to obtain your own ARL Token. Instructions were written for Chrome:
+
+1. in the MA SETTINGS select ADD MUSIC PROVIDER and then DEEZER.
+2. Launch the authentication process by pressing the `Authenticate` button
+3. Login to Deezer on the popup window
+4. After logging in the MA settings page will have the ACCESS TOKEN automatically populated but the ARL TOKEN now needs to be manually obtained
+5. Navigate in another browser tab to [https://deezer.com/](https://deezer.com/)
+6. Right click on the browser window and select INSPECT. A new window will open
+7. Click the 'Application' tab. You might need to expand your window or click the `>>` button
+8. Under Storage > Cookies, click "https://www.deezer.com" and find the entry labelled "arl"
+  ![Preview image](../assets/screenshots/deezer-arl.png)
+9. Copy the cookie value and use this in Music Assistant as the 'ARL TOKEN'
 
 **If this does not work ensure that you:**
 - Are on the same network as Music Assistant
