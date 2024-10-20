@@ -27,3 +27,4 @@ MA includes a built-in Snapserver although an external server can also be used. 
 - The Snapcast app for iOS is broken as it uses an old version of Snapclient. Using it brings problems with this provider
 - Ensure that the ports 1704 and 1705 on the Snapserver host are open. Also make sure that the ports between 4953 and 5153 inclusive are open
 - Try the default Snapcast settings and then make changes as necessary
+- Very short announcements may not play correctly
