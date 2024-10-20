@@ -34,6 +34,7 @@ nav:
     - Plex: music-providers/plex.md
     - Qobuz: music-providers/qobuz.md
     - Radio Browser: music-providers/radio-browser.md
+    - SiriusXM: music-providers/siriusxm.md
     - SoundCloud: music-providers/soundcloud.md
     - Spotify: music-providers/spotify.md
     - Subsonic: music-providers/subsonic.md
