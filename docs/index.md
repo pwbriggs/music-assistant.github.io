@@ -68,7 +68,6 @@ Connects Home Assistant to your Music Assistant Server to allow control from you
 [![Mel](assets/team/melharbour.png){ width=100 }](https://github.com/melharbour "Mel. Core developer team")
 [![jc2k](assets/team/jc2k.png){ width=100 }](https://github.com/jc2k "John. Jellyfin Maintainer")
 [![diede](assets/team/diede.png){ width=100 }](https://github.com/Cyanogenbot "Diede. Author of the Bluesound provider")
-Maintainer")
 [![btoconnor](assets/team/btoconnor.png){ width=100 }](https://github.com/btoconnor "Brian. Author of the SiriusXM provider")
 
 [repository-badge]: https://img.shields.io/badge/Add%20repository%20to%20my-Home%20Assistant-41BDF5?logo=home-assistant&style=for-the-badge
