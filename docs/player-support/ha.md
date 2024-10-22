@@ -18,3 +18,4 @@ Music Assistant has support for playing to media player entities in Home Assista
 - Synchronisation between this player type and any others is not possible
 - In order to support a greater number of players, different streaming profiles are available. If the player doesn't work, stops mid stream or has other playback issues then change the player setting `HTTP Profile used for sending audio` and try each option until the player works
 - If there is no metadata sent to the player then you can trying enabling the option `Try to ingest metadata into stream`
+- ESPHome Media Players are likely to be problematic and cannot be fixed until HA updates the media player component. If possible use snapcast or squeezelite32 on the device
