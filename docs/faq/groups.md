@@ -10,7 +10,7 @@ description: Player Grouping Functionality in Music Assistant
     
 ## Manual Sync
 
-These are temporary group players that are configured via the [Player List](ui.md#player-list) or HA action. They provide a very flexible way to create and destroy groups as the players can be added or removed at any time. 
+These are temporary Sync Group players that are configured via the [Player List](ui.md#player-list) or HA action. They provide a very flexible way to create and destroy Sync Groups as the players can be added or removed at any time. 
 
 ### Features
 
