@@ -46,7 +46,6 @@ After selecting ADD GROUP PLAYER as shown above, the group configuration screen 
 
 - As mentioned above the group player holds the queue rather than any individual player. However, if the group leader is lost then playback will stop but the queue can be restarted
 - The group will not power on if one of the child players is synced to another group
-- The group will power on if one or more of the child players is unavailable
 - If, in the group settings, the player friendly name has been replaced by an unusual ID then likely the player was seen by the MA logic as unavailable. Check the individual player status
 
 ## Universal Groups
