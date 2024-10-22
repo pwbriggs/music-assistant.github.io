@@ -52,7 +52,7 @@ This is by far the best (most precise) sync method because each player is respon
 
 2) Server-side corrected sync. Each player is sent the audio stream from the centralized source and then the server keeps track of each player's latency and corrects it by pausing/forwarding, playing faster/slower or injecting frames. This is easier to implement because the only thing needed client-side is accurate progress reporting of the client (how many milliseconds it played) and the server contains all the centralized logic to keep the sync. This is used by, for example, slimproto (squeezebox) and snapcast.
 
-How well the time synchronisation works depends on multiple factors but often you will find that strategy 1 is superior to strategy 2 and/or strategy 2 needs tweaking to get it right. For instance on snapcast you may hear skipping (small disturbances to the sound while its adjusting) and slimproto works less optimal with wifi based devices due to changing player latency.
+How well the time synchronisation works depends on multiple factors but often you will find that strategy 1 is superior to strategy 2 and/or strategy 2 needs tweaking to get it right. For instance on snapcast you may hear skipping (small disturbances to the sound while its adjusting) and slimproto works less optimally with wifi based devices due to changing player latency.
 
 RECOMMENDATION: To have the best synced audio experiences of players, try to stick with one ecosystem and, if possible, choose one of the options that implement strategy 1 (proprietary protocol). 
 
