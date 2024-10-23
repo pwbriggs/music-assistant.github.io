@@ -40,7 +40,7 @@ If a player does not support native announcements, MA will take care of it by st
 
 ESPHome and Snapcast are known to be unreliable with state updates so expect issues with those player types. The same applies to some HA media players.
 
-If a player does not resume after playing an announcement, check the HTTP profile settings. `Fixed content length` may need to be used. For example, (the current) ESPHome devices have this issue.
+If a player does not resume after playing an announcement, or it takes a very long time, check the HTTP profile settings. `Fixed content length` may need to be used. For example, (the current) ESPHome devices have this issue.
 
 ## Group Behaviour
 
