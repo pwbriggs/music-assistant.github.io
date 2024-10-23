@@ -46,7 +46,7 @@ If a player does not resume after playing an announcement, or it takes a very lo
 
 If an announcement is sent to a native Google Cast Group, Sync Group or a Universal Group, the announcement will always be played to ALL child players. The preference to (not) use a pre-announcement sound is defined on the group player in this case. The volume setting of the announcement is defined per player. If one of the child players was already playing, playback will be interrupted and NOT resumed. Bear that in mind with automations and target announcements to the individual players or just restart individual player playback if/when needed. Google Cast groups should play the announcement in sync.
 
-If an announcement is sent to a group of players that are manually synced, the announcement will be played to all childplayers (in sync)
+If an announcement is sent to a group of players that are manually synced, the announcement will be played to all childplayers (in sync).
 
 If an announcement is sent to a Sync Group (temporary or permananent) of which ALL child players support native announcements, the native functionality will be used to playback the announcement and MA will ensure the announcement is started at the same (millisecond precise) time so all players should play the announcement in sync.
 
