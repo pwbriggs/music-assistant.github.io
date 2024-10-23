@@ -48,7 +48,7 @@ If an announcement is sent to a native Google Cast Group, Sync Group or a Univer
 
 If an announcement is sent to a group of players that are manually synced, the announcement will be played to all childplayers (in sync).
 
-If an announcement is sent to a Sync Group (temporary or permananent) of which ALL child players support native announcements, the native functionality will be used to playback the announcement and MA will ensure the announcement is started at the same (millisecond precise) time so all players should play the announcement in sync.
+If an announcement is sent to a Sync Group (temporary or permananent) of which ALL child players support native announcements, the native functionality will be used to playback the announcement and MA will ensure the announcement is started at (more or less) the same time so all players should play the announcement in sync.
 
 If an announcement is sent to a player that is currently synced to another player (and does not support native announcements), it will be temporarily unsynced, the announcement played and then added back to the group.
 
