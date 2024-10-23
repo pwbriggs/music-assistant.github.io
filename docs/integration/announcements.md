@@ -38,7 +38,7 @@ If a player does not support native announcements, MA will take care of it by st
 !!! note
     The MA announcement feature will ONLY work reliably if the player reports the state (e.g. playing, paused, idle) and the progress report (elapsed time) correctly. If any of those are not updated correctly then announcements will work poorly.
 
-ESPHome and Snapcast are known to be unreliable with state updates so expect issues with those player types. The same applies to some HA media players.
+ESPHome and Snapcast can be unreliable with state updates so issues may occur with those player types. The same applies to some HA media players. Future updates of those platforms should improve performance.
 
 If a player does not resume after playing an announcement, or it takes a very long time, check the HTTP profile settings. `Fixed content length` may need to be used. For example, (the current) ESPHome devices have this issue.
 
