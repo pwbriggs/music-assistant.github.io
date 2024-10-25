@@ -56,12 +56,12 @@ When a player group is powered on the members of that group will disappear from 
 
 There are four ways to group players
 
-1.   **[MANUAL SYNC.](faq/groups.md#manual-sync)** As shown in the [Player List](#player-list) section players can be linked via the checkbox in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. 
+1.   **[TEMPORARY SYNC GROUP.](faq/groups.md#temporary-sync-group)** As shown in the [Player List](#player-list) section players can be linked via the checkbox in the player list. Only like player types that support synced playback are allowed to be joined. These players will then play in sync. It should be noted that when players are grouped in this way only the main player holds the queue. 
 2.   **[SYNC GROUP.](faq/groups.md#sync-groups)** Create a (permanent) group player via the settings. In addition to playing in sync the group will also keep the queue on the group player instead of one of its child players.
 3.   **[UNIVERSAL GROUP.](faq/groups.md#universal-groups)** This allows grouping of dissimilar player provider types but carefully note the potentional limitations on the linked page.
 4.   **NATIVE GROUP.** Use the native functionality to group players offered by some player provider types (e.g. Google Cast)
 
-With MANUAL SYNC groups the number of players being streamed to can be seen due to the naming convention. In the example image below there are three players in the group.
+With TEMPORARY SYNC GROUPs the number of players being streamed to can be seen due to the naming convention. In the example image below there are three players in the group.
 
 ![image](assets/screenshots/group_indication.png)
 
