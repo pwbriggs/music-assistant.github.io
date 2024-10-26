@@ -36,7 +36,6 @@ The additional privileges are only required if you want to use a remote (Samba/N
 Docker compose:
 
 ```
-version: "3"
 services:
   music-assistant-server:
     image: ghcr.io/music-assistant/server:latest # <<< Desired release version here (or use beta to get the latest beta version)
