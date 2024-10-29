@@ -85,13 +85,13 @@ ____________
     2. To access the frontend behind a reverse proxy you will have to configure the reverse proxy to point at the 8095 port and expose it to whatever is desired (and add an ssl certificate). How that works differs for each implemention. 
 
 !!! tip 
-    You can keep the server more secure by NOT exposing the webserver and let the addon talk directly to the webserver on the internal docker network. In that case the internal dns name of the addon would be, for example, <http://<YOUR_HA_IP_ADDRESS>:8123/d5369777_music_assistant>
+    You can keep the server more secure by NOT exposing the webserver and let the addon talk directly to the webserver on the internal docker network. In that case the internal dns name of the addon would be, for example, `http://YOUR_HA_IP_ADDRESS:8123/d5369777_music_assistant`
 
 ## Usage and Notes
 
 - When running the Home Assistant add-on, you can access the webinterface from the add-on (a shortcut can be added to the sidebar) which is more secure than via the port (although the port can be exposed (but not changed) in the settings)
   
-- If you are running Music Assistant in docker, you need to access the webinterface at http://youripaddress:8095. The port can be changed in the MA settings. If something else is using port 8095 then that must be shutdown until the MA port is changed
+- If you are running Music Assistant in docker, you need to access the webinterface at `http://YOUR_MA_IP_ADDRESS:8095`. The port can be changed in the MA settings. If something else is using port 8095 then that must be shutdown until the MA port is changed
   
 - No providers are installed initially. You must navigate to the MA settings and add the providers (Music and Players) that you use
   
