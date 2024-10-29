@@ -75,6 +75,7 @@ On Karen's Bedroom player listen to Journey Don’t Stop Believing
     
 ### Troubleshooting
 
+- Refer to the HA Documentation [Troubleshooting Assist](https://www.home-assistant.io/voice_control/troubleshooting/) and the following
 - A response of "Sorry I couldn't understand that" indicates a failure in the pipeline before it reaches the HA integration. In this case consider doing the following.
     - Ensure media players and areas are exposed to Assist
     - Try typing the command
