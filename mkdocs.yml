@@ -15,6 +15,8 @@ nav:
     - Play Media Action: faq/massplaymedia.md
     - Play Announcement Action: faq/massannounce.md
     - Search Action: faq/masssearch.md
+    - Get Library Action: faq/get_library.md
+    - Get Queue Action: faq/get_queue.md
     - Transfer Queue Action: faq/masstransfer.md
   - Companion App: companion-app.md
   - Usage: 
