@@ -183,7 +183,7 @@ Trying to run MA with SSL is not recommended. Having said that, whilst you can n
 
 If you are running the addon within the HA host go to SETTINGS>>ADDONS>>MUSIC ASSISTANT and select "Show in sidebar".
 
-If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/dashboards/iframe/)
+If you are using docker then you can use an [iframe panel](https://www.home-assistant.io/dashboards/iframe/) or you can use another custom integration called [hass_ingress](https://github.com/lovelylain/hass_ingress) which allows you to add additional ingress panels to your Home Assistant frontend. 
 
 # Add a rotary encoder with push button to a piCorePlayer
 
