@@ -184,7 +184,7 @@ data:
 
 Similarly, if the album name is ambiguous you can specify the artist name first (`Queen - Greatest Hits`)
 
-You can also use the `mass.search` or `mass.get_library` Actions and the URI will be shown in the results.
+You can also use the `mass.search` or `mass.get_library` actions and the URI will be shown in the results.
 
 !!! note
     URIs which begin with `media-source://` are HA URIs and should not be used when targetting MA player entities. Doing so will result in inconsistent behaviour.
