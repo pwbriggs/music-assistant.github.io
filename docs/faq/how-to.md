@@ -5,7 +5,7 @@ description: Common Uses for Music Assistant
 
 # Use Assist and AI to Play my Music?
 
-See [here](../integration/voice.md). This adds a PLAY command to a specific player. The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player service calls at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
+See [here](../integration/voice.md). This adds a PLAY command to a specific player. The core HA voice intents support NEXT TRACK, (PREVIOUS TRACK is coming), PAUSE, UNPAUSE and VOLUME to a specific player or to an area. HA does not intend to add any more media player actions at this time so you will need to use custom sentences to cover any other of your requirements. See this [discussion for how](https://github.com/orgs/music-assistant/discussions/2176).
 
 # Use volume normalization? How does it work?
 
@@ -19,11 +19,11 @@ There are two options.
 1. Start streaming to any type of group that includes all the rooms you will move between. Mute all the rooms except the one you are in. When you move rooms just mute and unmute the required players.
 2. Use a Sync Group with the dynamic members option turned on, or a Manual Sync group. As you change rooms then join the new room to the existing group. What to do with the other players in the group depends upon the group type and whether the player is the group leader (Sync Group) or holds the queue (Manual Sync). The options are unjoining the player from the group or muting it. For more information read up on [Groups](groups.md) 
 
-# Shuffle Spotify/playlist/Youtube etc
+# Shuffle Spotify/playlist/YouTube etc
 
 You don't shuffle the music providers you enable shuffle on the queue for the player and then whatever gets added to the queue gets shuffled. You enable shuffle on the queue from within MA by selecting the Shuffle Icon in the Player frontend or you can select the QUEUE at the bottom, then the context menu Top Right then SETTINGS then SHUFFLE ON or you can do it with yaml as follows:
 ``` yaml
-service: media_player.shuffle_set
+action: media_player.shuffle_set
 target:
   entity_id: media_player.mass_bath
 data:
@@ -33,7 +33,7 @@ data:
 # Add items to the queue via a script or automation
 
 ``` yaml
-service: media_player.play_media
+action: media_player.play_media
 target:
   entity_id: media_player.mass_player_entity_goes_here
 data:
@@ -43,45 +43,67 @@ data:
 
 See here for [enqueue options](https://www.home-assistant.io/integrations/media_player/)
 
-See also [mass.play_media service call](./massplaymedia.md)
+See also [mass.play_media action](./massplaymedia.md)
 
 # Start a playlist with a script
 
-Use the `media_player.play_media` service call shown above or `mass.play_media` service as described [here](./massplaymedia.md).
+Use the `media_player.play_media` action shown above or `mass.play_media` action as described [here](./massplaymedia.md).
 
 # Start a radio stream with an automation
 
-Use the `mass.play_media` service call and set the `media_id` as the station name.
+Use the `mass.play_media` action and set the `media_id` as the station name.
 
 # Play a Random Item
 
-Use mass search and an script/automation such as this:
+Use get_library and an script/automation such as this:
 
 ``` yaml
-alias: Random Album
 sequence:
-  - service: mass.search
+  - action: mass.get_library
     data:
-      limit: 9
-      name: ARTISTNAME
-      media_type:
-        - album
-    response_variable: results
-  - service: mass.play_media
+      media_type: track
+      search: ARTISTNAME
+      limit: 1
+      order_by: random
+    response_variable: random_track
+  - action: mass.play_media
     data:
-      media_id: "{{ results.albums[range(0, 8) | random].name }}"
+      media_id: "{{ random_track.tracks[0].uri }}"
+      media_type: track
+      enqueue: play
+      radio_mode: true
     target:
-      device_id: XYZ
-mode: single
+      entity_id: media_player.ma_kitchen_speaker
 ```
 
-This could be modified for other item types (e.g. tracks or playlists). 
+If you want a queue of tracks then:
 
-Thanks to [ministryofsillywalks](https://github.com/ministryofsillywalks) who showed us [here](https://github.com/orgs/music-assistant/discussions/1637#discussioncomment-9462085)
+``` yaml
+sequence:
+  - action: mass.get_library
+    data:
+      media_type: track
+      search: ARTISTNAME
+      limit: 10
+      order_by: random
+    response_variable: random_tracks
+  - repeat:
+      count: "{{ random_tracks | length + 1}}"
+      sequence:
+        - action: mass.play_media
+          data:
+            media_id: "{{ random_tracks.tracks[repeat.index - 1].uri }}"
+            media_type: track
+            enqueue: add
+          target:
+            entity_id: media_player.ma_kitchen_speaker
+```
+
+This could be modified for other item types (e.g. radio stations or playlists). 
 
 # Clear the queue with a script or automation
 
-Use the HA service call of `media_player.clear_playlist` or the new `mass.play_media` service call and select the appropriate enqueue option if wanting to clear the queue and play something else.
+Use the HA action of `media_player.clear_playlist` or the new `mass.play_media` action and select the appropriate enqueue option if wanting to clear the queue and play something else.
 
 # Add radio stations to MA
 
@@ -119,7 +141,7 @@ M3U, M3U8 and PLS playlists are supported.
 
 # Go to next/previous radio station via a script
 
-Create a playlist with multiple radio stations and start playing it. Now you can use next and previous to switch between the stations
+Create an `input_select` with the various radio stations as options. Now you can use next and previous actions to switch between the stations.
 
 # Stop the music after a period of time aka Sleep Timer
 
@@ -131,7 +153,7 @@ sequence:
           - media_player.mass_all_rooms
         attribute: media_title
     continue_on_timeout: false
-  - service: media_player.turn_off
+  - action: media_player.turn_off
     data: {}
     target:
       entity_id:
@@ -146,19 +168,11 @@ Thanks to [AAsikki](https://github.com/Aasikki) who showed us [here](https://git
 
 See here https://github.com/music-assistant/hass-music-assistant/discussions/439
 
-# Use the MA service call `mass.play_media`
-
-See [here](massplaymedia.md)
-
-# Use the MA service call `mass.search`
-
-See [here](masssearch.md)
-
 # Get the URI?
 
 For playlists, artists, albums and radio you can simply use the name.
 
-For tracks you can use the name but that may result in ambiguous responses so you can limit by artist name by using `Billy Joel - A Matter of Trust` if that is still ambiguous then the service call has additional options which you can use to further restrict the search , for example:
+For tracks you can use the name but that may result in ambiguous responses so you can limit by artist name by using `Billy Joel - A Matter of Trust` if that is still ambiguous then the action has additional options which you can use to further restrict the search , for example:
 
 ``` yaml
 data:
@@ -170,7 +184,7 @@ data:
 
 Similarly, if the album name is ambiguous you can specify the artist name first (`Queen - Greatest Hits`)
 
-You can also use the `mass.search` service call and the URI will be shown in the results.
+You can also use the `mass.search` or `mass.get_library` Actions and the URI will be shown in the results.
 
 !!! note
     URIs which begin with `media-source://` are HA URIs and should not be used when targetting MA player entities. Doing so will result in inconsistent behaviour.
