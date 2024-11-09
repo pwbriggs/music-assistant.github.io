@@ -27,6 +27,7 @@ All sentences must:
 - start with the words `Play` or `Listen to` followed by the item type `artist/track/album/playlist/radio station` and then the name of the item
 - for album and track be optionally followed by `by (the) artist` and then the artist's name
 - then be optionally followed by an area name or device name
+- then, for artist, track, album or playlist, be optionally followed by the phrase `using radio mode`
 
 #### Acceptable variations
 
@@ -39,6 +40,7 @@ Play the artist Pink Floyd in the kitchen
 Listen to album Jagged Little Pill in the study
 Listen to the album Greatest Hits by the artist James Taylor in the kitchen
 Play track New Year's Day in the bedroom
+Play track New Year's Day in the bedroom using radio mode
 Play the song A Hard Day's Night by Billy Joel in the bedroom
 Listen to the playlist Classic Rock in the study
 Listen to the radio station BBC Radio 1 in the bedroom
@@ -82,9 +84,10 @@ Add the prompt found [here](https://github.com/music-assistant/hass-music-assist
 
 All sentences must:
 
-- start with the words `Play` or `Listen to`
+- start or end with the words `Play` or `Listen to`
 - then must have some sort of query for what is desired to be played
-- then be optionally followed by an area name or device name
+- then be optionally followed by or started with an area name or device name
+- then, for artist, track, album or playlist, be optionally followed by the phrase `using radio mode`
 
 #### Examples
 
@@ -102,6 +105,7 @@ You can do exactly the same as the above but use the friendly names or any assis
 
 ```
 Play Nirvana on the Google Home
+Play Nirvana on the Google Home using radio mode
 Play the Dixie Chicks First Album on Karen's Speaker
 ```
 
