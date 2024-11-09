@@ -50,13 +50,17 @@ Listen to the record Classical Nights on the Bedroom Sonos Speaker
 ```
 Play the band U2
 ```
+You can also use the words `speaker` or `player` or `media player` in conjunction with the area name:
+```
+Play the artist Pink Floyd on the kitchen media player
+```
 
 ## MA Specific Conversation Agent
 ![intermediate label](../assets/label-intermediate.png)
 
-During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration. This method does not require you to expose your entities to the AI LLM, however, media player entities MUST still be exposed internally to Assist. This Integration only sends to openAI part of the request you make and openAI only responds with a JSON formatted response which is then used locally to initiate playback.
+During [Chapter 5 of "Year of the Voice"](https://www.youtube.com/live/djEkgoS5dDQ?si=pt8-qYH3PTpsnOq9&t=3699), [JLo](https://blog.jlpouffier.fr/chatgpt-powered-music-search-engine-on-a-local-voice-assistant/) showed something he had been working on to use the OpenAI integration along with Music Assistant. Note that this originally worked by using custom intents and it was difficult to reliably specify a player or an area for the music to be sent to. For this reason the functionality is built into the MA Integration. This method does not require you to expose your entities to the AI LLM, however, media player entities MUST still be exposed internally to Assist. This Integration only sends to openAI part of the request you make and openAI only responds with a JSON formatted response which is then used locally to initiate playback. There is a [small cost](https://openai.com/api/pricing/) (estimated at 0.25 cents per request) associated with the use of ChatGPT.
 
-The reason why you might want to use this option instead of the HA Assist option is that you can use very general requests that will still work such as `Play music by the guy who wrote the score for the lion king in the study`
+The reason why you might want to use this option instead of the HA Assist option is that you can use very general requests that will still work such as `Play music by the guy who wrote the score for the lion king in the study`. Thus this option allows for more natural requests. 
 
 **Installation Requirements**
 
@@ -76,7 +80,13 @@ Add the prompt found [here](https://github.com/music-assistant/hass-music-assist
 !!! note
     This functionality has only been tested with `Home Assistant` selected as the `Conversation Agent` in the voice assistant configuration.
 
-The command to play must follow a certain format. For the following examples assume the house has three areas called `Study`, `Kitchen `and `Karen's Bedroom` and there are three media players with friendly names "`Study Sonos`", "`Google Home`" and "`Karen's Speaker`". Assist aliases are supported for areas and entities.
+All sentences must:
+
+- start with the words `Play` or `Listen to`
+- then must have some sort of query for what is desired to be played
+- then be optionally followed by an area name or device name
+
+#### Examples
 
 There are two main formats which differ by where the playing location appears in the sentence. 
 ```
