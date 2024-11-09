@@ -9,6 +9,7 @@ Music Assistant has support for [Bluesound](https://www.bluesound.com/) (BlueOS)
 ## Known Issues / Notes
 
 - Alternative inputs might not be detected
+- Album covers are not visible in the Bluesound app or on devices that have a screen due to limitations in the API
   
 ## Not Yet Supported
 

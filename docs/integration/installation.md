@@ -36,9 +36,11 @@ Next install the Home Assistant Player Provider
 
 ## Actions
 
-The integration adds four actions for use in scripts and automations. 
+The integration adds six actions for use in scripts and automations. 
 
 - [mass.play_media](../faq/massplaymedia.md)
 - [mass.play_annnouncement](../faq/massannounce.md)
 - [mass.search](../faq/masssearch.md)
+- [mass.get_library](../faq/get_library.md)
+- [mass.get_queue](../faq/get_queue.md)
 - [mass.transfer_queue](../faq/masstransfer.md)

@@ -59,11 +59,14 @@ services:
 ```
 
 The MA team will support docker installs that are installed per the above instructions. For clarity, to receive support from the MA team:
+
 - The docker install must be a simple standalone container (e.g. not using kubernetes)
 - MA, HA and all players must be on the same flat network with no VLANs 
 - Music Assistant needs direct (layer 2) access to the network to properly discover and stream to players. So either host networking or macvlan networking is a mandatory requirement for the docker container
 
-Everything else is considered unsupported. We have the right to close support requests if you're running an unsupported installation or we may ask you to try to reproduce the issue on one of our supported installation types.
+Everything else is considered unsupported. We have the right to close support requests if you're running an unsupported installation or we may ask you to try to reproduce the issue on one of our supported installation types. 
+
+If you may run into any issues when using a docker install vs the recommended/standard Home Assistant add-on, you may try to simply run Home Assistant OS on a VM on your computer or a spare RPi and see if you can reproduce the issue with that setup.
 ____________
 
 ## Server Notes
