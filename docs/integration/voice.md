@@ -24,7 +24,7 @@ The Music Assistant Integration allows the use of custom intents for initiating 
 
 All sentences must:
 
-- start with the words `Play` or `Listen to` followed by the item type `artist/track/album/playlist/radio station`
+- start with the words `Play` or `Listen to` followed by the item type `artist/track/album/playlist/radio station` and then the name of the item
 - for album and track be optionally followed by `by (the) artist` and then the artist's name
 - then be optionally followed by an area name or device name
 
