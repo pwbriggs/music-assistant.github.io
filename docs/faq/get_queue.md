@@ -4,8 +4,6 @@ This action allows you to retrieve the full details of a queue
 
 ![image](../assets/screenshots/service-call/get_queue.png)
 
-The Queue ID can be found by inspecting the MA Player entity and finding the value for `active_queue`
-
 The returned JSON is extensive and includes information about the current and next item in the queue. The [returned data can be used in templates](https://www.home-assistant.io/docs/scripts/perform-actions#use-templates-to-handle-response-data).
 
 ## Example
