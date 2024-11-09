@@ -8,7 +8,6 @@ The returned JSON is extensive and includes information about the current and ne
 
 ## Example
 
-In this example `input_select.jukebox_player` holds the friendly name for a player and all MA player entity_id in the example begin with `ma_` (e.g. `media_player.ma_kitchen_speaker`)
 ```
 script:
   get_now_playing:
@@ -17,7 +16,7 @@ script:
     sequence:
       - action: mass.get_queue
         data:
-          queue_id: "{{ state_attr((expand(states.media_player) | selectattr('name' , 'search', states.input_select.jukebox_player.state, ignorecase=true ) | select('search', 'ma_') | map(attribute='entity_id') | join),'active_queue') }}"
+          entity_id: media_player.ma_kitchen_speaker
         response_variable: queue_info
       - service: input_text.set_value
         data:
