@@ -84,7 +84,7 @@ Add the prompt found [here](https://github.com/music-assistant/hass-music-assist
 
 All sentences must:
 
-- start or end with the words `Play` or `Listen to`
+- commence with the words `Play` or `Listen to`
 - then must have some sort of query for what is desired to be played
 - then be optionally followed by or started with an area name or device name
 - then, for artist, track, album or playlist, be optionally followed by the phrase `using radio mode`
