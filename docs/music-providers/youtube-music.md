@@ -14,16 +14,42 @@ The highest available stream from Youtube Music will be selected for playback (s
 
 ## Configuration
 
-Music Assistant uses OAuth for Youtube Music, which means login is accomplished as is done on Gmail (for example). To add the Youtube Music provider to MA:
+As of Nov 2024, Google has removed OAuth authentication from YT Music. This means using this (somewhat cumbersome) method of cookie authentication is the **only** way to get YT Music working.
 
+!!! note
+    Cookies will expire after some time. This means that you will have to run this process again if YT Music stops working and you see `401: Unauthorized` in your logs.
+
+### Obtaining the Cookies
+- Open <a href="http://music.youtube.com/" target="_blank">YT Music</a> in your browser.
+- Open the developer tools via View -> Developer -> Developer Tools. Note that this might be named differently based on your browser. It should open a window similar to this:
+![Dev tools](../assets/screenshots/ytmusic-developer-tools.png)
+
+- Navigate to the 'Network' tab
+- In the filter bar, type "/browse"
+- Now navigate to a page in YT Music that requires authentication, for example, on of your library playlists
+- A request will show-up in the table:
+
+![Auth request](../assets/screenshots/ytmusic-auth-request.png)
+
+- Click the request and make sure you are on the 'Headers' tab
+- Find the section called 'Request Headers'
+- Find the item named 'Cookie' and copy the **value**. It is **VERY** important that you copy the exact value. Double check that you do not include any additional spaces or characters at the start/end of the value
+![Cookie value](../assets/screenshots/ytmusic-cookie-value.png)
+
+### Configuring the provider 
 - Navigate to 'Settings'
-- Under Music Providers, click 'Add new', select 'Youtube Music' and click 'Authenticate with Youtube Music'
-- A new window will open. Ignore the code and click 'Next'
-- Login with your gmail account
-- Optionally choose a brand account
-- Click 'Allow'
-- You can now manually close the tab to return to Music Assistant
+- Under Music Providers, click 'Add new', select 'Youtube Music'
+- For username, leave empty or use a brand account (see [brand account](#using-brand-accounts))
+- For cookie, paste the value you obtained above.
 - Click 'Save'
+
+## Using brand accounts
+A brand account is a sub-account that lives under your main Google account. You need to find your brand account id if you want to login using your brand account.
+
+- Go to <a href="https://myaccount.google.com/" target="_blank>https://myaccount.google.com/</a>
+- From the top right menu, select your brand account
+- Look at the URL and copy the 21-digit number
+- Use this number in the 'Username' field when setting up the provider
 
 ## Known Issues / Notes
 
