@@ -39,7 +39,7 @@ As of Nov 2024, Google has removed OAuth authentication from YT Music. This mean
 ### Configuring the provider 
 - Navigate to 'Settings'
 - Under Music Providers, click 'Add new', select 'Youtube Music'
-- For username, leave empty or use a brand account (see [brand account](#using-brand-accounts))
+- For username, just use your gmail address or use a brand account (see [brand account](#using-brand-accounts))
 - For cookie, paste the value you obtained above.
 - Click 'Save'
 
