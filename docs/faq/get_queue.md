@@ -21,5 +21,5 @@ script:
       - service: input_text.set_value
         data:
           entity_id: input_text.now_playing
-          value: '{{ queue_info.current_item.name[:50] }}'
+          value: '{{ queue_info['media_player.ma_kitchen_speaker'].current_item.name[:50] }}'
 ```

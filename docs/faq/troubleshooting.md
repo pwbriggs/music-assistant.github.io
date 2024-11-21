@@ -27,7 +27,9 @@ If it is a playback issue then turn on QUEUE FLOW MODE in the settings for the s
 
 If it is a frontend issue or related to logging in to a provider which requires redirection to another website then try a different browser. If you are trying on a mobile device then try on a laptop or PC. Firefox and Safari are known to have deficiencies.
 
-Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes.
+Review the applicable player or music provider documentation to see if there are known issues or specific troubleshooting steps or fixes. 
+
+For voice problems refer to [Voice Troubleshooting](https://music-assistant.io/integration/voice/#troubleshooting). If you are not using HOME ASSISTANT as your Conversation Agent then you must seek assistance in the HA forums first. If they direct you back to this project then make it clear in your report that you are using a LLM as the Conversation Agent and include the reasons why the HA support network wasn't able to help.
 
 Try power cycling the physical player(s) if they won't connect or if there is no sound.
 
