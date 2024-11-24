@@ -6,7 +6,9 @@ The core HA voice intents support NEXT TRACK, PREVIOUS TRACK, PAUSE, UNPAUSE and
 
 !!! note
     Queue behaviour when adding items by Assist will follow the settings in MA SETTINGS>>CORE>>PLAYER QUEUES CONTROLLER.
-    
+
+Any combination of the following options may be used.
+
 ## HA Assist
 ![easiest label](../assets/label-easiest.png)
 
@@ -17,7 +19,8 @@ The Music Assistant Integration allows the use of custom intents for initiating 
 - You need to be running the latest version of the HA Integration
 - You need a voice assistant configured (even if you want to just type in the query) (Examples: [Cloud Pipeline](https://www.home-assistant.io/voice_control/voice_remote_cloud_assistant/) or [Local Pipeline](https://www.home-assistant.io/voice_control/voice_remote_local_assistant/))
 - Add a directory to your Home Assistant `config` directory named `custom_sentences/en`
-- Add the file found [here](https://github.com/music-assistant/intents/blob/main/custom_sentences/en/music_assistant_PlayMediaAssist.yaml), to that directory.
+- Add the intents file found [here](https://github.com/music-assistant/intents/blob/main/custom_sentences/en/music_assistant_PlayMediaAssist.yaml), to that directory.
+- Also add the responses file found [here](https://github.com/music-assistant/intents/blob/main/custom_sentences/en/responses.yaml), to that directory. 
 - Restart HA or navigate to Developer Tools>> YAML>> YAML Configuration reloading and reload CONVERSATION and INTENT SCRIPT
 
 ### Usage
