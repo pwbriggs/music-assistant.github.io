@@ -6,7 +6,9 @@ The core HA voice intents support NEXT TRACK, PREVIOUS TRACK, PAUSE, UNPAUSE and
 
 !!! note
     Queue behaviour when adding items by Assist will follow the settings in MA SETTINGS>>CORE>>PLAYER QUEUES CONTROLLER.
-    
+
+Any combination of the following options may be used.
+
 ## HA Assist
 ![easiest label](../assets/label-easiest.png)
 
