@@ -15,6 +15,7 @@ As of HA 2024.12 the Integration to connect Music Assistant to Home Assistant is
     Not all of the functionality of the custom HACS component is available in core as yet. The items below marked with a 📦 require the HACS Integration. If your use case requires those items then install the HACS Integration
     
 Migration can be done by:
+
 - Uninstalling the existing HACS Integration by navigating to HA SETTINGS >>  DEVICES & SERVICES >> INTEGRATIONS >> MUSIC ASSISTANT and selecting Delete from the ⋮ menu
 - Uninstalling the custom integration from HACS by navigating to HACS, searching for Music Assistant and selecting ✖ Remove from the ⋮ menu
 - Restarting Home Assistant
