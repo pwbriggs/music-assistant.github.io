@@ -8,7 +8,7 @@ Install the [squeezelite addon](https://github.com/pssc/ha-addon-squeezelite) wh
 
 Install any [Squeezelite compatible application](https://sourceforge.net/projects/lmsclients/files/squeezelite/) (i.e. a [Squeezelite software client](https://en.wikipedia.org/wiki/Squeezelite), sometimes also refered to as "Squeeze Lite" apps) to your mobile or other devices and then MA should be able to stream to it.
 
-If you have Squeezelite compatible clients on your local network then MA will be able to automatically detect it and stream to it, (this works via Squeezelite compatibility without you needing add specific configuration or credentials for it). Note that Squeezelite clients usually do not have any user interface of their own and as such must be controlled via Music Assistant.
+If you have Squeezelite compatible clients on your local network then MA will be able to automatically detect and stream to them, (this works via Squeezelite compatibility without you needing to add any specific configuration or credentials for it). Note that Squeezelite clients usually do not have any user interface of their own and as such must be controlled via Music Assistant.
 
 See here for an example on on [how to run squeezelite on Windows](https://github.com/orgs/music-assistant/discussions/1123#discussioncomment-6652948)
 
