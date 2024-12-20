@@ -7,7 +7,6 @@ Music Assistant has support for Sonos devices. There are two providers available
 - Sonos devices are auto detected by Music Assistant
 - Sonos devices from the same series (S1 or S2) will play in sync when grouped
 - Sonos devices can optionally be grouped with AirPlay devices. 
-- Any physical control buttons on the device should be supported as long as [flow mode](../faq/normalization.md/#track-queueing) is not enabled
 
 ### AirPlay Functionality
 
