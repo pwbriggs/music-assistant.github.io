@@ -10,7 +10,7 @@ Music Assistant has support for Sonos devices. There are two providers available
 
 ### AirPlay Functionality
 
-Many Sonos devices support the AirPlay 1 protocol and this enables very useful functionality within Music Assistant.
+Many Sonos devices support the AirPlay (1) protocol and this enables very useful functionality within Music Assistant.
 
 In order to use the AirPlay functionality of Sonos devices the AirPlay provider must also be added via the MA settings. This will result in AirPlay versions of the Sonos devices being created. These can then be hidden (not disabled) to remove duplicates of what will be the same player (enable `Hide in UI` in the AirPlay player settings).
 
