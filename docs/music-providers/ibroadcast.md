@@ -5,7 +5,7 @@
 Music Assistant has support for streaming your music from [iBroadcast](https://www.ibroadcast.com/). Contributed and maintained by [robsonke](https://github.com/robsonke)
 
 !!! note
-    - Both the free and paid subscription options are supported
+    Both the free and paid subscription options are supported
     
 ## Features
 
