@@ -23,3 +23,12 @@ Players can only deleted if they are unavailable or disabled. Deleting a player 
 Audio quality is the principal reason why native MA players are developed. These players provide the highest quality playback experience. HA players should work and may work well but they may also have been written with a basic objective such as enabling text to speech. Therefore, if there is a MA player available and a HA integration then you should always choose the MA player. 
 
 A sample rate above 48kHz or a bit depth above 16 is considered High Resolution (Hi Res)
+
+## DSP Settings
+
+All providers, except Snapcast, have the option to apply [Digital Signal Processing](https://en.wikipedia.org/wiki/Digital_signal_processing) (DSP) filters to the audio stream. The option is found in the MA settings for each player.
+
+When DSP is enabled a mandatory INPUT and OUTPUT filter is added and then optionally the following filters can be applied.
+
+- Parametric Equaliser
+- Tone Controls
