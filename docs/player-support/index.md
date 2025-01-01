@@ -28,7 +28,13 @@ A sample rate above 48kHz or a bit depth above 16 is considered High Resolution 
 
 All providers, except Snapcast, have the option to apply [Digital Signal Processing](https://en.wikipedia.org/wiki/Digital_signal_processing) (DSP) filters to the audio stream. The option is found in the MA settings for each player.
 
-When DSP is enabled a mandatory INPUT and OUTPUT filter is added and then optionally the following filters can be applied.
+The DSP path has mandatory INPUT and OUTPUT filters and optionally the following can also be added:
 
-- Parametric Equaliser
+- Parametric Equalizer
 - Tone Controls
+
+The DSP settings can be enabled and disabled via a toggle which allows easy [A-B testing](https://www.youtube.com/watch?v=KefGjPYyIO4)
+
+The line on the left of the DSP settings represents the audio path from the audio file (top) to the speaker (bottom).
+
+A dot on fhe line represents a filter that changes the signal. The lack of a dot indicates that the particular filter has been disabled.
