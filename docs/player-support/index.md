@@ -39,6 +39,6 @@ The line on the left of the DSP settings represents the audio path from the audi
 
 A dot on the line represents a filter that changes the signal. The lack of a dot indicates that the particular filter has been disabled.
 
-Using the icons at the top of the view, tne additional filters can be reordered, disabled/enabled or deleted.
+Using the icons at the top of the view, the additional filters can be reordered, disabled/enabled or deleted.
 
 ![DSP image](../assets/screenshots/dsp.jpg)
