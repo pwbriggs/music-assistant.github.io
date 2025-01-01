@@ -38,3 +38,5 @@ The DSP settings can be enabled and disabled via a toggle which allows easy [A-B
 The line on the left of the DSP settings represents the audio path from the audio file (top) to the speaker (bottom).
 
 A dot on the line represents a filter that changes the signal. The lack of a dot indicates that the particular filter has been disabled.
+
+![DSP image](../assets/screenshots/dsp.jpg)
