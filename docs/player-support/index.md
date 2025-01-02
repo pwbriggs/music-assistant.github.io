@@ -26,9 +26,11 @@ A sample rate above 48kHz or a bit depth above 16 is considered High Resolution 
 
 ## DSP Settings
 
-All providers have the option to apply [Digital Signal Processing](https://en.wikipedia.org/wiki/Digital_signal_processing) (DSP) filters to the audio stream. The option is found in the MA settings for each player.
+All providers have the option to apply [Digital Signal Processing](https://en.wikipedia.org/wiki/Digital_signal_processing) (DSP) filters to the audio stream. The option is found in the MA settings for each player which means that each player has its own independently configurable DSP settings.
 
-The DSP path has mandatory INPUT and OUTPUT filters and optionally the following can also be added:
+DSP settings will be disabled for all groups except AirPlay and Snapcast.
+
+The DSP path has mandatory INPUT and OUTPUT filters and optionally the following can also be added (multiple times if desired):
 
 - Parametric Equalizer
 - Tone Controls
