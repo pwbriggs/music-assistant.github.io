@@ -17,13 +17,13 @@ Multiple PEQ filters can be added to the MA signal path if desired.
 
 Unlimited bands can be added to the PEQ. For each band it is possible to control:
 
-**Frequency:** The center frequency to be adjusted (e.g., 100Hz for bass, 1kHz for midrange, 10kHz for treble).
+- **Frequency:** The center frequency to be adjusted (e.g., 100Hz for bass, 1kHz for midrange, 10kHz for treble).
 
-**Gain:** How much boost (increased volume) or cut (decreased volume) to be applied to that frequency, measured in decibels (dB).
+- **Gain:** How much boost (increased volume) or cut (decreased volume) to be applied to that frequency, measured in decibels (dB).
 
-**Q (Quality Factor):** This determines the width of the frequency range affected. A higher Q means a narrower, more focused adjustment, while a lower Q creates a broader, gentler change.
+- **Q (Quality Factor):** This determines the width of the frequency range affected. A higher Q means a narrower, more focused adjustment, while a lower Q creates a broader, gentler change.
 
-**Filter Type:** This determines the [shape of the adjustment](https://www.musicguymixing.com/eq-filters/). The available options are Peak, High Shelf, Low Shelf, High Pass, Low Pass, and Notch. 
+- **Filter Type:** This determines the [shape of the adjustment](https://www.musicguymixing.com/eq-filters/). The available options are Peak, High Shelf, Low Shelf, High Pass, Low Pass, and Notch. 
 
 ### Presets
 
