@@ -5,4 +5,14 @@ description: Explanation of the use and effect of the DSP Tone Controls filter
 
 # Tone Controls
 
-To be added
+Tone controls adjust the level of specific frequencies in an audio signal to make them louder or softer. They are a very basic form of [Parametric Equalisation](parametriceq.md).
+
+## Usage
+
+There are three controls available, Bass, Mid and Treble. These correspond to a range of frequencies centred on 100Hz, 900Hz and 9000Hz. Boosting or cutting the volume of the audio signal around these centres is accomplished by adjusting the three sliders.
+
+## Technical Details
+
+The tone controls apply a basic three frequency Parametric Equaliser filter to the audio signal utilising the Peak (aka Bell) filter type. The following image shows the resultant effect of setting all three controls to +4.0dB
+
+![Tone Controls](../assets/screenshots/tone-control.jpg)
