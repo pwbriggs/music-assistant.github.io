@@ -29,12 +29,12 @@ Unlimited bands can be added to the PEQ. For each band it is possible to control
 
 If you have measured your speakers, or want to correct your headphones with [AutoEQ](https://autoeq.app/), you can automatically import a preset into this filter.
 
-Music Assistant accepts [Equalizer APO's](https://equalizerapo.com) file format which is widely adopted in various applications, and this import functionality also works seamlessly with [Room EQ Wizard](https://www.roomeqwizard.com) (REW)'s `Export filter settings as text file format`.
+Music Assistant accepts [Equalizer APO's Parametric EQ](https://equalizerapo.com) file format which is widely adopted in various applications, and this import functionality also works seamlessly with [Room EQ Wizard](https://www.roomeqwizard.com) (REW)'s `Export filter settings as text file format`.
 While not all filter types are supported (Modal, BP, LSC x dB, HS x dB, AP, LS with dB slope, HS with dB slope), the most important ones are functional.
 
 Currently, the Preamp option is not supported. This may change in the future.
 
-Music Assistant presets can also be exported for use in other applications.
+The Equalizer can also be exported for use in other applications.
 
 This functionality has been tested with:
 
