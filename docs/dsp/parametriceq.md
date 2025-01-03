@@ -23,7 +23,7 @@ Unlimited bands can be added to the PEQ. For each band it is possible to control
 
 - **Q (Quality Factor):** This determines the width of the frequency range affected. A higher Q means a narrower, more focused adjustment, while a lower Q creates a broader, gentler change.
 
-- **Filter Type:** This determines the [shape of the adjustment](https://www.musicguymixing.com/eq-filters/). The available options are Peak, High Shelf, Low Shelf, High Pass, Low Pass, and Notch. 
+- **Filter Type:** This determines the [shape of the adjustment](https://www.musicguymixing.com/eq-filters/). The available options are Peak (aka Bell), High Shelf, Low Shelf, High Pass, Low Pass, and Notch. 
 
 ### Presets
 
