@@ -34,11 +34,6 @@ While not all filter types are supported (Modal, BP, LSC x dB, HS x dB, AP, LS w
 
 Currently, the Preamp option is not supported. This may change in the future.
 
-The Equalizer can also be exported for use in other applications.
+It is possible to import Equalizer presets from various sources including, [EasyEffects](https://wwmm.github.io/easyeffects/) (as APO preset) and REW-compatible presets from [HouseCurve](https://housecurve.com/)
 
-This functionality has been tested with:
-
-- An Equalizer preset exported from REW
-- An Equalizer preset exported from [EasyEffects](https://wwmm.github.io/easyeffects/) (as APO preset)
-- An example REW-compatible preset from [HouseCurve](https://housecurve.com/)
-- A Music Assistant exported preset imported into EasyEffects
+The Equalizer can also be exported for use in other applications. For example, the data could be used in: APO, another Music Assistant instance, or EasyEffects.
