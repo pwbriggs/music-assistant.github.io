@@ -32,10 +32,12 @@ The DSP option is found in the MA settings for each player which means that each
 
 DSP settings will be disabled for all groups except AirPlay and Snapcast.
 
-The DSP path has mandatory INPUT and OUTPUT pre-amps and optionally the following filters can be added (multiple times if desired):
+The DSP path consists of an INPUT pre-amplifier for initial gain control, followed by optional audio filters that can be added between input and output (multiple times if desired). The following filters are avialable:
 
-- [Parametric Equalizer][../dsp/parametriceq.md)
+- [Parametric Equalizer](../dsp/parametriceq.md)
 - [Tone Controls](../dsp/tonecontrols.md)
+
+The path ends with an OUTPUT stage that provides both gain control and a limiter (enabled by default) to prevent signal clipping.
 
 The DSP settings can be enabled and disabled via a toggle which allows easy [A-B testing](https://www.youtube.com/watch?v=KefGjPYyIO4)
 
