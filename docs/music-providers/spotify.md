@@ -20,9 +20,9 @@ Music Assistant has full support for Spotify media listing and playback.
 - A new window will open where you must allow Spotify to connect to Music Assistant
 - You must then come back to MA and press SAVE in the Spotify settings page. If the device you are on kills the MA frontend before this is done then the provider setup will fail (Use a different, typically non-mobile, device if this happens)
 
-## Known Issues / Notes
+## Notes
 
-- Only Spotify PREMIUM accounts are supported (includes Duo and Family), free accounts will not work.
+- Due to restrictions with Spotify's API, only Spotify Premium accounts are supported (including Duo and Family). Free accounts will not work.
 
 ## Not yet supported
 
